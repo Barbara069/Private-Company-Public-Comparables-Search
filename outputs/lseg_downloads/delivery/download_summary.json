@@ -1,0 +1,17 @@
+{
+  "targets": 560,
+  "profile_rows": 560,
+  "business_summaries": 560,
+  "employees_available": 519,
+  "annual_companies_with_revenue": 560,
+  "annual_companies_with_five_revenue_years": 546,
+  "latest_quarter_companies_with_revenue": 556,
+  "ltm_companies_with_revenue": 552,
+  "market_caps_available": 559,
+  "business_segment_companies": 544,
+  "geographic_segment_companies": 339,
+  "identity_review_companies": 9,
+  "annual_rows": 2800,
+  "source_evidence_records": 3034,
+  "retrieved_at_utc": "2026-10-28T15:26:23.925357+00:00"
+}

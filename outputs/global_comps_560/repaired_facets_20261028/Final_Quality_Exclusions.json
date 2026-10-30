@@ -1,0 +1,821 @@
+[
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ247812",
+    "Company Name": "Acme United Corporation",
+    "Facet": "Primary Services",
+    "Rejected Value": "Acme United provides growth opportunities to over 550 employees across 15 facilities around the globe. As we continue to grow, we look for hard working individuals to be part of our team.",
+    "Source Link": "https://acmeunited.com/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ628604936",
+    "Company Name": "AdaptHealth Corp.",
+    "Facet": "Primary Products",
+    "Rejected Value": "AdaptHealth is a full-service medical equipment company that uses tailored products and services to empower patients to live their best lives - out of the hospital and in their homes. By combining clinically focused products, innovative technology, and compassionate support, our team ensures every patient receives personalized care tailored to their unique needs.",
+    "Source Link": "https://adapthealth.com/pages/about-us",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ628604936",
+    "Company Name": "AdaptHealth Corp.",
+    "Facet": "Primary Services",
+    "Rejected Value": "AdaptHealth is a full-service medical equipment company that uses tailored products and services to empower patients to live their best lives - out of the hospital and in their homes. By combining clinically focused products, innovative technology, and compassionate support, our team ensures every patient receives personalized care tailored to their unique needs.",
+    "Source Link": "https://adapthealth.com/pages/about-us",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ145132373",
+    "Company Name": "Amentum Holdings, Inc.",
+    "Facet": "Business Model",
+    "Rejected Value": "Amentum offers expert environmental consulting services, guiding clients through regulatory compliance, environmental impact assessments, and sustainability initiatives. Our team collaborates closely with clients to develop tailored solutions that meet regulatory requirements and promote environmental stewardship.",
+    "Source Link": "https://www.amentum.com",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ295539",
+    "Company Name": "American Financial Group, Inc.",
+    "Facet": "Primary Products",
+    "Rejected Value": "Our Specialty P&C Insurance Group offers specialized commercial products that help businesses manage financial risk with insurance products that meet their specific and ever-changing financial risk exposures. We strive to provide quality products and service to our customers and agents, offer a rewarding work environment for our employees, and build value for our shareholders.",
+    "Source Link": "https://www.afginc.com/about-us; https://www.afginc.com/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ295539",
+    "Company Name": "American Financial Group, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "We strive to provide quality products and service to our customers and agents, offer a rewarding work environment for our employees, and build value for our shareholders. Although insurance and financial services have always been at the core of its businesses, nearly sixty-five years later, the Company has evolved into a holding company with over 35 market-leading insurance operations engaged in the sale of specialty commercial property and casualty (P&C) insurance across a variety of industries.",
+    "Source Link": "https://www.afginc.com/about-us; https://www.afginc.com/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ123844",
+    "Company Name": "Angi Inc.",
+    "Facet": "Business Model",
+    "Rejected Value": "These products, our pre-priced offerings and various directories are also marketed through paid search engine marketing, digital media advertising and direct relationships with trade associations and manufacturers. We market our product offerings featuring membership subscriptions to Pros primarily through our sales force.",
+    "Source Link": "https://ir.angi.com/static-files/1deda08d-e480-45f6-bd6d-e5925645cef6; https://ir.angi.com/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ251951",
+    "Company Name": "Astec Industries, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "Our team of service professionals provides fast, precise support thanks to an integrated relationship with engineering, sales, manufacturing and dealer personnel. From equipment to education, service, and support, we go beyond what our competition provides to ensure our customers thrive.",
+    "Source Link": "https://astecindustries.com/about/; https://astecindustries.com/; https://astecindustries.com/product-support/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ251951",
+    "Company Name": "Astec Industries, Inc.",
+    "Facet": "Business Model",
+    "Rejected Value": "Our team of service professionals provides fast, precise support thanks to an integrated relationship with engineering, sales, manufacturing and dealer personnel. Find authorized dealers and distributors near you to ensure access to genuine Astec products, expert guidance, and dependable support.",
+    "Source Link": "https://astecindustries.com/; https://astecindustries.com/product-support/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ36427",
+    "Company Name": "Asure Software, Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "Whether you run payroll internally or rely on AsureWorks to manage the work for you, everything operates through one connected system designed for businesses managing employees. AsureWorks provides a team of specialists who run these operations for you — handling the day-to-day execution so your team can stay focused on running the business.",
+    "Source Link": "https://www.asuresoftware.com",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ4562617",
+    "Company Name": "Bowman Consulting Group Ltd.",
+    "Facet": "Primary Services",
+    "Rejected Value": "Our team was selected to be the lead consultant and provided civil engineering and survey services for the redevelopment of the existing Riverwalk Golf Club site. Bowman provided civil engineering, surveying, scanning, and construction administration services to support this new 98,000 sq.",
+    "Source Link": "https://bowman.com/services/civil-site-engineering; https://bowman.com/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ23500974",
+    "Company Name": "Brookdale Senior Living Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "Your Brookdale community can provide you with the resident's assessment, including details of the care being provided and a price breakdown. From there, our team helps support those goals through the services, programs and meaningful moments found throughout the community.",
+    "Source Link": "https://www.brookdale.com/en/our-company/payments.html; https://www.brookdale.com/en.html",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ5537074",
+    "Company Name": "Construction Partners, Inc.",
+    "Facet": "Primary Products",
+    "Rejected Value": "Our vertically integrated network gives us control over the materials that define quality and performance. From aggregate facilities and liquid asphalt terminals to hot-mix asphalt plants, we manage each step of production to ensure consistency, reliability, and precision in every project. This integration strengthens schedules, stabilizes costs, and supports our teams in delivering durable, high-performing pavement across every market we serve.",
+    "Source Link": "https://constructionpartners.net/markets-and-services",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ273312",
+    "Company Name": "CorVel Corporation",
+    "Facet": "Primary Services",
+    "Rejected Value": "Simplify your claims management process with our integrated solutions and innovative technology. Our team of triage nurses, claims adjusters, case managers, and other experts provide industry-leading support every step of the way, from medical intervention to comprehensive bill reviews.",
+    "Source Link": "https://www.corvel.com/services/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ273312",
+    "Company Name": "CorVel Corporation",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "Simplify your claims management process with our integrated solutions and innovative technology. Our team of triage nurses, claims adjusters, case managers, and other experts provide industry-leading support every step of the way, from medical intervention to comprehensive bill reviews.",
+    "Source Link": "https://www.corvel.com/services/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ560549330",
+    "Company Name": "Green Thumb Industries Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "In his role, Dom oversees all sales, marketing (creative, brand, regional), new product development, merchandising/buying, hemp beverage, eCommerce, supply chain, and project management, driving growth and strengthening Green Thumb’s market position in an evolving industry. As Green Thumb’s President of Operations, Matt oversees the company’s nationwide retail and production operations, leading our teams to deliver operational excellence and a consistent, best-in-class customer experiences.",
+    "Source Link": "https://gtigrows.com/people/who-we-are/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ44459532",
+    "Company Name": "Grid Dynamics Holdings, Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "Grid Dynamics AI Native (GAIN) platforms are built to accelerate your enterprise AI transformation. Each platform focuses on a critical business domain, purpose-engineered for scale, security, and measurable ROI from day one — delivered by our Forward Deployed Engineers (FDE), embedded inside your team to drive outcomes, not just hand off code.",
+    "Source Link": "https://www.griddynamics.com/about",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ320141334",
+    "Company Name": "Herc Holdings Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "Whether you're setting up a new production line or driving efficiency across existing operations, we provide access to specialized equipment and top brands to ensure you do the job correctly. From our internal training programs for sales reps, technicians and branch managers to our mentorship and peer partner programs, we’re constantly establishing new ways to develop our team and provide the resources they need to succeed.",
+    "Source Link": "https://www.hercrentals.com; https://www.hercrentals.com/industries/automotive-production-and-services.html; https://www.hercrentals.com/company/about/equipped-to-be-the-choice.html",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ320141334",
+    "Company Name": "Herc Holdings Inc.",
+    "Facet": "Business Model",
+    "Rejected Value": "At Herc Rentals, we offer automotive production equipment rental to meet the specific needs of your assembly line and manufacturing processes. Whether you need equipment at a moment's notice or for long-term hire, our team will ensure you have what you need for as long as you need it. Here is just some of the automotive assembly line equipment we offer.",
+    "Source Link": "https://www.hercrentals.com/industries/automotive-production-and-services.html",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ330019",
+    "Company Name": "Innodata Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "With over 11,500 in-house subject matter experts spanning STEM and industry-specific domains such as healthcare, finance, and legal, along with specialized experts like linguists and taxonomists, Innodata provides industry-leading subject matter expertise for any enterprise-grade AI development. In addition to creating the documents, our team rigorously tested the model using this dataset by developing and implementing a series of prompts designed to push the model’s summarization capabilities to their limits.",
+    "Source Link": "https://innodata.com/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ618908",
+    "Company Name": "Insulet Corporation",
+    "Facet": "Primary Products",
+    "Rejected Value": "We maintain strict quality standards throughout the product life cycle, from product development through global operations and post-market surveillance, in order to achieve regulatory compliance and help ensure we deliver safe, effective products to the people who rely on them. Our teams intentionally integrate sustainability considerations into the design process, focusing on reducing material use, improving efficiency, and increasing the recyclability of key components, while continuing to deliver safe, high‑quality products that meet customer needs.",
+    "Source Link": "https://www.insulet.com/our-impact/sustainable-product-innovation; https://www.insulet.com",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ130863",
+    "Company Name": "L.B. Foster Company",
+    "Facet": "Primary Services",
+    "Rejected Value": "Whether you operate freight, passenger, or mixed services, our range provides proven solutions for reducing wear, lowering maintenance costs, and enhancing operational efficiency across your network. Our team of specialists provides expert technical support, field services, and program optimization to maximize the return on your",
+    "Source Link": "https://lbfoster.com/rail/friction-management/friction-management-products; https://lbfoster.com/; https://lbfoster.com/rail/friction-management/friction-management-services-support",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ263324968",
+    "Company Name": "Limbach Holdings, Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "We build enduring national relationships through a connected ecosystem of branch locations and partners, operating as one unified network in service of our customers’ most complex needs. Our teams bring deep technical expertise and a sharp focus on mission-critical building systems, providing the reliability, innovation, and performance your facilities demand.",
+    "Source Link": "https://www.limbachinc.com/who-we-are/; https://www.limbachinc.com",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ27508",
+    "Company Name": "Pacira BioSciences, Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "Our ONE Pacira culture is the fabric that unites our team’s passion for excellence and the patients we serve. Our guiding principles were developed in lockstep with our mission and are influential in every decision we make.",
+    "Source Link": "https://www.pacira.com/company/about/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ3274917",
+    "Company Name": "Piedmont Realty Trust, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "Our team is attuned to the changing needs of our clients, colleagues and collaborative environments, empowering us to deliver excellent service that builds trust and fosters strong relationships. We deliver exceptional service rooted in the art of PLACEmaking.",
+    "Source Link": "https://www.piedmontreit.com/about; https://www.piedmontreit.com",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ109652668",
+    "Company Name": "Ryan Specialty Holdings, Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "Ryan Specialty is a service provider of specialty products and solutions for insurance brokers, agents and carriers, providing distribution, underwriting, product development, administration and risk management services by acting as a wholesale broker and a managing underwriter. In addition to our robust health benefits packages (which include competitive and subsidized medical, dental, and vision insurance coverages), Ryan Specialty has a suite of well-being benefits and resources that are designed to provide care for the physical, mental, and emotional health of our employees and their families.",
+    "Source Link": "https://ryanspecialty.com/who-we-are/; https://ryanspecialty.com/sustainable-and-responsible-business-practices/; https://ryanspecialty.com/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ301590",
+    "Company Name": "Security National Financial Corporation",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "Our employees make our family of companies great, and we take pride in providing them with the best work environment to do so. Security National Life Insurance Company is a market leader in “end of life” insurance products and services.",
+    "Source Link": "https://www.securitynational.com",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ378088",
+    "Company Name": "Shenandoah Telecommunications Company",
+    "Facet": "Primary Products",
+    "Rejected Value": "Shentel offers a variety of TV solutions to fit your entertainment needs, with a great selection of live channels, local programming, popular networks, HD programming, and premium options like sports and movie packages, all with an easy-to-use interface. Our employees understand Shentel products and services because they use them too!",
+    "Source Link": "https://www.shentel.com/en/homepage; https://www.shentel.com/en/about",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ217351453",
+    "Company Name": "Silvercrest Asset Management Group Inc.",
+    "Facet": "Primary Products",
+    "Rejected Value": "Alongside our modern approach to portfolio construction, we offer the personalized service and open communication larger organizations can't, so clients feel confident and secure in choosing Silvercrest. In this issue of Insights, our team explores some of the most consequential forces shaping today’s markets and economy: the structure of the AI buildout, the philosophy of portfolio construction, and the geopolitical shifts reshaping how capital is deployed around the world.",
+    "Source Link": "https://www.silvercrestgroup.com",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ356213",
+    "Company Name": "Smith-Midland Corporation",
+    "Facet": "Primary Services",
+    "Rejected Value": "And because most of our Associates have deep roots in the places where we operate, we encourage them to play an active role in supporting local nonprofit organizations, such as The Fauquier Health Mental Health Association, Community Touch, and the schools, arts associations and service groups where we live and work. The versatility of precast concrete has made it the material of choice for underground structures that require durability and many decades of service, and for above-ground structures where energy efficiency, superior aesthetics and low maintenance contribute to low lifecycle costs.",
+    "Source Link": "https://smithmidland.com/about/; https://smithmidland.com; https://smithmidland.com/products-services/benefits-of-precast/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ178990399",
+    "Company Name": "Sprinklr, Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "Sprinklr natively infuses specialized, generative and agentic AI into the platform to effortlessly function alongside your teams — automating journeys and powering personalized interactions that customers value. Sprinklr Service is an AI-native contact center solution designed to deliver exceptional customer experiences across 30+ voice, social and digital channels from a unified platform.",
+    "Source Link": "https://www.sprinklr.com/products/customer-service/; https://www.sprinklr.com",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ196872",
+    "Company Name": "Tetra Tech, Inc.",
+    "Facet": "Primary Products",
+    "Rejected Value": "We are committed to safe and environmentally friendly ways of doing business that are cost-effective and efficient and expect the same commitment from our partner and supplier network. We engage our partner and supplier network to provide our teams with technical and advisory services, specialized equipment and software, and materials and equipment to support our projects.",
+    "Source Link": "https://www.tetratech.com/about/business-partners-and-suppliers/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ196872",
+    "Company Name": "Tetra Tech, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "Tetra Tech provides technical, managerial, and business development training and support to help our protégé firms compete for projects and begin to provide services as prime contractors. We engage our partner and supplier network to provide our teams with technical and advisory services, specialized equipment and software, and materials and equipment to support our projects.",
+    "Source Link": "https://www.tetratech.com/about/business-partners-and-suppliers/; https://www.tetratech.com; https://www.tetratech.com/about/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ46084519",
+    "Company Name": "Ubiquiti Inc.",
+    "Facet": "Primary Products",
+    "Rejected Value": "You represent and warrant that (i) all information relating to the Third Party Products and Services are complete, true and correct in all respects, (ii) You, Your affiliates and Your employees, agents, and contractors who may perform any work in connection with the Third Party Products and Services, are properly and fully qualified and experienced, and licensed, certified, bonded, and insured, as required by applicable laws or regulations to which they may be subject in the jurisdiction(s) in which they offer any Third Party Products and Services, (iii) You, Your affiliates and Your employees, agents, and contractors will perform any work in connection with the Third Party Products and Services in a timely, workmanlike, and professional manner in accordance with the highest standard of Your industry, and (iv) You, Your affiliates and Your employees, agents, and contractors will not present themselves as an employee, agent or affiliate of Ubiquiti. Certain information, products, software and services included in, sold, distributed, displayed, or transmitted with the Services or Products may comprise third party information, products, software and services (collectively, “",
+    "Source Link": "https://www.ui.com/legal/termsofservice/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ36122",
+    "Company Name": "Vail Resorts, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "We support our employees with natural disaster and hardship relief grants and scholarships, and provide programs that support our employees through mind, body, and wallet. Epic Ascent offers concierge services, white-glove gear rental, high-touch customer support and skip-the-lift-line access at Vail Mountain and Beaver Creek this winter.",
+    "Source Link": "https://www.vailresorts.com",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ33414482",
+    "Company Name": "Veeva Systems Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "“The Veeva Business Consulting Team is truly an extension of my operations team and works hard to connect all of the dots behind the scenes with the multitude of global or local business and technical stakeholders.” “Veeva Development Cloud provides the technology foundation for Boehringer’s One Medicine Platform, giving our teams the flexibility to design and run studies with greater speed, efficiency, and compliance.”",
+    "Source Link": "https://www.veeva.com/products/development-cloud/; https://www.veeva.com/services/business-consulting-services/; https://www.veeva.com",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "TARGET",
+    "Entity ID": "IQ656458081",
+    "Company Name": "ZoomInfo Technologies Inc.",
+    "Facet": "Primary Products",
+    "Rejected Value": "ZoomInfo is an all-in-one AI GTM Platform that helps B2B sales, marketing, RevOps, and customer success teams find, win, and grow business. It combines verified data on 500M+ contacts and 100M+ companies with the GTM Context Graph , AI agents that act on it, and access from any tool your team already uses. ZoomInfo was founded in 2007, is headquartered in Vancouver, Washington, and trades on Nasdaq as GTM. Learn more about ZoomInfo .",
+    "Source Link": "https://www.zoominfo.com",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "ACT.O",
+    "Company Name": "Enact Holdings Inc",
+    "Facet": "Primary Products",
+    "Rejected Value": "We offer a multitude of professional development and career enrichment opportunities, including in the areas of leadership, professional skills, and industry-specific matters, as well as a mentor program and bespoke training for future senior leaders. We also offer tuition reimbursement benefits and student loan repayment options to aid career progression. We routinely assess talent, engage in deep succession planning at all levels of the organization and provide feedback to our employees through a formal annual performance review process.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1823529/000182352926000060/act-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "AEHR.O",
+    "Company Name": "Aehr Test Systems",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "Aehr Test Systems is committed to conducting business in a sustainable, responsible, and ethical manner. Our Environmental, Social, and Governance (ESG) policy reflects our dedication to long-term value creation, stakeholder engagement, and the promotion of positive societal impact. This policy guides our decision-making processes, operations, and interactions with our employees, customers, suppliers, investors, and the communities in which we operate.",
+    "Source Link": "https://www.aehr.com/about-us/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "ALHC.O",
+    "Company Name": "Alignment Healthcare, Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "We are focused on building a company that is transforming health care by putting seniors first, and our employees are critical to our distinctive business model. Our Human Capital strategy focuses on meeting business objectives by attracting, developing, engaging, and retaining a high-performing, diverse workforce. As of December 31, 2025, we had 1,849 full-time employees in addition to seasonal employees who assist with the Medicare AEP.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1832466/000162828026012545/alhc-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "ANIP.O",
+    "Company Name": "ANI Pharmaceuticals, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "We are committed to the safety and health of our employees, patient-customers, and the public. It is critical within our mission to ensure we keep our employees and customers safe while accomplishing our business goals. We have established a health and safety program with a focus on continuous improvement and employee engagement. Our personnel are encouraged to take corrective actions where appropriate and to communicate concerns to management with a “see something, say something” approach. We recognize and reward personnel for contributing to the safety system within our working environment. The overall program continually evolves to reflect regulatory changes and compliance standard industry best practices. As part of onboarding new employees, we provide health and safety training and periodic training programs to maintain and improve employee awareness of safety issues. The goal of the safety training programs is to ensure that our staff are well informed on the subject matters and have the appropriate tools to make sound health and safety decisions in our day-to-day operations.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000014/anip-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "AVR.O",
+    "Company Name": "Anteris Technologies Global Corp",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "We are focused on disrupting heart valve disease and restoring healthy heart function. Our team focuses on tackling clinical gaps and redefining positive outcomes by developing cutting-edge solutions designed to mimic the heart’s native physiology.",
+    "Source Link": "https://anteristech.com/home.html",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "BALL.K",
+    "Company Name": "Ball Corp",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "We are committed to fostering a culture of continuous learning and development, equipping our employees with the skills and resources needed to thrive in a rapidly evolving business environment. To complement this, our performance enablement approach prioritizes employee growth and continuous improvement. The performance enablement methodology encourages regular, meaningful performance conversations between managers and employees, while actively mitigating bias and fostering a fair and enriching developmental experience. These efforts enhance the data available for talent discussions and decision-making.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/9389/000110465926017410/ball-20251231x10k.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "CAG",
+    "Company Name": "Conagra Brands, Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "The Conagra Promise to our employees is to provide every employee with the tools and programs to help them reach their full potential. By providing employees with growth opportunities, we empower them to build knowledge and skills and make an impact through their work at Conagra. We believe that by enabling employee growth and development, we better position Conagra to meet current and future business needs while driving employee retention.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/23217/000110465926083905/tmb-20260531x10k.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "CERT.O",
+    "Company Name": "Certara, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "We are highly dependent on the research and development, modeling, financial, operational, scientific, software engineering, regulatory and other business expertise of our executive officers, as well as the other principal members of our management, scientific, modeling, regulatory services and software engineering teams. In addition to serving in a technical capacity, many of our scientists also play a significant role in marketing and selling our products and services to new and existing customers. As of December 31, 2025, 414 of our employees held PhDs or doctor of medicine degrees.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1827090/000182709026000011/cert-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "CMG",
+    "Company Name": "Chipotle Mexican Grill, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "At Chipotle, our vision is to cultivate an environment where our employees can thrive and grow into great leaders. We believe in investing and supporting our people because they are our most important asset. As of December 31, 2025, Chipotle employed 130,301 people worldwide and 1,233 contract workers. Of our employees, 127,116 worked in the United States, and 3,185 worked internationally across Canada, France, Germany, and the United Kingdom. Within the U.S., 125,408 employees worked in our restaurants, and 1,708 in our Restaurant Support Centers and Field Leadership. In 2025, nearly all newly promoted General Managers completed training focused on fostering a positive people culture where employees feel supported, heard, and able to grow with Chipotle. There were no union petitions or campaigns in 2025, and we continue to bargain in good faith with the one restaurant that voted in 2022 to form a union.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "COFO.NS",
+    "Company Name": "Coforge Limited",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "\"For us, Coforge aren't just a supplier or even a partner, they are a valued member of our team. Coforge really understands us. They understand what's important to us as a business, our values. But they also understand our marketplace and our business needs. We've been through quite a significant change, a transformation to a business-aligned product operating model, and Coforge have been key to the success there.\"",
+    "Source Link": "https://www.coforge.com/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "COFO.NS",
+    "Company Name": "Coforge Limited",
+    "Facet": "Business Model",
+    "Rejected Value": "\"For us, Coforge aren't just a supplier or even a partner, they are a valued member of our team. Coforge really understands us. They understand what's important to us as a business, our values. But they also understand our marketplace and our business needs. We've been through quite a significant change, a transformation to a business-aligned product operating model, and Coforge have been key to the success there.\"",
+    "Source Link": "https://www.coforge.com/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "CPB.O",
+    "Company Name": "Campbell's Co",
+    "Facet": "Primary Services",
+    "Rejected Value": "We provide a workplace that develops, supports and motivates our people. Our Ways to Well-being Strategy provides information, education tools and resources to drive engagement and to help support our employees' physical, financial and professional well-being. We continue to modernize our workspaces and have a hybrid work policy to allow office-based employees to work remotely several days per week.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/16732/000001673226000026/cpb-20260802.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "CPB.O",
+    "Company Name": "Campbell's Co",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "We provide a workplace that develops, supports and motivates our people. Our Ways to Well-being Strategy provides information, education tools and resources to drive engagement and to help support our employees' physical, financial and professional well-being. We continue to modernize our workspaces and have a hybrid work policy to allow office-based employees to work remotely several days per week.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/16732/000001673226000026/cpb-20260802.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "CRWD.O",
+    "Company Name": "CrowdStrike Holdings, Inc.",
+    "Facet": "Revenue Model",
+    "Rejected Value": "We provide robust compensation and benefits programs to help meet the needs of our employees. In addition to base salary, these programs (which vary by country/region) include annual bonuses or commission plans, equity awards, an employee stock purchase plan, a 401(k) plan or pension schemes internationally, healthcare and insurance benefits, health savings and flexible spending accounts, paid time off, family leave, family care resources, flexible work schedules, adoption and infertility assistance, and employee assistance programs.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "DOV",
+    "Company Name": "Dover Corporation",
+    "Facet": "Business Model",
+    "Rejected Value": "Dover Digital Labs – We are continuing to leverage our Digital Labs team to improve our digital capabilities. Our team of software developers, data scientists, manufacturing engineers, and product managers drive digital transformation across our businesses by enhancing customer experience, developing connected industrial products, enabling digital manufacturing and securing our digital products.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/29905/000002990526000009/dov-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "ECL",
+    "Company Name": "Ecolab Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "As of December 31, 2025, Ecolab employed approximately 48,000 employees. The largest component of our workforce is comprised of more than 25,000 sales and service employees. Our innovation efforts are supported by approximately 3,000 research, development, engineering and digital experts. Approximately 43% of our employees are employed in North America, 21% in Europe, 12% in Latin America, 8% in Asia Pacific, 8% in India, Middle East and Africa, and 8% in Greater China.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/31462/000110465926018357/ecl-20251231x10k.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "ES",
+    "Company Name": "Eversource Energy",
+    "Facet": "Primary Services",
+    "Rejected Value": "As of December 31, 2025, Eversource Energy employed a total of 10,731 employees, excluding temporary employees, of which 1,554 were employed by CL&P, 2,164 were employed by NSTAR Electric, and 802 were employed by PSNH.  Of Eversource Energy’s employees, 4,495 were employed by Eversource Service, Eversource's service company, that provides support services to all Eversource operating companies.  Approximately 49 percent of our employees are members of the International Brotherhood of Electrical Workers, the Utility Workers Union of America or The United Steelworkers, and are covered by various collective bargaining agreements.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/72741/000162828026008461/es-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "EVT.AX",
+    "Company Name": "EVT Ltd",
+    "Facet": "Primary Services",
+    "Rejected Value": "Our teams are at the forefront of CX technology, delivering the very best in customer service at the touch of a button. Innovations so far this decade include; rapid check hotel kiosks; Gold Class service to seat app; Cinebuzz On Demand; advanced trials of digital room keys and app based room service.",
+    "Source Link": "https://www.evt.com/about-us/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "FRT",
+    "Company Name": "Federal Realty Investment Trust",
+    "Facet": "Primary Services",
+    "Rejected Value": "We are committed to the health, safety, and wellness of our employees, and foster an environment that allows our people to succeed while balancing work and life. We provide our employees with access to health and wellness programs, which includes benefits that support both physical and mental health. We have also transitioned to a hybrid work model.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/34903/000003490326000017/frt-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "FWRG.O",
+    "Company Name": "First Watch Restaurant Group, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "Established in 2020, the You First Fund provides grants to eligible team members experiencing personal hardship related to qualifying disasters. The fund is intended to support employees and their immediate families during their times of most significant need and is funded through a portion of the proceeds from each kid’s meal sale, along with contributions from the Company, our employees and others. Since its inception, this fund has provided our employees with ove",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1789940/000178994026000014/fwrg-20251228.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "FWRG.O",
+    "Company Name": "First Watch Restaurant Group, Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "At First Watch, our people are our purpose, which is why we continue to invest in benefits and programs. We operate on a “No Nights Ever” model and work to get our restaurant employees “out the door by four”– which allows our teams to enjoy evenings with their family and friends, and an improved quality of life. This one-shift model provides our employees with a work-life balance that does not exist for many employees in the restaurant industry. In addition to this flexibility, we",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1789940/000178994026000014/fwrg-20251228.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "GIC",
+    "Company Name": "Global Industrial Company",
+    "Facet": "Primary Services",
+    "Rejected Value": "The Company's evolving go to market strategy is focused on customer centricity and ensuring alignment of our actions with the specific needs of our customer base.   In order to achieve this we have realigned our sales force to be targeted to specific customer end market verticals, and creating an enhanced collaboration within our Sales, Marketing, and Merchandising organizations to best service these customers.   This renewed focus guides our actions across the business, and specifically in our customer end-to-end purchase, service, and delivery experience, has at its core building of customer loyalty and trust by addressing unique customer needs through a responsive and tailored sales, product, and service experience. We build customer loyalty and trust through personalized and high touch customer interactions that often feature strong one to one relationships. The Company's digital and multi-channel sales model drives customer acquisition and with rigorous vetting we are able to identify opportunities for product category expansion, with a renewed focus on Maintenance, Repair, and Consumable products. Category expansion with our customers drives repeat orders and increases their annual and average spend. We maximize customer satisfaction and loyalty by coupling close customer relationships with product expertise, efficient and competitive fulfillment and delivery and exceptional customer service.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/945114/000162828026012945/gic-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "HD",
+    "Company Name": "The Home Depot, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "The Home Depot has a strong commitment to ethics and integrity, and we are a values- and culture-centric business. Our commitment to our core values drives our approach to human capital management. Our culture is based on our servant leadership philosophy represented by the inverted pyramid, which puts primary importance on our customers and our associates by positioning them at the top, with senior management at the base in a support role. We bring our culture to life through our core values, which serve as the foundation of our business and as the guiding principles behind the decisions we make every day.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "HON.O",
+    "Company Name": "Honeywell International Inc.",
+    "Facet": "Business Model",
+    "Rejected Value": "Honeywell Accelerator is the framework for how we think, run, and grow our business. It provides a unified approach to drive transformation and continuous improvement to give our teams the capabilities needed to win in the marketplace. This is accomplished by understanding our markets and our four dominant business models and how to most effectively operate them to grow. We design end-to-end digitized business processes, underpinned by global design models, lean and Six Sigma principles, 80/20 rules, and Digital Operations.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000013/hon-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "HUM",
+    "Company Name": "Humana Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "Humana Inc., headquartered in Louisville, Kentucky, is committed to putting health first – for our teammates, our customers, and our company. Through our Humana insurance services, and our CenterWell health care services, we make it easier for the millions of people we serve to achieve their best health – delivering the care and service they need, when they need it. These efforts are leading to a better quality of life for Medicare and Medicaid participants, families, individuals, military service personnel, and communities at large.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000009/hum-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "IR",
+    "Company Name": "Ingersoll Rand Inc.",
+    "Facet": "Primary Products",
+    "Rejected Value": "We are a global market leader with a broad flow creation and industrial product portfolio across air, gas, powder, and liquid handling applications, providing services and solutions to increase industrial and life science productivity, efficiency, and sustainability. We manufacture one of the broadest and most complete ranges of compressor, pump, vacuum and blower products in our markets, which, when combined with our global geographic footprint and application expertise, allows us to provide differentiated product and service offerings to our customers. Our products are sold under more than 90 market-leading brands, including Ingersoll Rand and Gardner Denver, which we believe are globally recognized in their respective end-markets and known for product quality, reliability, efficiency and superior customer service. We are driven by an entrepreneurial spirit and ownership mindset, dedicated to helping make life better for our employees, customers, the planet, and our shareholders.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1699150/000162828026008617/iri-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "IR",
+    "Company Name": "Ingersoll Rand Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "We are a global market leader with a broad flow creation and industrial product portfolio across air, gas, powder, and liquid handling applications, providing services and solutions to increase industrial and life science productivity, efficiency, and sustainability. We manufacture one of the broadest and most complete ranges of compressor, pump, vacuum and blower products in our markets, which, when combined with our global geographic footprint and application expertise, allows us to provide differentiated product and service offerings to our customers. Our products are sold under more than 90 market-leading brands, including Ingersoll Rand and Gardner Denver, which we believe are globally recognized in their respective end-markets and known for product quality, reliability, efficiency and superior customer service. We are driven by an entrepreneurial spirit and ownership mindset, dedicated to helping make life better for our employees, customers, the planet, and our shareholders.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1699150/000162828026008617/iri-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "IR",
+    "Company Name": "Ingersoll Rand Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "We are dedicated to supporting our employees’ growth and development. We provide many development opportunities for early career employees, including global internships, engineering, marketing, and manufacturing career programs.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1699150/000162828026008617/iri-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "ITT",
+    "Company Name": "ITT Inc",
+    "Facet": "Primary Services",
+    "Rejected Value": "We provide flexible compensation and benefits programs to help meet the needs of our employees and their families. In addition to base salaries, we offer numerous benefits for eligible employees, including annual bonuses, stock awards, an employee stock purchase plan for employees in the U.S., a 401(k) Plan, healthcare and insurance benefits, health savings and flexible spending accounts, paid time off, family leave, flexible work schedules, retirement benefits, employee assistance programs and tuition reimbursement. ITT’s pay and recognition practices leverage data to ensure our employees receive competitive, equitable salaries supported by evaluations of roles, experience, performance and union or works council agreements in select areas. Our variable incentive plans reinforce pay for performance and our strong belief in meritocracy. The majority of our employees are eligible for either a performance-based bonus or a statutory profit-sharing payment. The bonus plans align employee compensation with financial or operational results and individual performance. With respect to stock awards, we have used discretionary equity-based grants with time-based vesting conditions to facilitate the retention of key personnel, particularly executives and those identified as high-performing talent.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000012/itt-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "MCO",
+    "Company Name": "Moody's Corporation",
+    "Facet": "Primary Services",
+    "Rejected Value": "The Company's industry leading benefits programs offer comprehensive resources to support physical, mental and financial well-being. We invest in AI powered technologies in order to provide our employees with a world-class experience accessing and managing their benefits. We continuously evaluate our market benchmarks and employee feedback so that our benefits are competitive and support the attraction of the best talent. For example, in recent years we implemented a global paid parental leave policy to give parents time off to care for and bond with a new child and updated our tuition reimbursement program.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026009136/mco-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "MDLN.O",
+    "Company Name": "Medline Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "At Medline, our relentless focus on the customer drives our human capital strategy, which revolves around attracting, developing, and retaining employees to provide the best products and services for our customers. We have developed a strong foundation that drives our recruitment, retention and development efforts. We are committed to supporting the personal and professional development of our employees, as well as providing competitive benefits and a safe, inclusive workplace.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/2046386/000204638626000009/mdln-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "MELI.O",
+    "Company Name": "MercadoLibre, Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "Based on MercadoLibre's DNA, the Company chooses not to simply “adapt,” but to anticipate and lead the transformation. The capacity and speed of learning are key at the Company. Our vision for GenAI is that everyone at the Company can use it to boost their productivity and accelerate business impact. To solve the various challenges in our operations, MercadoLibre has numerous proprietary AI solutions, and our teams are much more efficient today. We are using AI to assist our employees in the production of TV commercials, handling of customer service cases, and response to legal demands.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "MNTN.K",
+    "Company Name": "MNTN, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "We provide our team members and their families with access to a variety of innovative, flexible and convenient health and wellness programs. We continue to evolve our programs to meet our team members’ health and wellness needs.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1891027/000189102726000019/mntn-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "NI",
+    "Company Name": "NiSource Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "The NiSource Political Action Committee (\"NiPAC\") provides our employees a voice in the political process. NiPAC is a voluntary, employee driven, and employee funded political action committee and makes bipartisan political contributions to local, state and federal candidates, where permitted and in accordance with established guidelines. Consistent with our commitments and our approach to engagement, the NiPAC leadership committee members evaluate candidates for support on issues important to our business.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1111711/000111171126000027/nix-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "NOA.TO",
+    "Company Name": "North American Construction Group Ltd",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "We provide opportunities for our employees to learn, grow, develop, and gain valuable industry experience with the industry leader. Push yourself and your future forward and apply with North American Construction Group today.",
+    "Source Link": "https://nacg.ca/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "NRDY.K",
+    "Company Name": "Nerdy Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "We are a remote-first company, which means that working remotely is the primary option for most of our employees. Much like online learning affords Learners the ability to find the best Experts for their needs irrespective of location, we believe a remote-first orientation enables us to access a significantly larger talent pool from which to hire, which can serve as a long-term competitive advantage. As of February 12, 2026, we had approximately five hundred full and part-time employees, none of whom are covered under a collective bargaining agreement. Additionally, we have agreements with approximately two hundred globally-sourced, independent contractors, who are primarily used in customer support, tutor operations, and engineering roles.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1819404/000181940426000015/nrdy-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "NX",
+    "Company Name": "Quanex Building Products Corp",
+    "Facet": "Primary Services",
+    "Rejected Value": "At Quanex, giving back is an extension of who we are. For nearly 50 years, the Quanex Foundation has supported the communities where our employees live and work. Through charitable giving, volunteerism, and educational support, the Foundation reflects our commitment to making a positive impact beyond business. Each year, we contribute hundreds of thousands of dollars to hometown charities, schools, and non-profit organizations. We are especially proud of the McHattie Scholarship Program, which provides children of our employees with financial assistance to pursue higher education. The Quanex Foundation ensures that as we grow globally, we never lose sight of our local responsibility.",
+    "Source Link": "https://www.quanex.com/about-us/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "NX",
+    "Company Name": "Quanex Building Products Corp",
+    "Facet": "Revenue Model",
+    "Rejected Value": "We sell our products to customers in various countries.  We have sales representatives whose territories essentially cover the U.S., Canada, Europe, and to a lesser extent, the Middle East, Latin and South America, Australia, New Zealand and Asia.  Our sales force is tasked with selling and marketing our complete range of components, products and systems to national and regional OEMs through a direct sales force in North America and Europe, supplemented with the use of distributors and independent sales agents.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1423221/000142322125000100/nx-20251031.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "REZI.K",
+    "Company Name": "Resideo Technologies, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "At Resideo, we are committed to employee growth and development and are proud to offer employees a wide range of opportunities. A key offering is LinkedIn Learning, enabling skills development through thousands of courses. In 2025 we introduced a monthly webinar (Empowering For Success) geared toward supporting our professional population with practical ways to support career development. Our employees also have access to a formal mentor program that connects team members with experienced professionals.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1740332/000174033226000005/rezi-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "REZI.K",
+    "Company Name": "Resideo Technologies, Inc.",
+    "Facet": "Core Business Activity",
+    "Rejected Value": "At Resideo, we are committed to employee growth and development and are proud to offer employees a wide range of opportunities. A key offering is LinkedIn Learning, enabling skills development through thousands of courses. In 2025 we introduced a monthly webinar (Empowering For Success) geared toward supporting our professional population with practical ways to support career development. Our employees also have access to a formal mentor program that connects team members with experienced professionals.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1740332/000174033226000005/rezi-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "RGP.O",
+    "Company Name": "Resources Connection, Inc.",
+    "Facet": "Business Model",
+    "Rejected Value": "We provide a competitive compensation and benefits program to attract and reward our employees. In addition to salaries or hourly rates, our eligible employees, including our consultants, are offered participation in a comprehensive benefits program (based on location) including: paid time off and holidays, group medical and dental programs, a basic term life insurance program, health savings accounts, flexible spending accounts, a 401(k) retirement plan, contributions to statutory retirement programs, the 2019 Employee Stock Purchase Plan, as amended (“ESPP”), which enables employees",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1084765/000108476526000051/rgp-20260530.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "SG",
+    "Company Name": "Sweetgreen, Inc.",
+    "Facet": "Primary Services",
+    "Rejected Value": "We offer competitive wages and a comprehensive benefits package designed to support the financial, physical, and mental well-being of our employees. Our benefits for eligible employees include medical, dental, and vision insurance, paid time off, paid parental leave, and equity incentives for our Head Coaches (our restaurant general managers). We regularly review our compensation and benefits programs to remain competitive within the industry.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1477815/000162828026012520/sg-20251228.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "SHOO.O",
+    "Company Name": "Steven Madden, Ltd.",
+    "Facet": "Primary Services",
+    "Rejected Value": "At Steve Madden, we foster a culture of individual well‑being through a broad range of wellness initiatives designed to support our employees’ physical, emotional, social, environmental, and financial health. Our offerings include health fairs, financial wellness seminars, discounts and partial reimbursement for gym memberships, on‑site discounted food options, and access to an employee assistance program that provides resources and tools for a variety of wellness needs. As part of these",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/913241/000162828026012995/shoo-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "SNGX.O",
+    "Company Name": "Soligenix Inc",
+    "Facet": "Primary Services",
+    "Rejected Value": "We are committed to a work environment that is welcoming, inclusive and encouraging. To achieve our plans and goals, it is imperative that we attract and retain top talent. In order to do so, we aim to have a safe and encouraging workplace, with opportunities for our employees to grow and develop professionally, supported by strong compensation, benefits, and other incentives. In addition to competitive base salaries, we offer every full-time employee a cash target bonus, a comprehensive benefits package and equity compensation.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/812796/000110465926037701/sngx-20251231x10k.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "SOUN.O",
+    "Company Name": "SoundHound AI, Inc.",
+    "Facet": "Business Model",
+    "Rejected Value": "“Working with SoundHound AI has allowed our franchisees to process orders more efficiently, with its voice AI technology providing welcome support to our employees — particularly during peak hours. The result is a fast, consistent ordering experience for customers which helps deepen loyalty and brand appreciation.”",
+    "Source Link": "https://www.soundhound.com/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "TFX",
+    "Company Name": "Teleflex Incorporated",
+    "Facet": "Primary Services",
+    "Rejected Value": "We are committed to building a high performance culture that supports our Core Values throughout the employee lifecycle, while providing our employees with opportunities for growth, development, and career advancement. We have a clear talent management process that provides regular coaching check-ins between employees and their managers to review the employee’s developmental objectives and career progression. We also regularly review our talent portfolio and succession plans to ensure we can deliver on our company strategy.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/96943/000009694326000019/tfx-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "TGT",
+    "Company Name": "Target Corp",
+    "Facet": "Primary Services",
+    "Rejected Value": "We offer a compelling work environment with meaningful experiences and abundant growth and career-development opportunities. This starts with the opportunity to do challenging work and learn on the job and is supplemented by programs and continuous learning that help our team build skills at all levels, including offerings focused on specialized skill development, leadership opportunities, coaching, and mentoring. Our talent and succession planning process supports the development of a strong talent pipeline for leadership and other critical roles. We monitor our team members’ perceptions of these development and engagement programs through a number of surveys and use those insights to guide areas of focus and improvement. We are focused on making Target a destination for talent by fostering a culture grounded in inclusivity, connection and drive, where team members feel supported and engaged. We believe inclusion and belonging for all is an essential part of our team and culture, reinforcing our values and helping fuel the growth of our business.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "TNDM.O",
+    "Company Name": "Tandem Diabetes Care, Inc.",
+    "Facet": "Business Model",
+    "Rejected Value": "We are committed to creating and maintaining a safe, diverse, and inclusive community for all employees while we serve our customers and fulfill our mission to improve the lives of people with diabetes. As of December 31, 2025, we had approximately 2,500 regular full-time employees, who primarily work in the United States, Canada, or Europe. The term “employees” in this Annual Report means our regular full-time employees. Our headquarters are in San Diego, California, where our primary research and development and administrative functions are located, and where we also operate a manufacturing facility and a warehousing facility. None of our employees are represented by a collective bargaining agreement, and we have never experienced any work stoppage. We believe we have good relations with our employees.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1438133/000143813326000010/tndm-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "VICI.K",
+    "Company Name": "VICI Properties Inc",
+    "Facet": "Primary Services",
+    "Rejected Value": "We are committed to creating and sustaining a positive work environment and corporate culture that fosters trust, cooperation and inclusion, including through the instillation of our core values, which we refer to as the VICI Values, competitive compensation and benefit programs, training and professional development opportunities, corporate giving and community service events and employee involvement in company initiatives. To assist in fulfilling that commitment, we measure our organizational culture, employee engagement and employee satisfaction through, among other things, an annual, independent third-party employee satisfaction survey and periodic pulse surveys, all of which provide management with insights regarding key issues and priorities to maintain and improve our employee programs and initiatives and the health, well-being and satisfaction of our employees.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1705696/000170569626000034/vici-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "VLO",
+    "Company Name": "Valero Energy Corp",
+    "Facet": "Primary Services",
+    "Rejected Value": "We offer a comprehensive training and development program for our employees in subjects such as engineering and technical excellence, safety, environmental, maintenance and machinery/equipment repair, ethics, leadership, and employee performance. We also require all employees to complete training on technical matters, such as cybersecurity and information technology security, and various compliance and corporate conduct matters. We offer virtual training, which allows for greater availability and access across our global workforce.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026011499/vlo-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "VRTS.TO",
+    "Company Name": "Vertiqal Studios Corp",
+    "Facet": "Primary Products",
+    "Rejected Value": "Vertiqal Studios owns and operates one of the largest collections of gaming and lifestyle channels on social media. Our team programs, produces and ships platform-agnostic vertical content at the speed of the algorithm.",
+    "Source Link": "https://www.vertiqalstudios.com/about",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "VVA.AX",
+    "Company Name": "Viva Leisure Ltd",
+    "Facet": "Business Model",
+    "Rejected Value": "“At Viva Leisure, our greatest strength lies in our people. It is the passion, energy and dedication of our teams across every club, department and franchise that drives our success. We do not just operate fitness facilities. We cultivate a powerful community that empowers individuals to thrive, grow and achieve their best. Together we are shaping a culture that is as inspiring as it is inclusive.”",
+    "Source Link": "https://vivaleisure.group/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "VVA.AX",
+    "Company Name": "Viva Leisure Ltd",
+    "Facet": "Revenue Model",
+    "Rejected Value": "“At Viva Leisure, our greatest strength lies in our people. It is the passion, energy and dedication of our teams across every club, department and franchise that drives our success. We do not just operate fitness facilities. We cultivate a powerful community that empowers individuals to thrive, grow and achieve their best. Together we are shaping a culture that is as inspiring as it is inclusive.”",
+    "Source Link": "https://vivaleisure.group/",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  },
+  {
+    "Entity Role": "PUBLIC",
+    "Entity ID": "WH",
+    "Company Name": "Wyndham Hotels & Resorts, Inc.",
+    "Facet": "Primary Products",
+    "Rejected Value": "We are committed to offering programs that focus on the total well-being of all our team members. We also understand that nutrition, exercise, lifestyle management, physical, mental, and emotional wellness, financial health and the quality of the environment in which we work and live are also critical priorities for each of our team members. We believe that health and wellness promote both professional and personal productivity, achievement, and fulfillment, ultimately making us stronger across the organization. To encourage all our team members to lead healthier lifestyles while balancing family, work and other responsibilities, we offer several resources under our Be Well program, including both virtual and in-person wellness services, an onsite fitness facility and a Wyndham Relief Fund to help employees globally who are facing financial hardship.",
+    "Source Link": "https://www.sec.gov/Archives/edgar/data/1722684/000172268426000007/wh-20251231.htm",
+    "Reason": "INTERNAL_WORKFORCE_NOT_CUSTOMER_OFFERING"
+  }
+]

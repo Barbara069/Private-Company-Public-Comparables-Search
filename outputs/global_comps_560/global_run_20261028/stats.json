@@ -1,0 +1,14 @@
+{
+  "targets": 560,
+  "targets_with_drafts": 549,
+  "targets_abstained": 11,
+  "ranked_pairs": 5490,
+  "distinct_public_candidates": 3217,
+  "facet_score_rows": 87840,
+  "global_listed_security_records": 40062,
+  "global_issuer_descriptions_screened": 30416,
+  "human_verified_pairs": 0,
+  "forecast_status": "DEFERRED_UNTIL_USER_REVIEWS_COMPS",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "status": "AUTOMATED_EVIDENCE_LINKED_DRAFT; NOT FINAL_VALIDATED_COMPS"
+}

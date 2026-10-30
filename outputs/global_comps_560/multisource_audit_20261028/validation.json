@@ -1,0 +1,11 @@
+{
+  "source_register_ids_unique": true,
+  "targets": 560,
+  "public_candidates": 3217,
+  "all_30_facet_rows_retained_in_csv": true,
+  "source_evidence_references_valid": true,
+  "lseg_snapshot_links_exist": true,
+  "target_nonwebsite_sources_excluded_from_selection": true,
+  "original_scores_changed": false,
+  "verified_factual_contradictions": 0
+}

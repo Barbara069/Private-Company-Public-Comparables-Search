@@ -1,0 +1,42 @@
+[
+  {
+    "Company Name": "Paylocity Holding Corporation",
+    "Facet": "Revenue Model",
+    "Problem": "Existing selected text does not describe charging mechanics.",
+    "Suggested Qualified Value": "Recurring subscriptions for cloud software. Fees generally combine a base charge with charges based on client employee count and products used. Implementation services and annual filing services generate additional fees.",
+    "Source": "https://www.sec.gov/Archives/edgar/data/1591698/000159169826000069/pcty-20260630.htm",
+    "Source Location": "Cached annual report line 604, subscription fee discussion; line 734, monthly performance obligations.",
+    "Target Selection Use": "DIAGNOSTIC ONLY. SEC text is excluded from pseudo-private target selector inputs.",
+    "Applied To Original Ranking": false
+  },
+  {
+    "Company Name": "Allient Inc.",
+    "Facet": "Company Maturity",
+    "Problem": "1939 business origin and 1962 legal/public incorporation merged into one founding-year concept.",
+    "Suggested Qualified Value": "Predecessor Hathaway business origin: 1939. Colorado public-company incorporation: 1962. Retain separate event fields.",
+    "Source": "https://allient.com/company/",
+    "Source Location": "Official corporate history",
+    "Target Selection Use": "Official website evidence eligible for a proposed target profile correction. No selector rerun performed.",
+    "Applied To Original Ranking": false
+  },
+  {
+    "Company Name": "Singapore Paincare Holdings Ltd",
+    "Facet": "Company Maturity",
+    "Problem": "2007 clinic origin compared with 2018 holding-company formation.",
+    "Suggested Qualified Value": "First specialist clinic origin: 2007. Holding-company incorporation: 31 December 2018. Listing: 2020.",
+    "Source": "https://links.sgx.com/1.0.0/corporate-information/2903",
+    "Source Location": "SGX corporate information, history and incorporation date",
+    "Target Selection Use": "Public candidate diagnostic profile.",
+    "Applied To Original Ranking": false
+  },
+  {
+    "Company Name": "Energy Recovery, Inc.",
+    "Facet": "Company Maturity",
+    "Problem": "Original incorporation and later reincorporation compared without jurisdiction/event labels.",
+    "Suggested Qualified Value": "Incorporated in Virginia in April 1992; reincorporated in Delaware in March 2001.",
+    "Source": "https://ir.energyrecovery.com/sec-filings/all-sec-filings/content/0000950134-08-020309/f50518e10vq.htm",
+    "Source Location": "Company-hosted SEC filing, corporate history / Note 1",
+    "Target Selection Use": "DIAGNOSTIC ONLY. Historical SEC filing does not expand target selector inputs.",
+    "Applied To Original Ranking": false
+  }
+]

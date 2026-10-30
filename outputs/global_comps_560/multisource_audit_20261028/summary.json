@@ -1,0 +1,22 @@
+{
+  "target_entities": 560,
+  "public_candidate_entities": 3217,
+  "source_document_or_missing_status_rows": 21233,
+  "facet_cross_check_rows": 113310,
+  "source_text_rows_by_role_and_type": {
+    "TARGET | OFFICIAL_WEBSITE": 1381,
+    "TARGET | LSEG": 560,
+    "TARGET | CAPITAL_IQ": 560,
+    "TARGET | WRDS_COMPUSTAT": 491,
+    "TARGET | SEC_ANNUAL_FILING": 514,
+    "PUBLIC | LSEG": 3217,
+    "PUBLIC | WRDS_COMPUSTAT": 3155,
+    "PUBLIC | OFFICIAL_WEBSITE": 3798,
+    "PUBLIC | SEC_ANNUAL_FILING": 1089,
+    "PUBLIC | CAPITAL_IQ": 158,
+    "TARGET | OTHER_WEB": 1
+  },
+  "automatic_difference_flags": 6363,
+  "verified_factual_contradictions": 0,
+  "prior_scores_modified": false
+}

@@ -1,0 +1,12 @@
+{
+  "all_3016_flags_have_applied_dispositions": true,
+  "all_facet_keys_unique": true,
+  "quarantined_values_excluded_from_all_scores": true,
+  "target_external_information_leakage": false,
+  "all_scored_values_have_source_links": true,
+  "fee_feedback_regression_check": true,
+  "scores_and_weights_reconcile": true,
+  "original_ranking_hash_unchanged": "9927659e7b58287107e3aade9a6e0b791a2592331ff87249024664d8a0ea0d86",
+  "new_ranking_scope": "Previous ten candidate rows only",
+  "all_conflicts_factually_resolved": false
+}

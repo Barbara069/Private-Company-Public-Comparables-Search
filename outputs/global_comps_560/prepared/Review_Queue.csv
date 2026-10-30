@@ -1,0 +1,561 @@
+﻿company_id,ticker,company_name,data_review,facet_review,comps_review,suggested_query
+IQ320500,AAON,"AAON, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"AAON, Inc. competitors public companies same products customers business model"
+IQ168154,AIR,AAR Corp.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,AAR Corp. competitors public companies same products customers business model
+IQ310545,AAMI,Acadian Asset Management Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Acadian Asset Management Inc. competitors public companies same products customers business model
+IQ327378336,ACEL,"Accel Entertainment, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Accel Entertainment, Inc. competitors public companies same products customers business model"
+IQ294382,ACH,"Accendra Health, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Accendra Health, Inc. competitors public companies same products customers business model"
+IQ380776488,ACMR,"ACM Research, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"ACM Research, Inc. competitors public companies same products customers business model"
+IQ247812,ACU,Acme United Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Acme United Corporation competitors public companies same products customers business model
+IQ628604936,AHCO,AdaptHealth Corp.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,AdaptHealth Corp. competitors public companies same products customers business model
+IQ1108195,ADUS,Addus HomeCare Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Addus HomeCare Corporation competitors public companies same products customers business model
+IQ51119246,ADMA,"ADMA Biologics, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"ADMA Biologics, Inc. competitors public companies same products customers business model"
+IQ308072053,ADV,Advantage Solutions Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Advantage Solutions Inc. competitors public companies same products customers business model
+IQ84236826,ASLE,AerSale Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,AerSale Corporation competitors public companies same products customers business model
+IQ24445,AMG,"Affiliated Managers Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Affiliated Managers Group, Inc. competitors public companies same products customers business model"
+IQ115705393,ABNB,"Airbnb, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Airbnb, Inc. competitors public companies same products customers business model"
+IQ36644983,AKBA,"Akebia Therapeutics, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Akebia Therapeutics, Inc. competitors public companies same products customers business model"
+IQ24533,ALG,Alamo Group Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Alamo Group Inc. competitors public companies same products customers business model
+IQ2954765,APTL,Alaska Power & Telephone Company,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Alaska Power & Telephone Company competitors public companies same products customers business model
+IQ18671,ALB,Albemarle Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Albemarle Corporation competitors public companies same products customers business model
+IQ602501270,ALIT,"Alight, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Alight, Inc. competitors public companies same products customers business model"
+IQ22512843,ALH,Alliance Laundry Holdings Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Alliance Laundry Holdings Inc. competitors public companies same products customers business model
+IQ177779,ALNT,Allient Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Allient Inc. competitors public companies same products customers business model
+IQ679630,AMCX,AMC Global Media Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,AMC Global Media Inc. competitors public companies same products customers business model
+IQ24686,DOX,Amdocs Limited,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Amdocs Limited competitors public companies same products customers business model
+IQ145132373,AMTM,"Amentum Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Amentum Holdings, Inc. competitors public companies same products customers business model"
+IQ36852377,ACIC,American Coastal Insurance Corporation,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,American Coastal Insurance Corporation competitors public companies same products customers business model
+IQ295539,AFG,"American Financial Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"American Financial Group, Inc. competitors public companies same products customers business model"
+IQ423680975,AII,"American Integrity Insurance Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"American Integrity Insurance Group, Inc. competitors public companies same products customers business model"
+IQ25024657,APEI,"American Public Education, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"American Public Education, Inc. competitors public companies same products customers business model"
+IQ250752,AMS,American Shared Hospital Services,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,American Shared Hospital Services competitors public companies same products customers business model
+IQ31860,AME,"AMETEK, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"AMETEK, Inc. competitors public companies same products customers business model"
+IQ24821,AMN,"AMN Healthcare Services, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"AMN Healthcare Services, Inc. competitors public companies same products customers business model"
+IQ38444119,AMRX,"Amneal Pharmaceuticals, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Amneal Pharmaceuticals, Inc. competitors public companies same products customers business model"
+IQ2003650,AMPH,"Amphastar Pharmaceuticals, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Amphastar Pharmaceuticals, Inc. competitors public companies same products customers business model"
+IQ1847121139,ANDG,Andersen Group Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Andersen Group Inc. competitors public companies same products customers business model
+IQ123844,ANGI,Angi Inc.,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Angi Inc. competitors public companies same products customers business model
+IQ537628097,APG,APi Group Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,APi Group Corporation competitors public companies same products customers business model
+IQ3023697,AWI,"Armstrong World Industries, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Armstrong World Industries, Inc. competitors public companies same products customers business model"
+IQ251682,ARTN.A,Artesian Resources Corporation,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Artesian Resources Corporation competitors public companies same products customers business model
+IQ252186,AJG,Arthur J. Gallagher & Co.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Arthur J. Gallagher & Co. competitors public companies same products customers business model
+IQ129555216,APAM,Artisan Partners Asset Management Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Artisan Partners Asset Management Inc. competitors public companies same products customers business model
+IQ252339,ASH,Ashland Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Ashland Inc. competitors public companies same products customers business model
+IQ251951,ASTE,"Astec Industries, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Astec Industries, Inc. competitors public companies same products customers business model"
+IQ36427,ASUR,"Asure Software, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Asure Software, Inc. competitors public companies same products customers business model"
+IQ248196818,ATRA,"Atara Biotherapeutics, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Atara Biotherapeutics, Inc. competitors public companies same products customers business model"
+IQ584497248,ASIC,Ategrity Specialty Insurance Company Holdings,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Ategrity Specialty Insurance Company Holdings competitors public companies same products customers business model
+IQ331717750,BATR.K,"Atlanta Braves Holdings, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Atlanta Braves Holdings, Inc. competitors public companies same products customers business model"
+IQ319384,ATNI,"ATN International, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"ATN International, Inc. competitors public companies same products customers business model"
+IQ119902,ADSK,"Autodesk, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Autodesk, Inc. competitors public companies same products customers business model"
+IQ126269,ADP,"Automatic Data Processing, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Automatic Data Processing, Inc. competitors public companies same products customers business model"
+IQ575366670,AVAH,Aveanna Healthcare Holdings Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Aveanna Healthcare Holdings Inc. competitors public companies same products customers business model
+IQ100918,AVA,Avista Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Avista Corporation competitors public companies same products customers business model
+IQ336648,AZTA,"Azenta, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Azenta, Inc. competitors public companies same products customers business model"
+IQ252588,AZZ,AZZ Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,AZZ Inc. competitors public companies same products customers business model
+IQ6631173,BGS,"B&G Foods, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"B&G Foods, Inc. competitors public companies same products customers business model"
+IQ253478,BMI,"Badger Meter, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Badger Meter, Inc. competitors public companies same products customers business model"
+IQ253076,BCPC,Balchem Corporation,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Balchem Corporation competitors public companies same products customers business model
+IQ328132,BBSI,"Barrett Business Services, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Barrett Business Services, Inc. competitors public companies same products customers business model"
+IQ285544,BBWI,"Bath & Body Works, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Bath & Body Works, Inc. competitors public companies same products customers business model"
+IQ632289716,BRBR,"BellRing Brands, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"BellRing Brands, Inc. competitors public companies same products customers business model"
+IQ255743,BIO,"Bio-Rad Laboratories, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Bio-Rad Laboratories, Inc. competitors public companies same products customers business model"
+IQ189488,TECH,Bio-Techne Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Bio-Techne Corporation competitors public companies same products customers business model
+IQ25605,BMRN,BioMarin Pharmaceutical Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,BioMarin Pharmaceutical Inc. competitors public companies same products customers business model
+IQ1761348473,BTMD,biote Corp.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,biote Corp. competitors public companies same products customers business model
+IQ154172707,BVS,Bioventus Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Bioventus Inc. competitors public companies same products customers business model
+IQ316407040,BKV,BKV Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,BKV Corporation competitors public companies same products customers business model
+IQ255902,BKH,Black Hills Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Black Hills Corporation competitors public companies same products customers business model
+IQ97706,BLKB,"Blackbaud, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Blackbaud, Inc. competitors public companies same products customers business model"
+IQ272634010,BLBD,Blue Bird Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Blue Bird Corporation competitors public companies same products customers business model
+IQ26014489,BCC,Boise Cascade Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Boise Cascade Company competitors public companies same products customers business model
+IQ60268423,BOKU,"Boku, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Boku, Inc. competitors public companies same products customers business model"
+IQ160233,BAH,Booz Allen Hamilton Holding Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Booz Allen Hamilton Holding Corporation competitors public companies same products customers business model
+IQ114765086,BOC,Boston Omaha Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Boston Omaha Corporation competitors public companies same products customers business model
+IQ1877970871,BOW,Bowhead Specialty Holdings Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Bowhead Specialty Holdings Inc. competitors public companies same products customers business model
+IQ4562617,BWMN,Bowman Consulting Group Ltd.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Bowman Consulting Group Ltd. competitors public companies same products customers business model
+IQ285663,BDN,Brandywine Realty Trust,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Brandywine Realty Trust competitors public companies same products customers business model
+IQ1764709148,BAER,"Bridger Aerospace Group Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Bridger Aerospace Group Holdings, Inc. competitors public companies same products customers business model"
+IQ568706872,BV,"BrightView Holdings, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"BrightView Holdings, Inc. competitors public companies same products customers business model"
+IQ1032802,BR,"Broadridge Financial Solutions, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Broadridge Financial Solutions, Inc. competitors public companies same products customers business model"
+IQ23500974,BKD,Brookdale Senior Living Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Brookdale Senior Living Inc. competitors public companies same products customers business model
+IQ297244,BRO,"Brown & Brown, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Brown & Brown, Inc. competitors public companies same products customers business model"
+IQ122203,BBW,"Build-A-Bear Workshop, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Build-A-Bear Workshop, Inc. competitors public companies same products customers business model"
+IQ331389951,BMBL,Bumble Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Bumble Inc. competitors public companies same products customers business model
+IQ256765,BUKS,Butler National Corporation,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Butler National Corporation competitors public companies same products customers business model
+IQ26378339,BYRN,Byrna Technologies Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Byrna Technologies Inc. competitors public companies same products customers business model
+IQ429432837,WHD,"Cactus, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Cactus, Inc. competitors public companies same products customers business model"
+IQ400346,CTLP,"Cantaloupe, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Cantaloupe, Inc. competitors public companies same products customers business model"
+IQ26058,CGEH,"Capstone Green Energy Holdings, Inc.",NAME_DIFFERENCE_REVIEW; NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Capstone Energy+, Inc. competitors public companies same products customers business model"
+IQ1966045232,CDNL,Cardinal Infrastructure Group Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Cardinal Infrastructure Group Inc. competitors public companies same products customers business model
+IQ7828151,CCLD,"CareCloud, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"CareCloud, Inc. competitors public companies same products customers business model"
+IQ530130829,CARG,"CarGurus, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"CarGurus, Inc. competitors public companies same products customers business model"
+IQ258791,CSL,Carlisle Companies Incorporated,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Carlisle Companies Incorporated competitors public companies same products customers business model
+IQ7612672,CARS,Cars.com Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Cars.com Inc. competitors public companies same products customers business model
+IQ3004786,CRI,"Carter's, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Carter's, Inc. competitors public companies same products customers business model"
+IQ369520,CASS,"Cass Information Systems, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Cass Information Systems, Inc. competitors public companies same products customers business model"
+IQ6860584,CCC,CCC Intelligent Solutions Holdings Inc.,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,CCC Intelligent Solutions Holdings Inc. competitors public companies same products customers business model
+IQ32343826,CELH,"Celsius Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Celsius Holdings, Inc. competitors public companies same products customers business model"
+IQ311215774,CTRI,"Centuri Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Centuri Holdings, Inc. competitors public companies same products customers business model"
+IQ354074,CNTY,"Century Casinos, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Century Casinos, Inc. competitors public companies same products customers business model"
+IQ237656125,CCS,"Century Communities, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Century Communities, Inc. competitors public companies same products customers business model"
+IQ634127183,CRNC,Cerence Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Cerence Inc. competitors public companies same products customers business model
+IQ27918871,CHGG,"Chegg, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Chegg, Inc. competitors public companies same products customers business model"
+IQ260583,CHE,Chemed Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Chemed Corporation competitors public companies same products customers business model
+IQ260346,CPK,Chesapeake Utilities Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Chesapeake Utilities Corporation competitors public companies same products customers business model
+IQ261105,CHD,"Church & Dwight Co., Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Church & Dwight Co., Inc. competitors public companies same products customers business model"
+IQ1857289887,2507,Cirrus Aircraft Limited,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Cirrus Aircraft Limited competitors public companies same products customers business model
+IQ26515,CRUS,"Cirrus Logic, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Cirrus Logic, Inc. competitors public companies same products customers business model"
+IQ23499518,CCO,"Clear Channel Outdoor Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Clear Channel Outdoor Holdings, Inc. competitors public companies same products customers business model"
+IQ717692078,YOU,"Clear Secure, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Clear Secure, Inc. competitors public companies same products customers business model"
+IQ140282,CLMB,"Climb Global Solutions, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Climb Global Solutions, Inc. competitors public companies same products customers business model"
+IQ526813,COKE,"Coca-Cola Consolidated, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Coca-Cola Consolidated, Inc. competitors public companies same products customers business model"
+IQ9517028,CNS,"Cohen & Steers, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Cohen & Steers, Inc. competitors public companies same products customers business model"
+IQ100935,FIX,"Comfort Systems USA, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Comfort Systems USA, Inc. competitors public companies same products customers business model"
+IQ5381745,CMP,"Compass Minerals International, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Compass Minerals International, Inc. competitors public companies same products customers business model"
+IQ9068477,CNXC,Concentrix Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Concentrix Corporation competitors public companies same products customers business model
+IQ580517200,BBCP,"Concrete Pumping Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Concrete Pumping Holdings, Inc. competitors public companies same products customers business model"
+IQ1678014439,CCSI,"Consensus Cloud Solutions, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Consensus Cloud Solutions, Inc. competitors public companies same products customers business model"
+IQ263295,ED,"Consolidated Edison, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Consolidated Edison, Inc. competitors public companies same products customers business model"
+IQ5537074,ROAD,"Construction Partners, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Construction Partners, Inc. competitors public companies same products customers business model"
+IQ27023,CPRT,"Copart, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Copart, Inc. competitors public companies same products customers business model"
+IQ341021,CLB,Core Laboratories Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Core Laboratories Inc. competitors public companies same products customers business model
+IQ23189,CRBG,"Corebridge Financial, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Corebridge Financial, Inc. competitors public companies same products customers business model"
+IQ273312,CRVL,CorVel Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,CorVel Corporation competitors public companies same products customers business model
+IQ795040,COTY,Coty Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Coty Inc. competitors public companies same products customers business model
+IQ27536,CVSA,Covista Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Covista Inc. competitors public companies same products customers business model
+IQ1064486,PMTS,CPI Card Group Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,CPI Card Group Inc. competitors public companies same products customers business model
+IQ383501,CRAI,"CRA International, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"CRA International, Inc. competitors public companies same products customers business model"
+IQ173927,CR,Crane Company,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Crane Company competitors public companies same products customers business model
+IQ1776508306,CXT,"Crane NXT, Co.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Crane NXT, Co. competitors public companies same products customers business model"
+IQ134246,CRD.B,Crawford & Company,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Crawford & Company competitors public companies same products customers business model
+IQ273639073,CL,Cresco Labs Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Cresco Labs Inc. competitors public companies same products customers business model
+IQ406782,CXDO,"Crexendo, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Crexendo, Inc. competitors public companies same products customers business model"
+IQ4319784,CRCT,"Cricut, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Cricut, Inc. competitors public companies same products customers business model"
+IQ27223,CSGS,"CSG Systems International, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"CSG Systems International, Inc. competitors public companies same products customers business model"
+IQ278895334,CSW,"CSW Industrials, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"CSW Industrials, Inc. competitors public companies same products customers business model"
+IQ116958995,CURA,"Curaleaf Holdings, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Curaleaf Holdings, Inc. competitors public companies same products customers business model"
+IQ586252637,CURI,CuriosityStream Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,CuriosityStream Inc. competitors public companies same products customers business model
+IQ41694753,UAN,"CVR Partners, LP",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"CVR Partners, LP competitors public companies same products customers business model"
+IQ107405,DHI,"D.R. Horton, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"D.R. Horton, Inc. competitors public companies same products customers business model"
+IQ265499,DJCO,Daily Journal Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Daily Journal Corporation competitors public companies same products customers business model
+IQ428692535,DAVE,Dave Inc.,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Dave Inc. competitors public companies same products customers business model
+IQ327333,DECK,Deckers Outdoor Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Deckers Outdoor Corporation competitors public companies same products customers business model
+IQ266112,DE,Deere & Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Deere & Company competitors public companies same products customers business model
+IQ114039,DXCM,"DexCom, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"DexCom, Inc. competitors public companies same products customers business model"
+IQ27845,DHX,"DHI Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"DHI Group, Inc. competitors public companies same products customers business model"
+IQ406810,DHIL,"Diamond Hill Investment Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Diamond Hill Investment Group, Inc. competitors public companies same products customers business model"
+IQ266694,DGII,Digi International Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Digi International Inc. competitors public companies same products customers business model
+IQ29032475,APPS,"Digital Turbine, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Digital Turbine, Inc. competitors public companies same products customers business model"
+IQ419283817,DOCN,"DigitalOcean Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"DigitalOcean Holdings, Inc. competitors public companies same products customers business model"
+IQ1762833848,DSGR,"Distribution Solutions Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Distribution Solutions Group, Inc. competitors public companies same products customers business model"
+IQ34668,BOOM,DMC Global Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,DMC Global Inc. competitors public companies same products customers business model
+IQ328967194,DFIN,"Donnelley Financial Solutions, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Donnelley Financial Solutions, Inc. competitors public companies same products customers business model"
+IQ243058659,LPG,Dorian LPG Ltd.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Dorian LPG Ltd. competitors public companies same products customers business model
+IQ299160,DORM,"Dorman Products, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Dorman Products, Inc. competitors public companies same products customers business model"
+IQ707993341,DV,"DoubleVerify Holdings, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"DoubleVerify Holdings, Inc. competitors public companies same products customers business model"
+IQ128585388,DOCS,"Doximity, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Doximity, Inc. competitors public companies same products customers business model"
+IQ549296186,DFH,"Dream Finders Homes, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Dream Finders Homes, Inc. competitors public companies same products customers business model"
+IQ170187749,DTI,Drilling Tools International Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Drilling Tools International Corporation competitors public companies same products customers business model
+IQ49093148,DBX,"Dropbox, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Dropbox, Inc. competitors public companies same products customers business model"
+IQ538319234,BROS,Dutch Bros Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Dutch Bros Inc. competitors public companies same products customers business model
+IQ382071,DXPE,"DXP Enterprises, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"DXP Enterprises, Inc. competitors public companies same products customers business model"
+IQ268141,DY,"Dycom Industries, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Dycom Industries, Inc. competitors public companies same products customers business model"
+IQ628406634,DT,"Dynatrace, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Dynatrace, Inc. competitors public companies same products customers business model"
+IQ25198699,EACO,EACO Corporation,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,EACO Corporation competitors public companies same products customers business model
+IQ109103,EMN,Eastman Chemical Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Eastman Chemical Company competitors public companies same products customers business model
+IQ433871442,ECVT,Ecovyst Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Ecovyst Inc. competitors public companies same products customers business model
+IQ411342,EPC,Edgewell Personal Care Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Edgewell Personal Care Company competitors public companies same products customers business model
+IQ411220,EW,Edwards Lifesciences Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Edwards Lifesciences Corporation competitors public companies same products customers business model
+IQ27928,EGAN,eGain Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,eGain Corporation competitors public companies same products customers business model
+IQ27933,EHTH,"eHealth, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"eHealth, Inc. competitors public companies same products customers business model"
+IQ528102,ELTP,"Elite Pharmaceuticals, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Elite Pharmaceuticals, Inc. competitors public companies same products customers business model"
+IQ242405618,EEX,"Emerald Holding, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Emerald Holding, Inc. competitors public companies same products customers business model"
+IQ13627017,EBS,Emergent BioSolutions Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Emergent BioSolutions Inc. competitors public companies same products customers business model
+IQ400829,ECPG,"Encore Capital Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Encore Capital Group, Inc. competitors public companies same products customers business model"
+IQ42952210,ERII,"Energy Recovery, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Energy Recovery, Inc. competitors public companies same products customers business model"
+IQ382171572,A950140,"Englewood Lab, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Englewood Lab, Inc. competitors public companies same products customers business model"
+IQ617309,ENOV,Enovis Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Enovis Corporation competitors public companies same products customers business model
+IQ629627778,NVST,Envista Holdings Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Envista Holdings Corporation competitors public companies same products customers business model
+IQ4773318,EPAM,"EPAM Systems, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"EPAM Systems, Inc. competitors public companies same products customers business model"
+IQ175749,EFX,Equifax Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Equifax Inc. competitors public companies same products customers business model
+IQ708077828,ESAB,ESAB Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,ESAB Corporation competitors public companies same products customers business model
+IQ269960,ESE,ESCO Technologies Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,ESCO Technologies Inc. competitors public companies same products customers business model
+IQ28492682,ETSY,"Etsy, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Etsy, Inc. competitors public companies same products customers business model"
+IQ671730212,EVCM,EverCommerce Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,EverCommerce Inc. competitors public companies same products customers business model
+IQ182093966,EVER,"EverQuote, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"EverQuote, Inc. competitors public companies same products customers business model"
+IQ228070761,EVTC,"EVERTEC, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"EVERTEC, Inc. competitors public companies same products customers business model"
+IQ270071,EXPD,"Expeditors International of Washington, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Expeditors International of Washington, Inc. competitors public companies same products customers business model"
+IQ270377,EXPO,"Exponent, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Exponent, Inc. competitors public companies same products customers business model"
+IQ321905,EZPW,"EZCORP, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"EZCORP, Inc. competitors public companies same products customers business model"
+IQ331669329,FG,"F&G Annuities & Life, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"F&G Annuities & Life, Inc. competitors public companies same products customers business model"
+IQ347669,FDS,FactSet Research Systems Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,FactSet Research Systems Inc. competitors public companies same products customers business model
+IQ271329,FSS,Federal Signal Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Federal Signal Corporation competitors public companies same products customers business model
+IQ383724,FHI,"Federated Hermes, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Federated Hermes, Inc. competitors public companies same products customers business model"
+IQ875151,FERG,Ferguson Enterprises Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Ferguson Enterprises Inc. competitors public companies same products customers business model
+IQ332476,FGPR,"Ferrellgas Partners, L.P.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Ferrellgas Partners, L.P. competitors public companies same products customers business model"
+IQ242206947,FIGS,"FIGS, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"FIGS, Inc. competitors public companies same products customers business model"
+IQ4069597,FA,First Advantage Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,First Advantage Corporation competitors public companies same products customers business model
+IQ272761,BDL,"Flanigan's Enterprises, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Flanigan's Enterprises, Inc. competitors public companies same products customers business model"
+IQ415352,FTK,"Flotek Industries, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Flotek Industries, Inc. competitors public companies same products customers business model"
+IQ1911836623,FLOC,Flowco Holdings Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Flowco Holdings Inc. competitors public companies same products customers business model
+IQ267555,FLS,Flowserve Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Flowserve Corporation competitors public companies same products customers business model
+IQ1303244,FLUT,Flutter Entertainment plc,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Flutter Entertainment plc competitors public companies same products customers business model
+IQ273298,FONR,FONAR Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,FONAR Corporation competitors public companies same products customers business model
+IQ7910540,FOR,Forestar Group Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Forestar Group Inc. competitors public companies same products customers business model
+IQ331718339,FWON.K,Formula One Group,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Formula One Group competitors public companies same products customers business model
+IQ356418,FORR,"Forrester Research, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Forrester Research, Inc. competitors public companies same products customers business model"
+IQ2689126,FTNT,"Fortinet, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Fortinet, Inc. competitors public companies same products customers business model"
+IQ318505463,FTV,Fortive Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Fortive Corporation competitors public companies same products customers business model
+IQ318627,FC,Franklin Covey Co.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Franklin Covey Co. competitors public companies same products customers business model
+IQ3587084,FSP,Franklin Street Properties Corp.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Franklin Street Properties Corp. competitors public companies same products customers business model
+IQ30409,RAIL,"FreightCar America, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"FreightCar America, Inc. competitors public companies same products customers business model"
+IQ34990682,FRPT,"Freshpet, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Freshpet, Inc. competitors public companies same products customers business model"
+IQ253706543,FTAI,FTAI Aviation Ltd.,WRDS_LAST_DATE_DIFFERS_FROM_2025_12_31,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,FTAI Aviation Ltd. competitors public companies same products customers business model
+IQ371050,FLL,"Full House Resorts, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Full House Resorts, Inc. competitors public companies same products customers business model"
+IQ274166,GIII,"G-III Apparel Group, Ltd.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"G-III Apparel Group, Ltd. competitors public companies same products customers business model"
+IQ396900,GAMI,"GAMCO Investors, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"GAMCO Investors, Inc. competitors public companies same products customers business model"
+IQ130705,IT,"Gartner, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Gartner, Inc. competitors public companies same products customers business model"
+IQ3152501,GLIB.A,"GCI Liberty, Inc.",NAME_DIFFERENCE_REVIEW; NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Liberty Capital Corporation competitors public companies same products customers business model
+IQ5092809,GCMG,GCM Grosvenor Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,GCM Grosvenor Inc. competitors public companies same products customers business model
+IQ35000,GEN,Gen Digital Inc.,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Gen Digital Inc. competitors public companies same products customers business model
+IQ22287203,GNK,Genco Shipping & Trading Limited,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Genco Shipping & Trading Limited competitors public companies same products customers business model
+IQ274466,GENC,"Gencor Industries, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Gencor Industries, Inc. competitors public companies same products customers business model"
+IQ274926,GNTX,Gentex Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Gentex Corporation competitors public companies same products customers business model
+IQ139705,GETY,"Getty Images Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Getty Images Holdings, Inc. competitors public companies same products customers business model"
+IQ1789177587,GCT,GigaCloud Technology Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,GigaCloud Technology Inc. competitors public companies same products customers business model
+IQ44732344,GWRS,"Global Water Resources, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Global Water Resources, Inc. competitors public companies same products customers business model"
+IQ145625476,GOGO,Gogo Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Gogo Inc. competitors public companies same products customers business model
+IQ396353,GDEN,"Golden Entertainment, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Golden Entertainment, Inc. competitors public companies same products customers business model"
+IQ2557861,GLFE,Golf Entertainment Group Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Golf Entertainment Group Inc. competitors public companies same products customers business model
+IQ576807508,GDRX,"GoodRx Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"GoodRx Holdings, Inc. competitors public companies same products customers business model"
+IQ557929974,GSHD,"Goosehead Insurance, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Goosehead Insurance, Inc. competitors public companies same products customers business model"
+IQ29113,GGG,Graco Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Graco Inc. competitors public companies same products customers business model
+IQ91675,GHC,Graham Holdings Company,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Graham Holdings Company competitors public companies same products customers business model
+IQ44732496,LOPE,"Grand Canyon Education, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Grand Canyon Education, Inc. competitors public companies same products customers business model"
+IQ275898,GVA,Granite Construction Incorporated,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Granite Construction Incorporated competitors public companies same products customers business model
+IQ142898861,GRBK,"Green Brick Partners, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Green Brick Partners, Inc. competitors public companies same products customers business model"
+IQ560549330,GTII,Green Thumb Industries Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Green Thumb Industries Inc. competitors public companies same products customers business model
+IQ377361,GEF,"Greif, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Greif, Inc. competitors public companies same products customers business model"
+IQ44459532,GDYN,"Grid Dynamics Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Grid Dynamics Holdings, Inc. competitors public companies same products customers business model"
+IQ244520896,GRND,Grindr Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Grindr Inc. competitors public companies same products customers business model
+IQ301316,HTO,H2O America,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,H2O America competitors public companies same products customers business model
+IQ94613,HAE,Haemonetics Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Haemonetics Corporation competitors public companies same products customers business model
+IQ534395224,HGTY,"Hagerty, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Hagerty, Inc. competitors public companies same products customers business model"
+IQ29256,HNRG,Hallador Energy Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Hallador Energy Company competitors public companies same products customers business model
+IQ29282,HLIT,Harmonic Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Harmonic Inc. competitors public companies same products customers business model
+IQ679038073,HRMY,"Harmony Biosciences Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Harmony Biosciences Holdings, Inc. competitors public companies same products customers business model"
+IQ704668472,HAYW,"Hayward Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Hayward Holdings, Inc. competitors public companies same products customers business model"
+IQ11129585,HQY,"HealthEquity, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"HealthEquity, Inc. competitors public companies same products customers business model"
+IQ90442,HSTM,"HealthStream, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"HealthStream, Inc. competitors public companies same products customers business model"
+IQ277383,HTLD,"Heartland Express, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Heartland Express, Inc. competitors public companies same products customers business model"
+IQ278143,HEI,HEICO Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,HEICO Corporation competitors public companies same products customers business model
+IQ277500,HELE,Helen of Troy Limited,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Helen of Troy Limited competitors public companies same products customers business model
+IQ9938532,HLF,Herbalife Ltd.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Herbalife Ltd. competitors public companies same products customers business model
+IQ320141334,HRI,Herc Holdings Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Herc Holdings Inc. competitors public companies same products customers business model
+IQ29202572,HEOL,"Highwater Ethanol, LLC",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Highwater Ethanol, LLC competitors public companies same products customers business model"
+IQ26685404,HQI,"HireQuest, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"HireQuest, Inc. competitors public companies same products customers business model"
+IQ279042,HRL,Hormel Foods Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Hormel Foods Corporation competitors public companies same products customers business model
+IQ340047,HDSN,"Hudson Technologies, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Hudson Technologies, Inc. competitors public companies same products customers business model"
+IQ2413126,HURN,Huron Consulting Group Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Huron Consulting Group Inc. competitors public companies same products customers business model
+IQ654692030,IAC,IAC Inc.,NAME_DIFFERENCE_REVIEW; AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,People Incorporated competitors public companies same products customers business model
+IQ317440,ICUI,"ICU Medical, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"ICU Medical, Inc. competitors public companies same products customers business model"
+IQ377023,IESC,"IES Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"IES Holdings, Inc. competitors public companies same products customers business model"
+IQ92768,IHRT,"iHeartMedia, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"iHeartMedia, Inc. competitors public companies same products customers business model"
+IQ277824630,INDV,"Indivior Pharmaceuticals, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Indivior Pharmaceuticals, Inc. competitors public companies same products customers business model"
+IQ28638526,III,"Information Services Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Information Services Group, Inc. competitors public companies same products customers business model"
+IQ24331721,INFU,"InfuSystem Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"InfuSystem Holdings, Inc. competitors public companies same products customers business model"
+IQ279954,IMKT.A,"Ingles Markets, Incorporated",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Ingles Markets, Incorporated competitors public companies same products customers business model"
+IQ330019,INOD,Innodata Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Innodata Inc. competitors public companies same products customers business model
+IQ29957,ISSC,"Innovative Aerosystems, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Innovative Aerosystems, Inc. competitors public companies same products customers business model"
+IQ24362,INVA,"Innoviva, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Innoviva, Inc. competitors public companies same products customers business model"
+IQ280490805,INSE,"Inspired Entertainment, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Inspired Entertainment, Inc. competitors public companies same products customers business model"
+IQ618908,PODD,Insulet Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Insulet Corporation competitors public companies same products customers business model
+IQ36627,ITGR,Integer Holdings Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Integer Holdings Corporation competitors public companies same products customers business model
+IQ30012,IART,Integra LifeSciences Holdings Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Integra LifeSciences Holdings Corporation competitors public companies same products customers business model
+IQ23899662,IMXI,"International Money Express, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"International Money Express, Inc. competitors public companies same products customers business model"
+IQ39593739,IPI,"Intrepid Potash, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Intrepid Potash, Inc. competitors public companies same products customers business model"
+IQ21171,INTU,Intuit Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Intuit Inc. competitors public companies same products customers business model
+IQ22110569,IRMD,IRADIMED CORPORATION,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,IRADIMED CORPORATION competitors public companies same products customers business model
+IQ31498,IRWD,"Ironwood Pharmaceuticals, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Ironwood Pharmaceuticals, Inc. competitors public companies same products customers business model"
+IQ30323,ITRI,"Itron, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Itron, Inc. competitors public companies same products customers business model"
+IQ280322,ITT,ITT Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,ITT Inc. competitors public companies same products customers business model
+IQ278576,JBHT,"J.B. Hunt Transport Services, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"J.B. Hunt Transport Services, Inc. competitors public companies same products customers business model"
+IQ282159,J,Jacobs Solutions Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Jacobs Solutions Inc. competitors public companies same products customers business model
+IQ418720269,JRSH,"Jerash Holdings (US), Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Jerash Holdings (US), Inc. competitors public companies same products customers business model"
+IQ324610,KAI,Kadant Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Kadant Inc. competitors public companies same products customers business model
+IQ283234,KBH,KB Home,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,KB Home competitors public companies same products customers business model
+IQ583915035,KNTK,Kinetik Holdings Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Kinetik Holdings Inc. competitors public companies same products customers business model
+IQ398246,KINS,"Kingstone Companies, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Kingstone Companies, Inc. competitors public companies same products customers business model"
+IQ29568755,KORE,"KORE Group Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"KORE Group Holdings, Inc. competitors public companies same products customers business model"
+IQ396922,KFY,Korn Ferry,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Korn Ferry competitors public companies same products customers business model
+IQ130863,FSTR,L.B. Foster Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,L.B. Foster Company competitors public companies same products customers business model
+IQ30643,LH,Labcorp Holdings Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Labcorp Holdings Inc. competitors public companies same products customers business model
+IQ374372246,LW,"Lamb Weston Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Lamb Weston Holdings, Inc. competitors public companies same products customers business model"
+IQ8285048,LNTH,"Lantheus Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Lantheus Holdings, Inc. competitors public companies same products customers business model"
+IQ285250,LEE,"Lee Enterprises, Incorporated",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Lee Enterprises, Incorporated competitors public companies same products customers business model"
+IQ714783786,LGCY,Legacy Education Inc.,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Legacy Education Inc. competitors public companies same products customers business model
+IQ1956908778,LGN,Legence Corp.,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Legence Corp. competitors public companies same products customers business model
+IQ401541,LII,Lennox International Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Lennox International Inc. competitors public companies same products customers business model
+IQ402730,LICT,LICT Corporation,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,LICT Corporation competitors public companies same products customers business model
+IQ715141243,LFST,"LifeStance Health Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"LifeStance Health Group, Inc. competitors public companies same products customers business model"
+IQ3188823,LFVN,LifeVantage Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,LifeVantage Corporation competitors public companies same products customers business model
+IQ263324968,LMB,"Limbach Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Limbach Holdings, Inc. competitors public companies same products customers business model"
+IQ4317696,LIND,"Lindblad Expeditions Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Lindblad Expeditions Holdings, Inc. competitors public companies same products customers business model"
+IQ285016,LNN,Lindsay Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Lindsay Corporation competitors public companies same products customers business model
+IQ137610,LQDT,"Liquidity Services, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Liquidity Services, Inc. competitors public companies same products customers business model"
+IQ384687,LYV,"Live Nation Entertainment, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Live Nation Entertainment, Inc. competitors public companies same products customers business model"
+IQ24292,RAMP,"LiveRamp Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"LiveRamp Holdings, Inc. competitors public companies same products customers business model"
+IQ284668,LXU,"LSB Industries, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"LSB Industries, Inc. competitors public companies same products customers business model"
+IQ326651,LTC,"LTC Properties, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"LTC Properties, Inc. competitors public companies same products customers business model"
+IQ1475871,LUCK,Lucky Strike Entertainment Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Lucky Strike Entertainment Corporation competitors public companies same products customers business model
+IQ559791703,LMRI,"Lumexa Imaging Holdings, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Lumexa Imaging Holdings, Inc. competitors public companies same products customers business model"
+IQ1814625476,MSGE,Madison Square Garden Entertainment Corp.,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Madison Square Garden Entertainment Corp. competitors public companies same products customers business model
+IQ9282918,MNKD,MannKind Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,MannKind Corporation competitors public companies same products customers business model
+IQ276645250,MRMD,MariMed Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,MariMed Inc. competitors public companies same products customers business model
+IQ740990,MPX,Marine Products Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Marine Products Corporation competitors public companies same products customers business model
+IQ127149531,VAC,Marriott Vacations Worldwide Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Marriott Vacations Worldwide Corporation competitors public companies same products customers business model
+IQ286586,MRTN,"Marten Transport, Ltd.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Marten Transport, Ltd. competitors public companies same products customers business model"
+IQ31167,MASI,Masimo Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Masimo Corporation competitors public companies same products customers business model
+IQ171604,MTZ,"MasTec, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"MasTec, Inc. competitors public companies same products customers business model"
+IQ214080574,MCFT,"MasterCraft Boat Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"MasterCraft Boat Holdings, Inc. competitors public companies same products customers business model"
+IQ355279,MTCH,"Match Group, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Match Group, Inc. competitors public companies same products customers business model"
+IQ218451,MMS,"Maximus, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Maximus, Inc. competitors public companies same products customers business model"
+IQ181176,MKC,"McCormick & Company, Incorporated",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"McCormick & Company, Incorporated competitors public companies same products customers business model"
+IQ1067110,MH,"McGraw Hill, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"McGraw Hill, Inc. competitors public companies same products customers business model"
+IQ1821719827,MRDN,Meridian Holdings Inc.,WRDS_LAST_DATE_DIFFERS_FROM_2025_12_31,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Meridian Holdings Inc. competitors public companies same products customers business model
+IQ319791,MMSI,"Merit Medical Systems, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Merit Medical Systems, Inc. competitors public companies same products customers business model"
+IQ178296,MTH,Meritage Homes Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Meritage Homes Corporation competitors public companies same products customers business model
+IQ287550,MLAB,"Mesa Laboratories, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Mesa Laboratories, Inc. competitors public companies same products customers business model"
+IQ288133,MGPI,"MGP Ingredients, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"MGP Ingredients, Inc. competitors public companies same products customers business model"
+IQ128864639,MVST,"Microvast Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Microvast Holdings, Inc. competitors public companies same products customers business model"
+IQ288070,MSEX,Middlesex Water Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Middlesex Water Company competitors public companies same products customers business model
+IQ836768,MIR,"Mirion Technologies, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Mirion Technologies, Inc. competitors public companies same products customers business model"
+IQ288586,MITK,"Mitek Systems, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Mitek Systems, Inc. competitors public companies same products customers business model"
+IQ263765,TAP,Molson Coors Beverage Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Molson Coors Beverage Company competitors public companies same products customers business model
+IQ337961,MCRI,"Monarch Casino & Resort, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Monarch Casino & Resort, Inc. competitors public companies same products customers business model"
+IQ31721,MORN,"Morningstar, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Morningstar, Inc. competitors public companies same products customers business model"
+IQ288318,MSA,MSA Safety Incorporated,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,MSA Safety Incorporated competitors public companies same products customers business model
+IQ108424,MSM,"MSC Industrial Direct Co., Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"MSC Industrial Direct Co., Inc. competitors public companies same products customers business model"
+IQ709612693,NABL,"N-able, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"N-able, Inc. competitors public companies same products customers business model"
+IQ61292,NATH,"Nathan's Famous, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Nathan's Famous, Inc. competitors public companies same products customers business model"
+IQ321690,FIZZ,National Beverage Corp.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,National Beverage Corp. competitors public companies same products customers business model
+IQ7958431,NCMI,"National CineMedia, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"National CineMedia, Inc. competitors public companies same products customers business model"
+IQ31869,NHC,National HealthCare Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,National HealthCare Corporation competitors public companies same products customers business model
+IQ223781219,HLTC,"National Healthcare Properties, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"National Healthcare Properties, Inc. competitors public companies same products customers business model"
+IQ366847,NRC,National Research Corporation,NAME_DIFFERENCE_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,NRC Health competitors public companies same products customers business model
+IQ812576,NGS,"Natural Gas Services Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Natural Gas Services Group, Inc. competitors public companies same products customers business model"
+IQ169308,VYX,NCR Voyix Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,NCR Voyix Corporation competitors public companies same products customers business model
+IQ339683,NEOG,Neogen Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Neogen Corporation competitors public companies same products customers business model
+IQ32052,NTAP,"NetApp, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"NetApp, Inc. competitors public companies same products customers business model"
+IQ291335,NJR,New Jersey Resources Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,New Jersey Resources Corporation competitors public companies same products customers business model
+IQ212741644,NWSA,News Corporation,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,News Corporation competitors public companies same products customers business model
+IQ59503383,1316,Nexteer Automotive Group Limited,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Nexteer Automotive Group Limited competitors public companies same products customers business model
+IQ5034211,NAGE,"Niagen Bioscience, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Niagen Bioscience, Inc. competitors public companies same products customers business model"
+IQ94188,NPKI,NPK International Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,NPK International Inc. competitors public companies same products customers business model
+IQ3171773,NUVR,"Nuvera Communications, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Nuvera Communications, Inc. competitors public companies same products customers business model"
+IQ182505,NVR,"NVR, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"NVR, Inc. competitors public companies same products customers business model"
+IQ293170,ODC,Oil-Dri Corporation of America,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Oil-Dri Corporation of America competitors public companies same products customers business model
+IQ1679658907,OLPX,"Olaplex Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Olaplex Holdings, Inc. competitors public companies same products customers business model"
+IQ319404,ODFL,"Old Dominion Freight Line, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Old Dominion Freight Line, Inc. competitors public companies same products customers business model"
+IQ293614,ORI,Old Republic International Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Old Republic International Corporation competitors public companies same products customers business model
+IQ293645,OLN,Olin Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Olin Corporation competitors public companies same products customers business model
+IQ96161,OMC,Omnicom Group Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Omnicom Group Inc. competitors public companies same products customers business model
+IQ243685856,OGS,"ONE Gas, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"ONE Gas, Inc. competitors public companies same products customers business model"
+IQ33402796,OPLN,"OPENLANE, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"OPENLANE, Inc. competitors public companies same products customers business model"
+IQ52289160,OPRX,OptimizeRx Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,OptimizeRx Corporation competitors public companies same products customers business model
+IQ294048,ORGO,Organogenesis Holdings Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Organogenesis Holdings Inc. competitors public companies same products customers business model
+IQ1684297636,ONL,Orion Properties Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Orion Properties Inc. competitors public companies same products customers business model
+IQ7991502,OTCM,OTC Markets Group Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,OTC Markets Group Inc. competitors public companies same products customers business model
+IQ242244239,OUT,OUTFRONT Media Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,OUTFRONT Media Inc. competitors public companies same products customers business model
+IQ294338,OC,Owens Corning,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Owens Corning competitors public companies same products customers business model
+IQ294483,OXM,"Oxford Industries, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Oxford Industries, Inc. competitors public companies same products customers business model"
+IQ27508,PCRX,"Pacira BioSciences, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Pacira BioSciences, Inc. competitors public companies same products customers business model"
+IQ716669374,PGY,Pagaya Technologies Ltd.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Pagaya Technologies Ltd. competitors public companies same products customers business model
+IQ606388202,PLMR,"Palomar Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Palomar Holdings, Inc. competitors public companies same products customers business model"
+IQ262886628,PANL,Pangaea Logistics Solutions Ltd.,WRDS_LAST_DATE_DIFFERS_FROM_2025_12_31,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Pangaea Logistics Solutions Ltd. competitors public companies same products customers business model
+IQ98924,PARR,"Par Pacific Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Par Pacific Holdings, Inc. competitors public companies same products customers business model"
+IQ246279126,PK,Park Hotels & Resorts Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Park Hotels & Resorts Inc. competitors public companies same products customers business model
+IQ199424,PSN,Parsons Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Parsons Corporation competitors public companies same products customers business model
+IQ254225545,PAYC,"Paycom Software, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Paycom Software, Inc. competitors public companies same products customers business model"
+IQ254957567,PCTY,Paylocity Holding Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Paylocity Holding Corporation competitors public companies same products customers business model
+IQ205233,MD,"Pediatrix Medical Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Pediatrix Medical Group, Inc. competitors public companies same products customers business model"
+IQ225591096,PTON,"Peloton Interactive, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Peloton Interactive, Inc. competitors public companies same products customers business model"
+IQ377135,PRDO,Perdoceo Education Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Perdoceo Education Corporation competitors public companies same products customers business model
+IQ288097,PPIH,"Perma-Pipe International Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Perma-Pipe International Holdings, Inc. competitors public companies same products customers business model"
+IQ1825726259,PXED,"Phoenix Education Partners, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Phoenix Education Partners, Inc. competitors public companies same products customers business model"
+IQ3274917,PDM,"Piedmont Realty Trust, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Piedmont Realty Trust, Inc. competitors public companies same products customers business model"
+IQ139264388,PINS,"Pinterest, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Pinterest, Inc. competitors public companies same products customers business model"
+IQ297018,PBI,Pitney Bowes Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Pitney Bowes Inc. competitors public companies same products customers business model
+IQ304225387,PLNT,"Planet Fitness, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Planet Fitness, Inc. competitors public companies same products customers business model"
+IQ34117,POOL,Pool Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Pool Corporation competitors public companies same products customers business model
+IQ297711,POWL,"Powell Industries, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Powell Industries, Inc. competitors public companies same products customers business model"
+IQ131731858,PSIX,"Power Solutions International, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Power Solutions International, Inc. competitors public companies same products customers business model"
+IQ238361,AIOT,"PowerFleet, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"PowerFleet, Inc. competitors public companies same products customers business model"
+IQ294639,PPG,"PPG Industries, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"PPG Industries, Inc. competitors public companies same products customers business model"
+IQ1538503,PRAA,"PRA Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"PRA Group, Inc. competitors public companies same products customers business model"
+IQ10969688,PBH,Prestige Consumer Healthcare Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Prestige Consumer Healthcare Inc. competitors public companies same products customers business model
+IQ409550498,PRTH,"Priority Technology Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Priority Technology Holdings, Inc. competitors public companies same products customers business model"
+IQ1877854736,PAL,"Proficient Auto Logistics, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Proficient Auto Logistics, Inc. competitors public companies same products customers business model"
+IQ247226,PRG,"PROG Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"PROG Holdings, Inc. competitors public companies same products customers business model"
+IQ33351,PRGS,Progress Software Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Progress Software Corporation competitors public companies same products customers business model
+IQ330123,PLD,"Prologis, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Prologis, Inc. competitors public companies same products customers business model"
+IQ890375,PRLB,"Proto Labs, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Proto Labs, Inc. competitors public companies same products customers business model"
+IQ32710,PTC,PTC Inc.,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,PTC Inc. competitors public companies same products customers business model
+IQ128739842,PBYI,"Puma Biotechnology, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Puma Biotechnology, Inc. competitors public companies same products customers business model"
+IQ177500,PRSU,"Pursuit Attractions and Hospitality, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Pursuit Attractions and Hospitality, Inc. competitors public companies same products customers business model"
+IQ298843,KWR,Quaker Chemical Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Quaker Chemical Corporation competitors public companies same products customers business model
+IQ30796,QVCG.A,QVC Group Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,QVC Group Inc. competitors public companies same products customers business model
+IQ9794870,QXO,"QXO, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"QXO, Inc. competitors public companies same products customers business model"
+IQ373691,RDNT,"RadNet, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"RadNet, Inc. competitors public companies same products customers business model"
+IQ540631094,PACK,Ranpak Holdings Corp.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Ranpak Holdings Corp. competitors public companies same products customers business model
+IQ329935,RYN,Rayonier Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Rayonier Inc. competitors public companies same products customers business model
+IQ381848,RBA,"RB Global, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"RB Global, Inc. competitors public companies same products customers business model"
+IQ22323846,RBC,RBC Bearings Incorporated,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,RBC Bearings Incorporated competitors public companies same products customers business model
+IQ299037,RCMT,"RCM Technologies, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"RCM Technologies, Inc. competitors public companies same products customers business model"
+IQ132691799,RRR,"Red Rock Resorts, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Red Rock Resorts, Inc. competitors public companies same products customers business model"
+IQ599247105,RPAY,Repay Holdings Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Repay Holdings Corporation competitors public companies same products customers business model
+IQ340196,RMD,ResMed Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,ResMed Inc. competitors public companies same products customers business model
+IQ1914511668,RHLD,"Resolute Holdings Management, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Resolute Holdings Management, Inc. competitors public companies same products customers business model"
+IQ268363,RVTY,"Revvity, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Revvity, Inc. competitors public companies same products customers business model"
+IQ13513114,REYN,Reynolds Consumer Products Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Reynolds Consumer Products Inc. competitors public companies same products customers business model
+IQ300587,RGCO,"RGC Resources, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"RGC Resources, Inc. competitors public companies same products customers business model"
+IQ34555,RBBN,Ribbon Communications Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Ribbon Communications Inc. competitors public companies same products customers business model
+IQ24275,RPC,"Ridgepost Capital, Inc",WRDS_LAST_DATE_DIFFERS_FROM_2025_12_31,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Ridgepost Capital, Inc competitors public companies same products customers business model"
+IQ33851,RIGL,"Rigel Pharmaceuticals, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Rigel Pharmaceuticals, Inc. competitors public companies same products customers business model"
+IQ2398691,RNG,"RingCentral, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"RingCentral, Inc. competitors public companies same products customers business model"
+IQ299095,RPM,RPM International Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,RPM International Inc. competitors public companies same products customers business model
+IQ679030261,RSI,"Rush Street Interactive, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Rush Street Interactive, Inc. competitors public companies same products customers business model"
+IQ109652668,RYAN,"Ryan Specialty Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Ryan Specialty Holdings, Inc. competitors public companies same products customers business model"
+IQ254517933,SABR,Sabre Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Sabre Corporation competitors public companies same products customers business model
+IQ968928,SAFT,"Safety Insurance Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Safety Insurance Group, Inc. competitors public companies same products customers business model"
+IQ226143858,SVV,"Savers Value Village, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Savers Value Village, Inc. competitors public companies same products customers business model"
+IQ1824495444,SBC,SBC Medical Group Holdings Incorporated,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,SBC Medical Group Holdings Incorporated competitors public companies same products customers business model
+IQ301590,SNFC.A,Security National Financial Corporation,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Security National Financial Corporation competitors public companies same products customers business model
+IQ301433,SEIC,SEI Investments Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,SEI Investments Company competitors public companies same products customers business model
+IQ302863,SENE.A,Seneca Foods Corporation,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Seneca Foods Corporation competitors public companies same products customers business model
+IQ378088,SHEN,Shenandoah Telecommunications Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Shenandoah Telecommunications Company competitors public companies same products customers business model
+IQ370941,SIGA,"SIGA Technologies, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"SIGA Technologies, Inc. competitors public companies same products customers business model"
+IQ34335,SLGN,Silgan Holdings Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Silgan Holdings Inc. competitors public companies same products customers business model
+IQ217351453,SAMG,Silvercrest Asset Management Group Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Silvercrest Asset Management Group Inc. competitors public companies same products customers business model
+IQ334277,SSD,"Simpson Manufacturing Co., Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Simpson Manufacturing Co., Inc. competitors public companies same products customers business model"
+IQ323746,SITC,SITE Centers Corp.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,SITE Centers Corp. competitors public companies same products customers business model
+IQ620407835,SKIL,Skillsoft Corp.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Skillsoft Corp. competitors public companies same products customers business model
+IQ141046767,SND,"Smart Sand, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Smart Sand, Inc. competitors public companies same products customers business model"
+IQ245787131,SMA,"SmartStop Self Storage REIT, Inc.",WRDS_LAST_DATE_DIFFERS_FROM_2025_12_31,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"SmartStop Self Storage REIT, Inc. competitors public companies same products customers business model"
+IQ414079,SWBI,"Smith & Wesson Brands, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Smith & Wesson Brands, Inc. competitors public companies same products customers business model"
+IQ328847166,SDHC,Smith Douglas Homes Corp.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Smith Douglas Homes Corp. competitors public companies same products customers business model
+IQ356213,SMID,Smith-Midland Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Smith-Midland Corporation competitors public companies same products customers business model
+IQ273546076,SEI,"Solaris Energy Infrastructure, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Solaris Energy Infrastructure, Inc. competitors public companies same products customers business model"
+IQ1871945009,SOLV,Solventum Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Solventum Corporation competitors public companies same products customers business model
+IQ10654809,SONO,"Sonos, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Sonos, Inc. competitors public companies same products customers business model"
+IQ34781,SHC,Sotera Health Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Sotera Health Company competitors public companies same products customers business model
+IQ405465,SBSA.A,"Spanish Broadcasting System, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Spanish Broadcasting System, Inc. competitors public companies same products customers business model"
+IQ178990399,CXM,"Sprinklr, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Sprinklr, Inc. competitors public companies same products customers business model"
+IQ34696,SPSC,"SPS Commerce, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"SPS Commerce, Inc. competitors public companies same products customers business model"
+IQ274818,SPXC,"SPX Technologies, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"SPX Technologies, Inc. competitors public companies same products customers business model"
+IQ34709,SSNC,"SS&C Technologies Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"SS&C Technologies Holdings, Inc. competitors public companies same products customers business model"
+IQ605942702,STGW,Stagwell Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Stagwell Inc. competitors public companies same products customers business model
+IQ34783,STE,STERIS plc,WRDS_LAST_DATE_DIFFERS_FROM_2025_12_31,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,STERIS plc competitors public companies same products customers business model
+IQ322372,STRL,"Sterling Infrastructure, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Sterling Infrastructure, Inc. competitors public companies same products customers business model"
+IQ305729,STC,Stewart Information Services Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Stewart Information Services Corporation competitors public companies same products customers business model
+IQ361761,STRA,"Strategic Education, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Strategic Education, Inc. competitors public companies same products customers business model"
+IQ337346,STRT,Strattec Security Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Strattec Security Corporation competitors public companies same products customers business model
+IQ4973712,LRN,"Stride, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Stride, Inc. competitors public companies same products customers business model"
+IQ350318,SPH,"Suburban Propane Partners, L.P.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Suburban Propane Partners, L.P. competitors public companies same products customers business model"
+IQ1856268950,SUGR,Sucro Limited,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Sucro Limited competitors public companies same products customers business model
+IQ13639172,INN,"Summit Hotel Properties, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Summit Hotel Properties, Inc. competitors public companies same products customers business model"
+IQ305082,STKL,SunOpta Inc.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,SunOpta Inc. competitors public companies same products customers business model
+IQ422832,SUPN,"Supernus Pharmaceuticals, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Supernus Pharmaceuticals, Inc. competitors public companies same products customers business model"
+IQ574499639,TBLA,Taboola.com Ltd.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Taboola.com Ltd. competitors public companies same products customers business model
+IQ6233509,TCMD,"Tactile Systems Technology, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Tactile Systems Technology, Inc. competitors public companies same products customers business model"
+IQ250281193,TASK,"TaskUs, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"TaskUs, Inc. competitors public companies same products customers business model"
+IQ224946128,TMHC,Taylor Morrison Home Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Taylor Morrison Home Corporation competitors public companies same products customers business model
+IQ189424,TISI,"Team, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Team, Inc. competitors public companies same products customers business model"
+IQ1910899877,TTGT,"TechTarget, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"TechTarget, Inc. competitors public companies same products customers business model"
+IQ307430,TFX,Teleflex Incorporated,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Teleflex Incorporated competitors public companies same products customers business model
+IQ189539,TDS,"Telephone and Data Systems, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Telephone and Data Systems, Inc. competitors public companies same products customers business model"
+IQ196872,TTEK,"Tetra Tech, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Tetra Tech, Inc. competitors public companies same products customers business model"
+IQ4717668,TXRH,"Texas Roadhouse, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Texas Roadhouse, Inc. competitors public companies same products customers business model"
+IQ35303,TXT,Textron Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Textron Inc. competitors public companies same products customers business model
+IQ143627354,TGTX,"TG Therapeutics, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"TG Therapeutics, Inc. competitors public companies same products customers business model"
+IQ883703,TGS,TGS ASA,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,TGS ASA competitors public companies same products customers business model
+IQ405022367,AREN,"The Arena Group Holdings, Inc.",NAME_DIFFERENCE_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Paradium AI, Inc. competitors public companies same products customers business model"
+IQ427546442,BWIN,"The Baldwin Insurance Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"The Baldwin Insurance Group, Inc. competitors public companies same products customers business model"
+IQ413156,BCO,The Brink's Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,The Brink's Company competitors public companies same products customers business model
+IQ175181,EML,The Eastern Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,The Eastern Company competitors public companies same products customers business model
+IQ4295645,ENSG,"The Ensign Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"The Ensign Group, Inc. competitors public companies same products customers business model"
+IQ338018,GEO,"The GEO Group, Inc.",WRDS_LAST_DATE_DIFFERS_FROM_2025_12_31,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"The GEO Group, Inc. competitors public companies same products customers business model"
+IQ275858,GRC,The Gorman-Rupp Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,The Gorman-Rupp Company competitors public companies same products customers business model
+IQ24892,HCKT,"The Hackett Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"The Hackett Group, Inc. competitors public companies same products customers business model"
+IQ340831,THG,"The Hanover Insurance Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"The Hanover Insurance Group, Inc. competitors public companies same products customers business model"
+IQ280402,INTG,The InterGroup Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,The InterGroup Corporation competitors public companies same products customers business model
+IQ180950,MCS,The Marcus Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,The Marcus Corporation competitors public companies same products customers business model
+IQ375185,MCEM,The Monarch Cement Company,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,The Monarch Cement Company competitors public companies same products customers business model
+IQ178845148,STKS,"The ONE Group Hospitality, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"The ONE Group Hospitality, Inc. competitors public companies same products customers business model"
+IQ307261649,RMR,The RMR Group Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,The RMR Group Inc. competitors public companies same products customers business model
+IQ366893563,SMPL,The Simply Good Foods Company,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,The Simply Good Foods Company competitors public companies same products customers business model
+IQ188196,JOE,The St. Joe Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,The St. Joe Company competitors public companies same products customers business model
+IQ308582,TKR,The Timken Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,The Timken Company competitors public companies same products customers business model
+IQ190268,TTC,The Toro Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,The Toro Company competitors public companies same products customers business model
+IQ99942756,TTD,"The Trade Desk, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"The Trade Desk, Inc. competitors public companies same products customers business model"
+IQ23557,WEN,The Wendy's Company,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,The Wendy's Company competitors public companies same products customers business model
+IQ97023,TMO,Thermo Fisher Scientific Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Thermo Fisher Scientific Inc. competitors public companies same products customers business model
+IQ105613224,THR,"Thermon Group Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Thermon Group Holdings, Inc. competitors public companies same products customers business model"
+IQ308299,THO,"THOR Industries, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"THOR Industries, Inc. competitors public companies same products customers business model"
+IQ386000,THRY,"Thryv Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Thryv Holdings, Inc. competitors public companies same products customers business model"
+IQ1819655244,TIC,"TIC Solutions, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"TIC Solutions, Inc. competitors public companies same products customers business model"
+IQ308896,TR,"Tootsie Roll Industries, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Tootsie Roll Industries, Inc. competitors public companies same products customers business model"
+IQ309251,TRNS,"Transcat, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Transcat, Inc. competitors public companies same products customers business model"
+IQ429233,TMDX,"TransMedics Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"TransMedics Group, Inc. competitors public companies same products customers business model"
+IQ170928919,TRU,TransUnion,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,TransUnion competitors public companies same products customers business model
+IQ309456,TRN,"Trinity Industries, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Trinity Industries, Inc. competitors public companies same products customers business model"
+IQ140233,TRIP,"Tripadvisor, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Tripadvisor, Inc. competitors public companies same products customers business model"
+IQ2146380,TBRG,"TruBridge, Inc.",AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"TruBridge, Inc. competitors public companies same products customers business model"
+IQ53036657,TRUL,Trulieve Cannabis Corp.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Trulieve Cannabis Corp. competitors public companies same products customers business model
+IQ573267548,TWFG,"TWFG, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"TWFG, Inc. competitors public companies same products customers business model"
+IQ298441,TXNM,"TXNM Energy, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"TXNM Energy, Inc. competitors public companies same products customers business model"
+IQ309821,TYL,"Tyler Technologies, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Tyler Technologies, Inc. competitors public companies same products customers business model"
+IQ326272,USPH,"U.S. Physical Therapy, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"U.S. Physical Therapy, Inc. competitors public companies same products customers business model"
+IQ46084519,UI,Ubiquiti Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Ubiquiti Inc. competitors public companies same products customers business model
+IQ340904,UFPT,"UFP Technologies, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"UFP Technologies, Inc. competitors public companies same products customers business model"
+IQ309966,UNF,UniFirst Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,UniFirst Corporation competitors public companies same products customers business model
+IQ191013,UNTC,Unit Corporation,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Unit Corporation competitors public companies same products customers business model
+IQ864032,PRKS,United Parks & Resorts Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,United Parks & Resorts Inc. competitors public companies same products customers business model
+IQ113922672,UNIT,Uniti Group LLC,NAME_DIFFERENCE_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Uniti Group Inc. competitors public companies same products customers business model
+IQ36040,UHS,"Universal Health Services, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Universal Health Services, Inc. competitors public companies same products customers business model"
+IQ36048,UTI,"Universal Technical Institute, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Universal Technical Institute, Inc. competitors public companies same products customers business model"
+IQ33765,UPBD,"Upbound Group, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Upbound Group, Inc. competitors public companies same products customers business model"
+IQ1265495,UPLD,"Upland Software, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Upland Software, Inc. competitors public companies same products customers business model"
+IQ33574,UONE.K,"Urban One, Inc.",NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Urban One, Inc. competitors public companies same products customers business model"
+IQ36122,MTN,"Vail Resorts, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Vail Resorts, Inc. competitors public companies same products customers business model"
+IQ338943,VECO,Veeco Instruments Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Veeco Instruments Inc. competitors public companies same products customers business model
+IQ33414482,VEEV,Veeva Systems Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Veeva Systems Inc. competitors public companies same products customers business model
+IQ42154124,VCYT,"Veracyte, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Veracyte, Inc. competitors public companies same products customers business model"
+IQ1849334916,VLTO,Veralto Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Veralto Corporation competitors public companies same products customers business model
+IQ322580786,VRNO,Verano Holdings Corp.,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Verano Holdings Corp. competitors public companies same products customers business model
+IQ118474533,VRRM,Verra Mobility Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Verra Mobility Corporation competitors public companies same products customers business model
+IQ115222699,DSP,Viant Technology Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Viant Technology Inc. competitors public companies same products customers business model
+IQ359638,VSAT,"Viasat, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Viasat, Inc. competitors public companies same products customers business model"
+IQ96079,VIAV,Viavi Solutions Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Viavi Solutions Inc. competitors public companies same products customers business model
+IQ247261058,VNCE,Vince Holding Corp.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Vince Holding Corp. competitors public companies same products customers business model
+IQ339646,VRTS,"Virtus Investment Partners, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Virtus Investment Partners, Inc. competitors public companies same products customers business model"
+IQ254504,WRB,W. R. Berkley Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,W. R. Berkley Corporation competitors public companies same products customers business model
+IQ36475,WAT,Waters Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Waters Corporation competitors public companies same products customers business model
+IQ553033,WFRD,Weatherford International plc,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Weatherford International plc competitors public companies same products customers business model
+IQ313573,WMK,"Weis Markets, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Weis Markets, Inc. competitors public companies same products customers business model"
+IQ262786915,WLKP,Westlake Chemical Partners LP,NO_EXACT_TICKER,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Westlake Chemical Partners LP competitors public companies same products customers business model
+IQ36731,WEX,WEX Inc.,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,WEX Inc. competitors public companies same products customers business model
+IQ314400,WSM,"Williams-Sonoma, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Williams-Sonoma, Inc. competitors public companies same products customers business model"
+IQ357522,WLFC,Willis Lease Finance Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Willis Lease Finance Corporation competitors public companies same products customers business model
+IQ3735944,WSC,WillScot Holdings Corporation,AMBIGUOUS_OR_NAME_MISMATCH_REQUIRES_ID_REVIEW,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,WillScot Holdings Corporation competitors public companies same products customers business model
+IQ260824267,WING,Wingstop Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Wingstop Inc. competitors public companies same products customers business model
+IQ317301,WT,"WisdomTree, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"WisdomTree, Inc. competitors public companies same products customers business model"
+IQ579310978,MAPS,"WM Technology, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"WM Technology, Inc. competitors public companies same products customers business model"
+IQ105901792,XERS,"Xeris Biopharma Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Xeris Biopharma Holdings, Inc. competitors public companies same products customers business model"
+IQ10945567,XPEL,"XPEL, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"XPEL, Inc. competitors public companies same products customers business model"
+IQ3181355,XPO,"XPO, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"XPO, Inc. competitors public companies same products customers business model"
+IQ11129226,XTNT,"Xtant Medical Holdings, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Xtant Medical Holdings, Inc. competitors public companies same products customers business model"
+IQ393488,ZBRA,Zebra Technologies Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Zebra Technologies Corporation competitors public companies same products customers business model
+IQ121509,ZD,"Ziff Davis, Inc.",NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,"Ziff Davis, Inc. competitors public companies same products customers business model"
+IQ656458081,GTM,ZoomInfo Technologies Inc.,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,ZoomInfo Technologies Inc. competitors public companies same products customers business model
+IQ46888354,ZWS,Zurn Elkay Water Solutions Corporation,NO_FLAG_IN_PREPARATION,NOT_WEB_VERIFIED,NOT_YET_RESEARCHED,Zurn Elkay Water Solutions Corporation competitors public companies same products customers business model

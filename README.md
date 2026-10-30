@@ -30,4 +30,4 @@ Viewing cached data needs no keys. Refreshing WRDS/LSEG requires the user's auth
 
 ## Git transport
 
-Files above 8 MiB are stored as lossless byte chunks under `transport/`. The notebook restores and SHA-256 checks them automatically. Or run `python tools/restore_transport.py` before `python tools/restore_master.py`. Original spreadsheet/CSV file contents are preserved exactly.
+Files above 8 MiB are stored as lossless byte chunks under `transport/`. The notebook restores and SHA-256 checks them automatically. Or run `python tools/restore_transport.py` before `python tools/restore_master.py`. Original spreadsheet/CSV file contents are
