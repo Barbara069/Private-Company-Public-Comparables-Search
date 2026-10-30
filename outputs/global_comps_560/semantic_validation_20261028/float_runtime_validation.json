@@ -1,8 +1,0 @@
-{
-  "model": "cross-encoder/nli-MiniLM2-L6-H768",
-  "backend": "onnx_float32",
-  "tested_pairs": 16,
-  "label_agreement": 1.0,
-  "max_probability_difference": 2.9206275939941406e-06,
-  "accepted": true
-}

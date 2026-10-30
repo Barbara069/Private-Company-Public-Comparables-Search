@@ -1,7 +1,0 @@
-pandas
-openpyxl
-requests
-jupyterlab
-nbformat
-nbclient
-lseg-data
