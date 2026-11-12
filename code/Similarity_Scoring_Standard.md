@@ -2,7 +2,7 @@
 
 Version: 2026-11-12. Status: proposed v3.1 research protocol, not a calibrated prediction model. Historical website scores still use the legacy v2 method; they have not been recomputed under this standard or the new SIC dictionary.
 
-## Are all companies scored the same way?
+## Scoring Framework and Industry-Specific Weighting
 
 Use the same evidence rules, score anchors, missing-value treatment and formulas for everyone. Select a target-level policy from its permitted business information before scoring candidates; freeze that policy for all candidates of that target. Industry relevance can change weights, but candidate missingness or a desired ranking cannot. P0–P3 extraction priorities are not numerical weights.
 
