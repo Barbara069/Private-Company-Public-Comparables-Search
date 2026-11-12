@@ -1,5 +1,5 @@
-# Revenue Growth and EBITDA Forecasting
-**Barbara Bai | Parallel research pipeline | 12 November 2026**
+# 04. Revenue Growth and EBITDA Forecasting Methodology
+**Methodology and extraction specification | Updated 12 November 2026**
 
 ## Research objective
 This independent research pipeline complements the team’s main project by testing whether broader public-company coverage, evidence-linked business facets, and explicit industry and segment comparisons improve comparable selection and financial forecasting. The proposed forecasting stage compares two approaches: similarity-weighted public comparables and pooled industry-informed regression. Neither approach has yet produced evaluated forecasts in this pipeline.
@@ -8,6 +8,50 @@ This independent research pipeline complements the team’s main project by test
 Each of the original 560 listed companies is simulated as a private target. Matching and prediction may use only its official website and the revenue, EBITDA, and debt values supplied in the original instructor file. Missing values remain unknown. Target SEC filings, vendor financials, stock prices, and otherwise hidden segment financials must not enter target features, peer selection, weight selection, or forecast adjustments.
 
 A separate unrestricted research view can show those records for audit. Website visibility does not make a field eligible for the simulated-private experiment. Hidden target outcomes are reserved for evaluation; this restriction applies equally when constructing narratives and numerical forecasts.
+
+## Extraction specification: information and sources
+
+The table distinguishes the **current extraction** from fields **specified for the forecasting stage**. Database access or a planned field does not mean that field has already been downloaded or validated for every company.
+
+| Source | Information to extract | Role in the method | Current status and target restriction |
+|---|---|---|---|
+| Instructor Excel | Supplied revenue, EBITDA and debt; original company identifier, currency, units and any stated financial period | Starting target revenue, EBITDA margin and leverage context | Use original values only; do not invent dates, units or missing amounts. These three financial measures are the permitted target financial inputs. |
+| Official company website | Product/service descriptions; customers and end markets; business and revenue models; operating locations; disclosed business lines; dated announcements about launches, store openings, customers and partnerships | Target facet extraction, industry-module assignment and qualitative growth assumptions | Website passages are already used in restricted target matching. A dedicated, dated growth-signal pass over target websites is still required; current growth-tab filing excerpts do not substitute for it. |
+| Capital IQ Excel | Available identity fields, business descriptions, industry/segment fields, and supplied financial observations | Public-peer identity and financial comparison; cross-check against filings | Imported workbook fields must retain workbook name, sheet, row, column, period and unit. Do not assume every desired field exists. Target vendor descriptions and financials beyond the instructor inputs remain hidden from matching and prediction. |
+| LSEG | Retained business summaries, including TR.BusinessSummary; available public-peer revenue, EBITDA, debt, geographic/segment information and dated estimates if separately entitled and retrieved | Public-peer description, financial history and forward-growth inputs | Business descriptions are retained in research profiles. The current growth-signal batch is SEC-based; LSEG estimates, financial bridges and segment figures are not claimed complete. Retain actual field code, instrument, parameters, period and retrieval date for every downloaded observation. |
+| WRDS / Compustat | Available company business description (e.g. company.busdesc where available); public-peer revenue, operating-performance and balance-sheet observations; identifiers and fiscal periods | Independent retrieval route for descriptions and historical financial baselines | Existing WRDS records can support peer research. Dataset/table/column coverage must be checked before extraction. Do not label an operating-income field EBITDA without a documented bridge. WRDS and Capital IQ may share an underlying vendor and are not automatically independent confirmations. |
+| SEC filings and company-facts data | 10-K/20-F business discussion; 10-Q/6-K updates where applicable; MD&A revenue bridges; segment notes; debt notes; issuer-defined EBITDA reconciliations; structured reported revenue and debt facts where available | Source-backed public-peer facts, reported growth and financial reconciliation | Current growth batch extracts retained filing text, not a completed structured company-facts financial panel. Target filing text is research-only and excluded from simulated-private forecasting features. |
+| Earnings releases and earnings calls | Management guidance, forecast horizon, price/mix versus volume commentary, demand, retention, backlog conversion, unit growth and margin drivers | Explain peer outlook and proposed assumptions | Use issuer IR releases and legally available transcripts with date and speaker. A transcript observation is not a reported result. Comprehensive call/release extraction remains pending; do not infer completion from SEC coverage. |
+| Google Search and news | Discovery of official product pages, IR releases, filings and material dated developments; attributable third-party corroboration | Find missing evidence and investigate discrepancies | Google is a discovery route, not the underlying fact source. Download and cite the destination passage. Broad news coverage is not yet complete. Non-website target news is excluded unless the allowed-input policy is explicitly expanded. |
+| Fama–French industry classification / WRDS industry ratios | Industry membership or mapping, available industry-level ratios, dates, units and population definitions | Industry controls and peer/industry reference statistics | Distinguish a published industry statistic from a median computed over our peer sample. FF49 is an industry classification here, not a Fama–French stock-return factor model. Do not import a hidden target SIC/FF49 label; infer permitted target industry from its website. |
+
+### Growth signals extracted from retained SEC text
+
+| Signal family | Specific content retrieved | Interpretation required before use |
+|---|---|---|
+| Revenue / sales | Reported increases, declines and quoted growth figures | Identify period, consolidated versus segment scope, organic versus acquired growth and currency basis. |
+| Price and mix | Pricing changes, average check/selling price, customer/product mix | Separate price effects from volume; do not count the same effect twice. |
+| Volume and demand | Unit volumes, transactions, traffic and demand commentary | Distinguish issuer results from general market commentary. |
+| Customer recurrence | Customer acquisition, retention, subscription revenue and recurring-revenue statements | ARR and retention metrics need their issuer definitions and are not identical to recognized revenue. |
+| Orders / backlog | Order intake, bookings, backlog and conversion statements | Preserve expected conversion timing; backlog is not immediate revenue. |
+| New units / geography | New stores, restaurants, outlets and market entries | Separate gross openings, closures and net additions; establish revenue ramp assumptions separately. |
+| Products / milestones | Launches, platforms, commercialization and regulatory milestones | A launch or approval does not establish realized sales. |
+| Capacity / investment | Capacity expansion, facilities, production and capital expenditures | Investment is a possible enabling driver, not a direct revenue forecast. |
+| Acquisitions / disposals | Portfolio changes and stated revenue contributions | Separate acquired growth from organic growth and reconcile continuing operations. |
+| Guidance / outlook | Management expectations and forward-looking statements | Keep the forecast horizon, date, range and conditions. |
+| Macro / FX / constraints | Exchange-rate effects, inflation, supply constraints and demand softness | Establish whether an effect occurred, is expected, or is merely a conditional risk. |
+| EBITDA / margin | Operating-margin, gross-margin and adjusted-EBITDA drivers | Preserve accounting definition and reconciliation; operating margin is not EBITDA margin. |
+
+The current extractor searches the entire retained text, ranks relevant passages and retains at most two passages per category per document and four per category per company. It is a bounded evidence-retrieval pass, not an exhaustive capture of every relevant sentence. Statement type is assigned by text rules and still requires semantic review.
+
+### What is saved for each observation
+
+Store company/issuer identifier, facet or signal category, exact downloaded passage, source family, direct document URL or workbook locator, filing form/accession where applicable, publication date, financial period, retrieval timestamp, company/segment scope, quoted figures, units/currency when stated, and discrepancy/review status. Retain full downloaded text separately where already collected and link the excerpt to its document hash. Never manufacture missing metadata.
+
+Derived calculations must additionally identify their input observations and formula. For example, historical CAGR = (ending revenue / starting revenue)^(1 / years) − 1; forecast revenue and margins are calculated outputs, not quotations. Industry medians must disclose the included issuers, period, metric definition, currency treatment and observation count.
+
+A field may be retrieved, source-matched, meaning-reviewed, or forecast-eligible; these are different states. Three passages are not necessarily three independent sources. Store restricted-target eligibility explicitly so the unrestricted research display cannot silently feed hidden information into the model.
+
 
 ## Evidence collected so far
 The retained-filing extraction scanned 1,616 unique linked SEC documents, representing 527 companies, and retrieved 14,581 growth-related excerpts. These are retrieval results, not 14,581 verified independent facts or completed forecasts. Coverage is uneven and does not establish complete filing coverage for the global candidate universe.

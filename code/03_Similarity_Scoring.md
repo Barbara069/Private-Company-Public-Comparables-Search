@@ -1,4 +1,4 @@
-# Similarity Scoring Standard — Proposed v3.1
+# 03. Similarity Scoring Standard — Proposed v3.1
 
 Version: 2026-11-12. Status: proposed v3.1 research protocol, not a calibrated prediction model. Historical website scores still use the legacy v2 method; they have not been recomputed under this standard or the new SIC dictionary.
 

@@ -1,4 +1,4 @@
-# General Facet Dictionary
+# 01. General Facet Dictionary
 
 **Version: 2026-11-04 · 32 facets · English**
 

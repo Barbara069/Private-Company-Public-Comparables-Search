@@ -21,7 +21,7 @@ Website: https://barbara069.github.io/private-company-comparables-research/ — 
 
 - [Code directory](code/) — SEC refresh, evidence extraction, validation, CSV packaging/readback, dictionaries and scoring protocols.
 - [Website entry point](website/index.html) and [website JavaScript](code/website_app.js).
-- [Proposed similarity standard and weights](code/Similarity_Scoring_Standard.md).
+- [Proposed similarity standard and weights](code/03_Similarity_Scoring.md).
 - [Actual completion status and remaining gaps](code/Research_Completion_Status.md).
 - [Execution dependencies and version notes](code/README.md).
 

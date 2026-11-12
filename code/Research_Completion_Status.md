@@ -19,6 +19,6 @@
 
 ## Deliverables and publication scope
 
-The updated complete local data remains in `Targets_560.csv.gz` and `Public_Companies.csv.gz`; new SEC full text, filing dates/periods, URLs and hashes are retained in their records. `Extraction_Completeness.csv` lists missing general fields for each company. `Similarity_Completeness_Review.csv` labels historical pairs and their evidence gates. `Similarity_Scoring_Standard.md` contains the proposed weights, formulas and scoring anchors.
+The updated complete local data remains in `Targets_560.csv.gz` and `Public_Companies.csv.gz`; new SEC full text, filing dates/periods, URLs and hashes are retained in their records. `Extraction_Completeness.csv` lists missing general fields for each company. `Similarity_Completeness_Review.csv` labels historical pairs and their evidence gates. `03_Similarity_Scoring.md` contains the proposed weights, formulas and scoring anchors.
 
 Bulk updated company-data bundles from this pass have NOT been pushed to the public GitHub website. Its hosted company evidence remains the retained snapshot; source-code/method updates are published. This report must not be read as certification of live website data freshness.

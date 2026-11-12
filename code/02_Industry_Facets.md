@@ -1,4 +1,4 @@
-# SIC2 - 83 Industry Facet Dictionary
+# 02. SIC2 - 83 Industry Facet Dictionary
 
 ## Selecting facets for multiple business segments
 
