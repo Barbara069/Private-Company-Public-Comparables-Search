@@ -20,6 +20,7 @@ def acceptable(text,facet,block='MAIN'):
  if block=='MAIN' and facet=='Capital Intensity':
   if re.search(r'repurchas|dividend|general corporate purposes|cash commitments|access to capital markets|financial resources|fund working capital|liquidity needs|funding of general business|capital resources|could adversely|may adversely',text,re.I):return False
  if block=='MAIN' and facet=='Primary Products':
+  if re.search(r'internal.use software|accounting (?:guidance|standard)|FASB|ASU No\.|software development (?:project|methods)|employee benefits|health care claims',text,re.I):return False
   if re.search(r'open.source software licens|intends? to distribute|competitive factors|third.party software licens|software used internally|intellectual property infringement',text,re.I):return False
  if block=='INDUSTRY':
   if re.search(r'deferred tax|accounting standard|financial statement presentation|fair value hierarchy',text,re.I):return False
