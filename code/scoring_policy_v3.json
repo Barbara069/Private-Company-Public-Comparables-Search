@@ -1,0 +1,345 @@
+{
+  "version": "2026-11-11-proposed-v3",
+  "status": "PROPOSED_NOT_APPLIED_TO_LEGACY_SCORES",
+  "general_weights": [
+    {
+      "id": "G01",
+      "name": "Primary Products",
+      "priority": "P0",
+      "definition": "Named product categories and concrete examples; multi-select.",
+      "examples": "Payroll software; industrial pumps; hamburgers",
+      "order": 1,
+      "weight_percent": 10
+    },
+    {
+      "id": "G02",
+      "name": "Primary Services",
+      "priority": "P0",
+      "definition": "Services sold to customers; distinguish services from internal support functions.",
+      "examples": "Payroll processing; equipment maintenance; freight forwarding",
+      "order": 2,
+      "weight_percent": 5
+    },
+    {
+      "id": "G03",
+      "name": "Core Business Activity",
+      "priority": "P0",
+      "definition": "Precise operating verb + output; distinguish ownership, manufacturing, distribution and licensing.",
+      "examples": "Manufactures pumps; licenses software; operates restaurants",
+      "order": 3,
+      "weight_percent": 0
+    },
+    {
+      "id": "G04",
+      "name": "Customer Type",
+      "priority": "P0",
+      "definition": "B2B / B2C / B2G / mixed; identify the paying customer separately from the end user.",
+      "examples": "B2B employers; B2C diners; B2G agencies",
+      "order": 4,
+      "weight_percent": 5
+    },
+    {
+      "id": "G05",
+      "name": "Customer Segment",
+      "priority": "P0",
+      "definition": "Specific buyer/user populations and roles; do not substitute an industry or a customer-size claim.",
+      "examples": "HR administrators; franchise operators; hospital procurement teams",
+      "order": 5,
+      "weight_percent": 4
+    },
+    {
+      "id": "G06",
+      "name": "End Markets",
+      "priority": "P0",
+      "definition": "Customer verticals or product applications; not the supplier’s own industry classification.",
+      "examples": "Healthcare providers; automotive production; consumer dining",
+      "order": 6,
+      "weight_percent": 7
+    },
+    {
+      "id": "G07",
+      "name": "Customer Size",
+      "priority": "P0",
+      "definition": "SMB / mid-market / enterprise / government / consumer / mixed; retain issuer definitions.",
+      "examples": "SMB employers; large enterprises; individual consumers",
+      "order": 7,
+      "weight_percent": 3
+    },
+    {
+      "id": "G08",
+      "name": "Business Model",
+      "priority": "P0",
+      "definition": "How operations are organized and value is delivered; distinguish from billing.",
+      "examples": "Franchisor; vertically integrated manufacturer; marketplace operator",
+      "order": 8,
+      "weight_percent": 9
+    },
+    {
+      "id": "G09",
+      "name": "Revenue Model",
+      "priority": "P0",
+      "definition": "What customers pay for and how revenue is earned; preserve multiple streams.",
+      "examples": "Subscription fees; product sales; transaction commissions",
+      "order": 9,
+      "weight_percent": 9
+    },
+    {
+      "id": "G10",
+      "name": "Value Chain Position",
+      "priority": "P0",
+      "definition": "Position in the supply/value chain and role relative to customers and suppliers.",
+      "examples": "Component supplier; OEM; wholesale distributor",
+      "order": 10,
+      "weight_percent": 5
+    },
+    {
+      "id": "G11",
+      "name": "Geography Served",
+      "priority": "P0",
+      "definition": "Markets actually served; distinguish customers/operations from headquarters.",
+      "examples": "U.S. customers; Europe and Asia; domestic-only operations",
+      "order": 11,
+      "weight_percent": 3
+    },
+    {
+      "id": "G12",
+      "name": "Product Specialization",
+      "priority": "P1",
+      "definition": "Breadth and focus of offerings, distinct from a product list or an unverified superiority claim.",
+      "examples": "Single therapeutic area; broad HCM suite; application-specific components",
+      "order": 12,
+      "weight_percent": 3
+    },
+    {
+      "id": "G13",
+      "name": "Distribution Channels",
+      "priority": "P1",
+      "definition": "How customers are reached and sales/orders acquired.",
+      "examples": "Direct sales; independent distributors; e-commerce",
+      "order": 13,
+      "weight_percent": 3
+    },
+    {
+      "id": "G14",
+      "name": "Delivery Model",
+      "priority": "P1",
+      "definition": "How the product/service is provided or deployed; distinguish from acquisition channel.",
+      "examples": "Cloud SaaS; on-premise installation; on-site managed service",
+      "order": 14,
+      "weight_percent": 3
+    },
+    {
+      "id": "G15",
+      "name": "Pricing Structure",
+      "priority": "P1",
+      "definition": "Charging unit and contractual pricing mechanism; avoid securities/debt pricing.",
+      "examples": "Per employee/month; fixed project fee; cost-plus contract",
+      "order": 15,
+      "weight_percent": 3
+    },
+    {
+      "id": "G16",
+      "name": "Recurring Revenue Profile",
+      "priority": "P1",
+      "definition": "Nature of repeat revenue; distinguish contracted recurrence from habitual repeat purchases.",
+      "examples": "Renewable subscriptions; usage-based recurring fees; repeat noncontractual purchases",
+      "order": 16,
+      "weight_percent": 4
+    },
+    {
+      "id": "G17",
+      "name": "Customer Concentration",
+      "priority": "P1",
+      "definition": "Named large-customer dependence or disclosed concentration; include period and denominator for figures.",
+      "examples": "Largest customer: 15% of annual revenue; diversified customer base",
+      "order": 17,
+      "weight_percent": 2
+    },
+    {
+      "id": "G18",
+      "name": "Contract Duration",
+      "priority": "P1",
+      "definition": "Customer/service/franchise contract term and renewal structure; exclude financing maturities.",
+      "examples": "Annual auto-renewal; three-year service term; month-to-month",
+      "order": 18,
+      "weight_percent": 2
+    },
+    {
+      "id": "G19",
+      "name": "Capital Intensity",
+      "priority": "P1",
+      "definition": "Owned/leased productive assets and investment needs; distinguish issuer assets from franchisee/supplier assets.",
+      "examples": "Owned factories; leased retail sites; outsourced production",
+      "order": 19,
+      "weight_percent": 3
+    },
+    {
+      "id": "G20",
+      "name": "Regulatory Exposure",
+      "priority": "P1",
+      "definition": "Applicable operating licenses, approvals and regulatory regimes; identify jurisdiction.",
+      "examples": "FDA device clearance; banking supervision; food-safety regulation",
+      "order": 20,
+      "weight_percent": 3
+    },
+    {
+      "id": "G21",
+      "name": "Customer Switching Costs",
+      "priority": "P1",
+      "definition": "Cited operational, contractual or integration barriers; do not assume high costs from tenure alone.",
+      "examples": "Data migration; workflow retraining; contractual termination fees",
+      "order": 21,
+      "weight_percent": 3
+    },
+    {
+      "id": "G22",
+      "name": "Company Size Category",
+      "priority": "P2",
+      "definition": "Supplier operating scale with dated evidence and units; not customer size or an unsupported size label.",
+      "examples": "2,000 employees; 300 operated stores; annual revenue in stated currency",
+      "order": 22,
+      "weight_percent": 2
+    },
+    {
+      "id": "G23",
+      "name": "Labor Intensity",
+      "priority": "P2",
+      "definition": "Dependence on labor, specialist personnel or billable capacity.",
+      "examples": "Clinician-led care; technician-intensive service; automated production",
+      "order": 23,
+      "weight_percent": 1
+    },
+    {
+      "id": "G24",
+      "name": "Revenue Cyclicality",
+      "priority": "P2",
+      "definition": "Documented demand sensitivity, seasonality or cycle exposure; distinguish observed history from inference.",
+      "examples": "Construction-cycle demand; holiday seasonality; commodity-linked demand",
+      "order": 24,
+      "weight_percent": 2
+    },
+    {
+      "id": "G25",
+      "name": "Supply Chain Complexity",
+      "priority": "P2",
+      "definition": "Sourcing dependencies, concentration, lead times and procurement structure.",
+      "examples": "Single-source component; global supplier network; cooperative purchasing",
+      "order": 25,
+      "weight_percent": 1
+    },
+    {
+      "id": "G26",
+      "name": "Technology Dependence",
+      "priority": "P2",
+      "definition": "Operational reliance on technology/platforms; being in technology is not proof of a specific dependency.",
+      "examples": "Third-party cloud infrastructure; proprietary transaction platform",
+      "order": 26,
+      "weight_percent": 1
+    },
+    {
+      "id": "G27",
+      "name": "Geographic Concentration",
+      "priority": "P2",
+      "definition": "Dependence on particular markets; distinguish from the list of countries served.",
+      "examples": "80% of annual revenue in the U.S.; concentrated in one state",
+      "order": 27,
+      "weight_percent": 1
+    },
+    {
+      "id": "G28",
+      "name": "Product Differentiation",
+      "priority": "P2",
+      "definition": "Specific product/service differences with evidence; label issuer marketing claims.",
+      "examples": "Patented process; industry-specific workflow; custom-engineered design",
+      "order": 28,
+      "weight_percent": 1
+    },
+    {
+      "id": "G29",
+      "name": "IP Dependence",
+      "priority": "P2",
+      "definition": "Material dependence on patents, licenses, proprietary technology or other protected rights.",
+      "examples": "Licensed drug rights; patent-protected process; proprietary software",
+      "order": 29,
+      "weight_percent": 1
+    },
+    {
+      "id": "G30",
+      "name": "Brand Dependence",
+      "priority": "P2",
+      "definition": "Role of brand, trademark, licensing and customer recognition; distinguish documented model from assumed brand strength.",
+      "examples": "Licensed consumer brand; branded franchise system; private-label supplier",
+      "order": 30,
+      "weight_percent": 1
+    },
+    {
+      "id": "G31",
+      "name": "Competitive Positioning",
+      "priority": "P3",
+      "definition": "Attributable positioning/share claims with date, geography and market definition; label self-descriptions.",
+      "examples": "Issuer-described niche leader; independently measured category share",
+      "order": 31,
+      "weight_percent": 0
+    },
+    {
+      "id": "G32",
+      "name": "Company Maturity",
+      "priority": "P3",
+      "definition": "Operating stage and relevant business history; incorporation date alone does not establish maturity.",
+      "examples": "Commercial-stage business; pre-revenue development; established operating platform",
+      "order": 32,
+      "weight_percent": 0
+    }
+  ],
+  "default_block_weights": {
+    "general": 60,
+    "industry": 40
+  },
+  "sector_block_weights": {
+    "software_subscription": {
+      "general": 55,
+      "industry": 45
+    },
+    "financial_services": {
+      "general": 50,
+      "industry": 50
+    },
+    "professional_services": {
+      "general": 65,
+      "industry": 35
+    }
+  },
+  "industry_economic_dimensions": {
+    "product_service_application": 25,
+    "operating_and_revenue_model": 30,
+    "customer_channel_market": 15,
+    "asset_delivery_process": 20,
+    "regulation_input_cycle_exposure": 10
+  },
+  "industry_field_weights_status": "NOT_CALIBRATED; dimension budget requires explicit applicable-field allocation before scoring a SIC module",
+  "facet_anchors": {
+    "100": "Same economically relevant role, offering and customer need with source support",
+    "75": "Close substitute with a material but limited difference",
+    "50": "Adjacent business with both meaningful overlap and material differences",
+    "25": "Weak overlap, mainly broad industry or terminology",
+    "0": "Evidence establishes an economic mismatch"
+  },
+  "unknown": null,
+  "coverage_threshold": {
+    "overall": 80,
+    "general": 70,
+    "industry": 70
+  },
+  "critical_review_required": [
+    "entity identity",
+    "primary business",
+    "paying customer versus end user",
+    "operating model",
+    "source scope and target eligibility"
+  ],
+  "target_rule": "Only allowed official business website evidence and instructor Revenue/EBITDA/Debt; no hidden vendor/SEC/segment inputs",
+  "no_automatic_equal_segment_weights": true,
+  "split_status": "NO_TRAIN_TEST_SPLIT_CREATED",
+  "same_target_all_candidates_same_weights": true,
+  "weight_changes_based_on_candidate_missingness": false
+}
