@@ -6,6 +6,7 @@ def number(x):
  except (TypeError,ValueError):return -math.inf
 def key(r):return (str(r.get('Status','')).startswith('WITHHELD') or number(r.get('Similarity Percent'))==-math.inf,-number(r.get('Similarity Percent')),-number(r.get('Evidence Coverage Percent')),-number(r.get('Evidence Supported Points')),r['Candidate Name'],r['Candidate RIC'])
 def summary(r):
+ if r.get("Target ID")=="IQ23557" and r.get("Candidate Evidence Review")=="CORRECTED_2026-11-12":return ("Both sources support restaurant franchising; paired franchise economics 90.0/100.","No specific economic difference reliably established from permitted target evidence; relative mix and scale require further review.")
  ds=[f for f in r.get('Facet Details',[]) if number(f.get('weight'))>0 and not f.get('duplicate_of_main') and f.get('score') is not None and f.get('target',{}).get('text') and f.get('candidate',{}).get('text')]
  if not ds:return ('No eligible paired evidence.','Not established; missing evidence is not a difference.')
  a=max(ds,key=lambda f:(number(f['score']),number(f['weight'])));shared=sorted(set(a['target'].get('categories',[]))&set(a['candidate'].get('categories',[])));match=a['facet']+': '+('shared '+', '.join(shared[:3]) if shared else 'closest observed facet-text match')+f" ({a['score']}/100)"
