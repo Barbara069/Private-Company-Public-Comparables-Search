@@ -123,5 +123,5 @@ Growth evidence has been extracted, but semantic review and numerical forecastin
 Next, reconcile the most material growth passages, validate forecast-date financial inputs, repair candidate facet assignments, and evaluate both methods under identical information restrictions. Keep judgment-based overrides explicit and separate from computed similarity.
 
 ## Research access
-- [Research website](https://barbara069.github.io/private-company-comparables-research/)
+- [Research website](https://barbara069.github.io/Private-Company-Public-Comparables-Search/)
 - [Research code and data repository](https://github.com/Barbara069/Private-Company-Public-Comparables-Search)
