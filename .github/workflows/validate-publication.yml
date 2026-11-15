@@ -1,0 +1,11 @@
+name: Validate permitted-source publication
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python code/exclude_restricted_sources.py --validate
+      - run: node --check code/website_app.js
