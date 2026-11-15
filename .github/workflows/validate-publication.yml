@@ -8,4 +8,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python code/exclude_restricted_sources.py --validate
+      - run: python code/check_publication_tree.py
       - run: node --check code/website_app.js
