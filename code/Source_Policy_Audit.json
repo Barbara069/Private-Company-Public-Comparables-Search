@@ -1,7 +1,7 @@
 {
   "policy_version": "2026-11-15",
   "excluded_source_family": "WRDS-delivered content and dependent results",
-  "candidate_scores": "WITHDRAWN_PENDING_ALLOWED_SOURCE_RECOMPUTATION",
+  "candidate_scores": "RECOMPUTED_PERMITTED_SOURCE_PROVISIONAL_INDICES",
   "forecast_status": "PLAN_ONLY_NOT_EXECUTED",
   "records_by_dataset": {
     "Provided_CapIQ_Operating_Statistics": 560,
@@ -27,11 +27,16 @@
     "Growth_Signals": 527,
     "General_Evidence_Update": 38060,
     "Industry_Evidence_Update": 1358,
-    "Restricted_Target_Inputs": 560
+    "Restricted_Target_Inputs": 560,
+    "Official_Website_Refresh": 14,
+    "Public_Comparables": 2807,
+    "Comparable_Facet_Scores": 106004,
+    "Matching_Facet_Evidence": 84711,
+    "Comparable_Methodology": 1
   },
-  "csv_sha256": "5df303ccd2473a0057fd92ab7b36c7d914d1a74ea3828ac11c01e9f477aa1ee0",
-  "compressed_bytes": 76198183,
+  "csv_sha256": "cae5d81f3c9723f4804ff886882c53d900413ea3d9ee1e321af5059299429540",
+  "compressed_bytes": 88561498,
   "target_input_count": 560,
   "validation": "ALL_COMPRESSED_PUBLICATION_PAYLOADS_AND_EXPORTED_CSV_READ_BACK",
-  "history": "REBUILT_FROM_CLEAN_SNAPSHOT_WITH_USER_AUTHORIZATION"
+  "history": "CLEAN_HISTORY_RETAINED; PERMITTED_SOURCE_RESULTS_ADDED"
 }
