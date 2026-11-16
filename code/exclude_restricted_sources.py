@@ -101,6 +101,7 @@ def profile(p):
     return p
 
 def run():
+    assert not (D/'comparison_rebuild_manifest.json.gz').exists(), "Rebuilt comparisons exist: use --validate, not the retired cleanup generation step"
     # Redundant role-era payloads contain stale descriptions, joins and scores.
     for pattern in ['company_group_*.json.gz','facet_extra_profiles_*.json.gz','companies.json.gz','company_registry.json.gz','catalog.json.gz']:
         for p in D.glob(pattern):p.unlink();STATS['obsolete_payloads_removed']+=1
@@ -185,7 +186,10 @@ def validate():
                 for e in p.get('evidence',{}).values():assert e['source_id'] in p.get('sources',{}),path
                 for f in fields(p):
                     for e in f.get('evidence_ids',[])+f.get('other_evidence_ids',[]):assert e in p.get('evidence',{}),path
-        if path.parent.name=='matches':assert all(not rs for rs in data.values())
+        if path.parent.name=='matches':
+            for tid,rs in data.items():
+                for row in rs:
+                    assert row.get('Method Version')=='permitted-evidence-v3.2-2026-11-15' and row['Target ID']==tid
     inputs=load(D/'comparison_inputs.json.gz');assert len(inputs)==560,len(inputs)
     STATS['validated_compressed_payloads']=n;STATS['original_target_inputs_retained']=len(inputs)
     return dict(STATS)
@@ -203,6 +207,7 @@ def export_csv(destination,old_csv=None):
                 for row in csv.DictReader(f):
                     ds=row.get('dataset','')
                     # Preserve raw provider/source observations only; mixed derived tables are rebuilt below.
+                    if ds=='Official_Website_Refresh':continue
                     if not ds.startswith(('LSEG_','Provided_CapIQ_','Provided_Instructor_','SEC_','Official_Website_')):continue
                     if restricted(row):continue
                     try:record=json.loads(row.get('record_json','{}'))
@@ -216,6 +221,30 @@ def export_csv(destination,old_csv=None):
             for path in sorted((D/folder).glob('*.gz')):
                 for key,p in load(path).items():emit(dataset,key,p.get('company_name',p.get('name','')),'',p)
         for key,p in load(D/'comparison_inputs.json.gz').items():emit('Restricted_Target_Inputs',key,p.get('target_name',''),'TARGET',p)
+        if (D/'official_website_refresh_20261115.json.gz').exists():
+            for p in load(D/'official_website_refresh_20261115.json.gz'):
+                emit('Official_Website_Refresh',p['target_id'],'','TARGET',p,url=p.get('final_url',p.get('requested_url','')),date=p.get('retrieved_at',''),text=p.get('text',''))
+        if (D/'comparison_rebuild_manifest.json.gz').exists():
+            evidence={}
+            for path in sorted((D/'matches').glob('*.gz')):
+                for tid,rows in load(path).items():
+                    for r in rows:
+                        record={k:v for k,v in r.items() if k!='Facet Details'}
+                        emit('Public_Comparables',tid,r['Target Name'],'TARGET',record,url=r['Candidate Source URL'])
+                        for f in r['Facet Details']:
+                            refs={}
+                            for side,entity,role in [('target',tid,'TARGET'),('candidate',r['Canonical Company ID'],'PUBLIC')]:
+                                value={**f[side],'entity_id':entity,'entity_role':role,'module_code':f.get('module_code'),'standard_id':f.get('standard_id')}
+                                eid=hashlib.sha256(json.dumps(value,sort_keys=True,ensure_ascii=False).encode()).hexdigest()[:24]
+                                evidence[eid]=value;refs[side+'_facet_evidence_id']=eid
+                            detail={k:v for k,v in f.items() if k not in ['target','candidate']}
+                            detail.update(target_id=tid,candidate_id=r['Canonical Company ID'],candidate_ric=r['Candidate RIC'],**refs)
+                            emit('Comparable_Facet_Scores',tid,r['Target Name'],'TARGET',detail,facet=f['facet'])
+            for eid,value in evidence.items():
+                value['matching_evidence_id']=eid
+                emit('Matching_Facet_Evidence',value['entity_id'],'',value['entity_role'],value,facet=value['facet'],text=value.get('text',''))
+            emit('Comparable_Methodology','','','',load(D/'comparison_rebuild_manifest.json.gz'))
+
     # Full readback, including compressed content, not just filenames.
     with gzip.open(destination,'rt',encoding='utf-8',newline='') as f:
         n=0

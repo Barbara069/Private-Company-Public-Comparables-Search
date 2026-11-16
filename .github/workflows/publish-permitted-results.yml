@@ -1,0 +1,36 @@
+name: Publish rebuilt permitted-source results
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-permitted-results.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+jobs:
+  delivery:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GITHUB_REPOSITORY: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate source and scoring boundaries
+        run: |
+          python code/exclude_restricted_sources.py --validate
+          python code/check_publication_tree.py
+          node --check code/website_app.js
+      - name: Prepare comprehensive delivery and read it back
+        run: python code/publish_clean_release.py prepare
+      - name: Commit delivery audit
+        run: |
+          git config user.name 'Barbara069'
+          git config user.email 'Barbara069@users.noreply.github.com'
+          git add code/Source_Policy_Audit.json
+          git diff --cached --quiet || git commit -m 'Record rebuilt permitted-source CSV delivery audit'
+          git push origin HEAD:main
+          echo "CLEAN_COMMIT_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Publish verified downloads
+        run: python code/publish_clean_release.py publish
+      - name: Rebuild Pages
+        run: gh api --method POST repos/${{ github.repository }}/pages/builds

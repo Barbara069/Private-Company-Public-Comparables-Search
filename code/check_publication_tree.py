@@ -21,5 +21,8 @@ def check():
         elif p.suffix in ['.py','.js','.ipynb']:
             if ENDPOINT.search(p.read_text()):raise ValueError('Restricted-provider endpoint in executable source: '+relative)
         checked+=1
+    if (ROOT/'website/data/comparison_rebuild_manifest.json.gz').exists():
+        from validate_rebuilt_comparables import validate
+        validate()
     print('Publication-tree inputs/adapters checked:',checked)
 if __name__=='__main__':check()

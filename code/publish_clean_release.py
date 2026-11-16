@@ -15,7 +15,7 @@ def api(path,method='GET',body=None):
 def prepare():
     releases=api('/releases');old=[];originals={};old_csv=None
     for release in releases:
-        if release['tag_name']=='v2026.11.15-source-clean-final':continue
+        if release['tag_name']=='v2026.11.15-permitted-comparables':continue
         old.append({'id':release['id'],'tag':release['tag_name']})
         for asset in release['assets']:
             name=asset['name']
@@ -30,14 +30,14 @@ def prepare():
     output=TMP/'Research_Data.csv.gz';counts=export_csv(output,old_csv)
     payload={'old_releases':old,'originals':originals,'csv':str(output),'counts':counts}
     (TMP/'prepared.json').write_text(json.dumps(payload))
-    audit={'policy_version':'2026-11-15','excluded_source_family':'WRDS-delivered content and dependent results','candidate_scores':'WITHDRAWN_PENDING_ALLOWED_SOURCE_RECOMPUTATION','forecast_status':'PLAN_ONLY_NOT_EXECUTED','records_by_dataset':counts,'csv_sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'compressed_bytes':output.stat().st_size,'target_input_count':560,'validation':'ALL_COMPRESSED_PUBLICATION_PAYLOADS_AND_EXPORTED_CSV_READ_BACK','history':'REBUILT_FROM_CLEAN_SNAPSHOT_WITH_USER_AUTHORIZATION'}
+    audit={'policy_version':'2026-11-15','excluded_source_family':'WRDS-delivered content and dependent results','candidate_scores':'RECOMPUTED_PERMITTED_SOURCE_PROVISIONAL_INDICES','forecast_status':'PLAN_ONLY_NOT_EXECUTED','records_by_dataset':counts,'csv_sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'compressed_bytes':output.stat().st_size,'target_input_count':560,'validation':'ALL_COMPRESSED_PUBLICATION_PAYLOADS_AND_EXPORTED_CSV_READ_BACK','history':'CLEAN_HISTORY_RETAINED; PERMITTED_SOURCE_RESULTS_ADDED'}
     (ROOT/'code/Source_Policy_Audit.json').write_text(json.dumps(audit,indent=2)+'\n')
     print('Prepared source-filtered release:',sum(counts.values()),'rows;',output.stat().st_size,'bytes')
 
 def publish():
-    p=json.loads((TMP/'prepared.json').read_text());sha=os.environ['CLEAN_COMMIT_SHA'];tag='v2026.11.15-source-clean-final'
+    p=json.loads((TMP/'prepared.json').read_text());sha=os.environ['CLEAN_COMMIT_SHA'];tag='v2026.11.15-permitted-comparables'
     existing=next((r for r in api('/releases') if r['tag_name']==tag),None)
-    body='Source-filtered research delivery, 15 November 2026. Restricted academic-database observations and dependent scores are excluded. Preserve the two permitted original workbooks beside the notebook. Company forecasts are planned, not executed. See code/Source_Policy_Audit.json and code/04_Revenue_Growth_Methodology.md.'
+    body='Source-filtered research delivery, 15 November 2026. Restricted academic-database observations and their old dependent scores are excluded. New permitted-source provisional comparable indices, per-facet evidence and weights are included. Preserve the two permitted original workbooks beside the notebook. Company forecasts are planned, not executed. See code/Source_Policy_Audit.json and code/04_Revenue_Growth_Methodology.md.'
     release=existing or api('/releases','POST',{'tag_name':tag,'target_commitish':sha,'name':'Permitted-source company research — 15 November 2026','body':body,'draft':False,'prerelease':False})
     upload=release['upload_url'].split('{')[0]
     assets=[('Research_Data.csv.gz',Path(p['csv']))]+[(name,Path(path)) for name,path in p['originals'].items()]

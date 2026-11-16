@@ -1,7 +1,11 @@
 # Research code
 
-Python 3 and Node.js are required for source filtering and viewer validation. The notebook additionally uses pandas, requests and openpyxl; direct LSEG retrieval needs its authorized SDK/session. No academic-database adapter is included.
+The current permitted-evidence rebuild uses `rebuild_permitted_comparables.py`, `matching_rules.json`, `strict_facet_checks.py` and `public_facet_rules.py`. It reads only the source-filtered catalog, attributed public profiles, the isolated 560 target inputs and the numbered facet/weight dictionaries. It never loads retired mixed-source matches, vectors or classifications.
 
-Run `python code/exclude_restricted_sources.py --validate` and `python code/build_unified_research_site.py` before publishing. These validate the decompressed website payloads and check JavaScript. `source_policy.py` is the shared exclusion gate. Original target website plus instructor revenue, EBITDA and debt are the only simulated-private model inputs.
+For inference install Python 3, numpy, torch, scikit-learn, sentence-transformers<4, transformers<5, tokenizers<0.23 and huggingface-hub<1. Cache the public `sentence-transformers/all-MiniLM-L6-v2` model before an offline run. The model is not fine-tuned on target financial outcomes. The notebook additionally uses pandas, requests and openpyxl; direct LSEG retrieval needs an authorized SDK/session. No academic-database adapter or credentials are included.
 
-Source-extraction utilities describe research work; presence of code does not prove all fields were downloaded or verified. Current candidate ranking must be rebuilt from the source-filtered corpus.
+Run `python code/rebuild_permitted_comparables.py --cache /path/to/cache`, then `python code/package_rebuilt_comparables.py --cache /path/to/cache`. Cache files are resumable intermediate embeddings, not publication data. `--pilot` produces a separate two-target diagnostic and must not be published as the full result.
+
+Before publishing run `python code/validate_rebuilt_comparables.py`, `python code/exclude_restricted_sources.py --validate`, `python code/check_publication_tree.py` and `python code/build_unified_research_site.py`. Do not rerun the destructive source-cleanup generation step on newly rebuilt matches. The shared `source_policy.py` rejects excluded observations. `publish_clean_release.py` packages the comprehensive CSV and preserves the two permitted original workbooks in Releases.
+
+See `03_Similarity_Scoring.md` for active 60/40 general/industry indices, frozen target weights, evidence coverage, ordering and abstention rules. These are provisional automated results, not completed human validation or five-year forecasts. All source excerpts retain their provenance; unknown facts remain unknown.

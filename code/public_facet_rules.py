@@ -3,8 +3,6 @@ These gates remove obvious assignment errors; they do not certify facts.
 """
 import re,sys
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2]
-sys.path.insert(0,str(ROOT/'outputs/global_comps_560'))
 from strict_facet_checks import strict_reasons
 PROMO=re.compile(r'are you passionate|whether you.re|comes? from all walks|worked (?:their|your) way|visionary entrepreneur|entrepreneur who|exciting opportunity|new restaurant conversion|travel center conversion|career opportunit|we.re hiring|join our team|click here|cookie (?:policy|preferences|settings|consent)|accept (?:all )?cookies|we use cookies|privacy policy|all rights reserved|subscribe to|sign up for|your feedback|site navigation',re.I)
 PRODUCT=re.compile(r'hamburgers?|burgers?|sandwich|chicken|fries|desserts?|beverages?|soft drinks|coffee|breakfast|software|platform|applications?|devices?|equipment|machinery|components?|chemicals?|pharmaceutical|therapeutic|drug|diagnostic|apparel|footwear|cosmetics?|steel|alumin|cement|paper|semiconductor|vehicles?|aircraft|boats?|food products|insurance products|investment products|loans?|financial products|electricity|natural gas|petroleum|real estate|properties|products? (?:include|consist|such as)|(?:sells?|retails?).{0,100}(?:goods|merchandise|products)',re.I)
@@ -32,7 +30,7 @@ def acceptable(text,facet,block='MAIN'):
   return True
  if facet=='Primary Products':
   if not PRODUCT.search(text):return False
-  if not (OFFER.search(text) or re.search(r'learn about.{0,60}(?:burger|sandwich|software|products)|(?:our|its|the company.s) (?:products|software|platform|menu)',text,re.I)):return False
+  if not (OFFER.search(text) or re.search(r'learn about.{0,60}(?:burger|sandwich|software|products)|(?:our|its|the company.s).{0,25}(?:products|software|platform|menu)',text,re.I)):return False
   if re.search(r'menu price|product mix|food cost|sampled|laboratory|quality assurance|animal welfare|processing facilities|preparation and service|supply chain|revenue (?:increas|decreas)|sales (?:increas|decreas)',text,re.I):return False
   return True
  if strict_reasons(text,facet):return False

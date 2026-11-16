@@ -1,6 +1,18 @@
-# 03. Similarity Scoring Standard — Proposed v3.1
+# 03. Similarity Scoring Standard — Permitted-Evidence v3.2
 
-Version: 2026-11-12. Status: proposed v3.1 research protocol, not a calibrated prediction model. Historical website scores still use the legacy v2 method; they have not been recomputed under this standard or the new SIC dictionary.
+Version: 2026-11-15. Active implementation: automatically extracted, permitted-source research indices. The withdrawn mixed-source candidates, embeddings and scores are not reused. These results require analyst review and are not a calibrated probability or a validated valuation model.
+
+## Active implementation and interpretation
+
+1. **Target information boundary.** Infer the target's business and applicable industry module only from its own operating website. Instructor revenue, EBITDA and debt remain visible separately; they currently have zero scoring influence because comparable units and dates have not been established. Exclude target SEC/vendor profiles, competitor tables, applicant text and internal-use accounting passages. Issuer identifiers are used only to exclude self-matches and duplicates.
+2. **Global retrieval.** Search eligible attributed descriptions in the retained public-company catalog using 70% pretrained passage-embedding cosine similarity and 30% target-normalized lexical similarity. Retrieve up to 60 distinct issuers per target; apply restaurant/HCM relevance gates when supported by target website evidence. The catalog is a retained October 2026 listing snapshot, not a verified live census of every listed company.
+3. **General and industry scoring.** Freeze 60% general / 40% industry weights for each target. Use the numbered general fields below and applicable fields from the 83-module, 546-field industry dictionary. Industry route codes are website-inferred hypotheses, not vendor SIC facts. Inapplicable, diagnostic and duplicate dimensions receive zero weight before comparing any candidates; candidate missingness cannot change the frozen weights. Company Size Category is currently zero-weight. General weights are rescaled within their 60% block after these exclusions.
+4. **Evidence-level indices.** Where both sides have explicit categories, the facet index is 65% category overlap coefficient (intersection divided by the smaller category-set size) plus 35% normalized sentence-embedding cosine. Otherwise use the cosine index alone. Generic software labels do not establish product fit. Known restaurant-format or brand-owner versus master-licensee differences cap the affected facet indices. Automated text selection is not human factual validation.
+5. **Three separate measures.** Let w be each facet's total-model weight in percentage points and s its 0–100 index. Coverage C is the sum of weights with evidence on both sides; evidence-supported points E = sum(w × s / 100); observed similarity S = 100 × E / C. Unknowns are excluded from S and remain visible as missing coverage, rather than being assigned a business mismatch.
+6. **Ordering.** The displayed provisional Ranking Score R = S × (0.5 + 0.5 × min(1, C / 60)). This explicitly discounts the reliability of a high average based on thin evidence; it is an analyst-designed starting rule, not an estimated probability. Sort R descending, then S and C. Require at least 15% coverage plus observed offering evidence with index ≥25; show at most ten candidates and abstain when evidence is inadequate. No result is marked final-ranking eligible.
+7. **Multiple activities.** This first rebuild scores the website-inferred primary activity and discloses additional activity hypotheses. It does not claim a revenue-weighted multi-segment aggregate. Segment weights remain unknown unless allowed target evidence establishes them; never invent equal segment weights.
+
+The qualitative 0/25/50/75/100 anchors and alternative sector budgets below are a proposed analyst-review protocol. The active automated cosine/category indices do not claim to implement human semantic grading. No train/test split or forecast validation is claimed by this rebuild.
 
 ## Scoring Framework and Industry-Specific Weighting
 
@@ -51,7 +63,7 @@ The business activity field is a required relevance gate but has no extra numeri
 
 The operational proposal is now the **explicit per-field schedule in the appendix**: all 83 SIC2 modules and 546 fields are listed with importance points, base reference percentages and activation rules. Earlier 25/30/15/20/10 economic-dimension budgets were conceptual planning guidance; they are superseded by this field-level schedule and are not an additional set of simultaneous weights. The five dimensions remain useful explanation categories, not a second weighting layer.
 
-Weights are analyst-proposed starting assumptions, not fitted or empirically validated coefficients. Activate only evidenced applicable activities/subtypes and exclude duplicate economic dimensions before freezing a target policy. Do not treat all 546 fields as applicable or normalize away missing candidate evidence. Performance KPIs and unavailable target facts remain diagnostic. Historical website results have not been recomputed with this appendix.
+Weights are analyst-proposed starting assumptions, not fitted or empirically validated coefficients. Activate only evidenced applicable activities/subtypes and exclude duplicate economic dimensions before freezing a target policy. Do not treat all 546 fields as applicable or normalize away missing candidate evidence. Performance KPIs and unavailable target facts remain diagnostic. The active rebuild uses applicable field IDs and importance points from this appendix; automatic passage assignments still require semantic review.
 
 ## Per-facet judgments
 

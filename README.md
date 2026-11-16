@@ -21,6 +21,6 @@ Sources retained where independently available include official company websites
 
 ## Current status
 
-The source policy changed on 15 November 2026. Previous candidate baskets and scores were produced from a mixed-source corpus and have been withdrawn pending allowed-source re-selection and scoring. Surviving excerpts are not automatically semantically verified. Forecast methodology is specified; company forecasts are not yet executed or validated.
+The source policy changed on 15 November 2026. Previous mixed-source candidate baskets and scores remain withdrawn. A new permitted-evidence run reselects candidates for all 560 target inputs, including general and applicable industry facets; lists and scores remain provisional and include abstentions when evidence is insufficient. Surviving excerpts are not automatically semantically verified. Forecast methodology is specified; company forecasts are not yet executed or validated.
 
 The website lives in `website/`; canonical code and documentation live in `code/`. The publication guard checks decompressed payloads and evidence references. Original permitted target inputs remain isolated from unrestricted public research.

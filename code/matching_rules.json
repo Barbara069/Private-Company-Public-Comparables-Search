@@ -1,0 +1,1231 @@
+{
+ "PATTERNS": {
+  "Primary Products": "product|software|equipment|platform|device|manufactur|offers? |portfolio|food|beverage|drug|chemical|component|menu|hamburger|burger|sandwich|chicken|fries",
+  "Primary Services": "services?|provides?|support|consult|maintenance|management|payroll|outsourc|logistics",
+  "Core Business Activity": "operat|manufactur|develop|distribut|specializ|provid|design|market|business|restaurant|bank",
+  "Customer Segment": "customers?|clients?|businesses|organizations|enterprises|consumers|households|government|employers|patients|homeowners",
+  "End Markets": "industries|industrials?|healthcare|automotive|aerospace|defense|commercial|residential|retail|education|hospital|financial institutions|construction|data cent",
+  "Business Model": "manufactur|franchis|subscription|software.as.a.service|saas|marketplace|distribut|retail|bank|insurance|leasing|consult",
+  "Revenue Model": "subscription|fees?|commissions?|royalt|licens|transaction|franchis|rental|leasing|sells? |sales of|premiums",
+  "Value Chain Position": "manufactur|original equipment|\\boem\\b|distribut|wholesale|retail|supplier|reseller|upstream|downstream|producer|operator",
+  "Geography Served": "united states|north america|europe|asia|global|worldwide|international|canada|countries|united kingdom|china|japan|australia",
+  "Company Size Category": "(?!)",
+  "Product Specialization": "specializ|niche|diversif|broad range|comprehensive|focused on|focuses on",
+  "Customer Concentration": "customer concentration|largest customer|top .{0,12}customer|concentrated customer|diversified customer",
+  "Distribution Channels": "direct sales|sales force|dealer|partner|distributor|online|e.commerce|retail store|broker|independent agent",
+  "Delivery Model": "cloud|on.premise|on.site|online|physical|digital|saas|remote|software.as.a.service",
+  "Pricing Structure": "per.user|per.employee|fixed.fee|usage.based|price per|pricing|pay.as.you.go",
+  "Recurring Revenue Profile": "recurring revenue|subscription|renewal|repeat purchase|long.term contract",
+  "Capital Intensity": "asset.light|asset.heavy|manufacturing facilit|manufacturing plant|production facilit|owns and operates|capital.intensive",
+  "Labor Intensity": "labor.intensive|labour.intensive|skilled workforce|personnel expenses|staffing|professional employees",
+  "Regulatory Exposure": "regulat|\\bfda\\b|compliance|licensing requirements|medicare|medicaid|insurance authority",
+  "Competitive Positioning": "market leader|leading provider|market share|competitive position|largest provider|largest manufacturer",
+  "Product Differentiation": "proprietary|differentiat|patented|unique technology|specialized|customiz",
+  "Customer Switching Costs": "switching cost|switch providers|customer retention|migration cost|integrated workflow",
+  "Revenue Cyclicality": "cyclical|seasonal|cyclicality|economic cycle|commodity price|recession",
+  "Company Maturity": "founded|established|incorporated|since [12][09][0-9]{2}",
+  "Technology Dependence": "technology|software|platform|algorithm|data analytics|automation|digital|artificial intelligence",
+  "Geographic Concentration": "primarily in|principally in|predominantly in|concentrated in|exclusively in",
+  "Supply Chain Complexity": "supply.chain|sourcing|suppliers|supply network|logistics network",
+  "Contract Duration": "long.term contract|multi.year|short.term contract|contract duration|annual contract|month.to.month",
+  "IP Dependence": "patent|intellectual property|proprietary technolog|licensing technolog",
+  "Brand Dependence": "brands?|trademark|franchise",
+  "Customer Type": "customers?|clients?|consumers?|B2B|B2C|B2G|enterprises|businesses|government|employers",
+  "Customer Size": "small.{0,25}business|medium.{0,25}business|mid.market|enterprise customers|large.{0,20}(?:business|organization|employer)"
+ },
+ "CATS": {
+  "Customer Segment": {
+   "B2B": "business customers|enterprise|organizations|employers|small businesses|corporate customers|institutional clients",
+   "B2C": "consumers|households|shoppers|homeowners|patients|individual customers|retail customers",
+   "B2G": "government agencies|government customers|public sector"
+  },
+  "Business Model": {
+   "manufacturing": "manufactur",
+   "franchise": "franchis",
+   "SaaS": "saas|software.as.a.service|cloud.based software",
+   "marketplace": "marketplace",
+   "distribution": "distribut|wholesale",
+   "retail": "retailer|retailing|retail store",
+   "bank": "banking|commercial bank",
+   "insurance": "insurance",
+   "consulting": "consult",
+   "leasing": "leasing|rental"
+  },
+  "Revenue Model": {
+   "subscription": "subscription",
+   "fees": "\\bfees?\\b",
+   "commission": "commission",
+   "royalty": "royalt",
+   "licensing": "licens",
+   "transaction": "transaction",
+   "franchise": "franchis",
+   "rent": "rental|leasing",
+   "product sales": "sells? |sales of|product sales",
+   "insurance premium": "premiums"
+  },
+  "Value Chain Position": {
+   "manufacturer": "manufactur",
+   "distributor": "distribut|wholesale",
+   "retailer": "retailer|retailing|retail store",
+   "producer": "producer|production",
+   "operator": "operator|operates",
+   "supplier": "supplier|supplies"
+  },
+  "Delivery Model": {
+   "cloud": "cloud|saas|software.as.a.service",
+   "on-premise": "on.premise",
+   "on-site": "on.site",
+   "online": "online|digital",
+   "physical": "physical"
+  },
+  "Geography Served": {
+   "US": "united states|\\bU\\.S\\.",
+   "North America": "north america",
+   "Europe": "europe",
+   "Asia": "asia",
+   "Global": "global|worldwide|international",
+   "Canada": "canada",
+   "UK": "united kingdom",
+   "China": "china",
+   "Japan": "japan",
+   "Australia": "australia"
+  },
+  "Primary Products": {
+   "software": "software|payroll|human capital|HRIS|\\bHCM\\b",
+   "consumer goods": "footwear|apparel|fragrance|cosmetic|skincare|scrubs",
+   "industrial equipment": "equipment|machinery|air condition|HVAC|heat trac|industrial heating",
+   "financial products": "insurance|investment|banking|exchange.traded|securities|loans",
+   "health products": "medical device|diagnostic|pharmaceutical|therapeutic|drug",
+   "energy": "electricity|natural gas|petroleum|crude oil|solar|wind power",
+   "materials": "chemicals?|steel|metal|cement|paper|timber",
+   "food and beverage": "beer|brewer|beverages?|bottl|food products|snack|dairy",
+   "transport equipment": "boats?|vehicles?|aircraft|automotive",
+   "burger sandwiches": "hamburgers?|\\bburgers?\\b",
+   "chicken meals": "chicken (?:sandwich|nugget|meal)|fried chicken",
+   "pizza": "\\bpizzas?\\b",
+   "coffee/bakery": "coffee|doughnuts?|donuts?|bakery",
+   "Mexican food": "tacos?|burritos?|Mexican.food",
+   "HCM/payroll": "payroll|human capital|human resources management|workforce management|HRIS|\\\\bHCM\\\\b",
+   "ERP/accounting": "enterprise resource planning|\\\\bERP\\\\b|accounting software",
+   "CRM": "customer relationship management|\\\\bCRM\\\\b",
+   "spend/expense": "spend management|expense management|invoice.to.pay",
+   "cybersecurity": "cybersecurity|cyber.security",
+   "field-service software": "field.service management|contractors?.{0,30}software"
+  },
+  "Primary Services": {
+   "software support": "software.{0,50}support|implementation|payroll",
+   "professional services": "consult|advisory|professional services|outsourc",
+   "restaurant service": "restaurant|dining|foodservice",
+   "distribution": "distribut|logistics|freight",
+   "financial services": "insurance|banking|asset management|investment management",
+   "healthcare services": "clinic|medical services|hospital|healthcare services|home.health|homecare|health care|patient care",
+   "maintenance": "maintenance|repair|inspection"
+  },
+  "Customer Type": {
+   "B2B": "businesses|enterprises|employers|corporate clients|commercial customers|B2B",
+   "B2C": "consumers?|individual customers|diners|B2C",
+   "B2G": "government (?:customers|agencies)|public sector|B2G"
+  },
+  "Customer Size": {
+   "SMB": "small.{0,25}(?:business|employer)|small and mid",
+   "mid-market": "mid.market|medium.{0,25}(?:business|employer)",
+   "enterprise": "large enterprises|enterprise customers|large.{0,25}(?:business|organization|employer)"
+  }
+ },
+ "IND_PAT": {
+  "Technology / SaaS": [
+   [
+    "Software Category",
+    "payroll|human capital|human resource|HRIS|\\bHCM\\b|enterprise resource|\\bERP\\b|\\bCRM\\b|cybersecurity|accounting software|spend management",
+    {
+     "HCM/payroll": "payroll (?:software|processing|services|solutions)|human capital|human resource|HRIS|\\bHCM\\b|workforce management",
+     "ERP/accounting": "enterprise resource|\\bERP\\b|accounting",
+     "CRM": "\\bCRM\\b|customer relationship",
+     "security": "cybersecurity|cyber.security",
+     "spend/finance": "spend management|expense management|accounts payable"
+    }
+   ],
+   [
+    "Deployment Model",
+    "SaaS|software.as.a.service|cloud|on.premise|hybrid",
+    {
+     "cloud": "cloud|SaaS|software.as.a.service",
+     "on-premise": "on.premise",
+     "hybrid": "hybrid"
+    }
+   ],
+   [
+    "Customer Size",
+    "small.{0,20}business|medium.{0,20}business|mid.market|enterprise|large.{0,20}(?:business|organization|employer)",
+    {
+     "SMB": "small.{0,20}business|medium.{0,20}business",
+     "mid-market": "mid.market",
+     "enterprise": "enterprise|large.{0,20}(?:business|organization|employer)"
+    }
+   ],
+   [
+    "Pricing Metric",
+    "per.employee|per.user|per.seat|usage.based|enterprise licen|pricing metric",
+    {
+     "per employee": "per.employee",
+     "per user/seat": "per.user|per.seat",
+     "usage": "usage.based",
+     "enterprise license": "enterprise licen"
+    }
+   ],
+   [
+    "Revenue Composition",
+    "subscription|licens.{0,30}revenue|services.{0,30}revenue",
+    {
+     "subscription": "subscription",
+     "license": "licens",
+     "services": "services.{0,30}revenue"
+    }
+   ],
+   [
+    "Product Architecture",
+    "platform|point solution|single.database|\\bAPI\\b|application programming",
+    {
+     "platform": "platform",
+     "single database": "single.database",
+     "API": "\\bAPI\\b|application programming",
+     "point solution": "point solution"
+    }
+   ],
+   [
+    "Implementation Complexity",
+    "implementation|deployment|self.service|onboarding|migration",
+    {
+     "self-service": "self.service",
+     "implementation support": "implementation|onboarding",
+     "migration": "migration"
+    }
+   ],
+   [
+    "Integration Dependence",
+    "integrat|ecosystem|application programming|\\bAPI\\b",
+    {
+     "integrated": "integrat",
+     "API/ecosystem": "ecosystem|application programming|\\bAPI\\b"
+    }
+   ],
+   [
+    "Customer Retention Model",
+    "mission.critical|customer retention|switching|workflow|renewal",
+    {
+     "workflow embedded": "workflow|mission.critical",
+     "retention/renewal": "customer retention|renewal",
+     "switching": "switching"
+    }
+   ],
+   [
+    "AI Exposure",
+    "artificial intelligence|machine learning|AI.enabled|AI.native|\\bAI\\b",
+    {
+     "AI-enabled": "artificial intelligence|machine learning|AI.enabled|\\bAI\\b",
+     "AI-native": "AI.native"
+    }
+   ]
+  ],
+  "Manufacturing / Industrials": [
+   [
+    "Manufacturing Type",
+    "manufactur|assembly|fabricat|process production",
+    {
+     "assembly/discrete": "assembly|assembl|fabricat|discrete",
+     "process": "process manufactur|process production",
+     "manufacturing unspecified": "manufactur"
+    }
+   ],
+   [
+    "Material Type",
+    "steel|aluminum|aluminium|plastic|chemical|composite|metal",
+    {
+     "metal": "steel|aluminum|aluminium|metal",
+     "plastic": "plastic",
+     "chemical": "chemical",
+     "composite": "composite"
+    }
+   ],
+   [
+    "Production Model",
+    "make.to.order|made.to.order|make.to.stock|custom.engineer|contract manufactur",
+    {
+     "make to order": "make.to.order|made.to.order|custom.engineer",
+     "make to stock": "make.to.stock",
+     "contract": "contract manufactur"
+    }
+   ],
+   [
+    "Product Complexity",
+    "engineered|precision|commodity|customized|customised",
+    {
+     "engineered": "engineered|precision|customized|customised",
+     "commodity": "commodity"
+    }
+   ],
+   [
+    "Production Role",
+    "original equipment|\\bOEM\\b|\\bODM\\b|contract manufactur|components?|supplier",
+    {
+     "OEM": "original equipment|\\bOEM\\b",
+     "ODM/contract": "\\bODM\\b|contract manufactur",
+     "component supplier": "components?|supplier"
+    }
+   ],
+   [
+    "Automation Level",
+    "automat|robotic|manual production",
+    {
+     "automated": "automat|robotic",
+     "manual": "manual production"
+    }
+   ],
+   [
+    "End-Market Exposure",
+    "aerospace|automotive|data center|residential|commercial|industrial|medical|construction",
+    {
+     "aerospace": "aerospace",
+     "automotive": "automotive",
+     "data center": "data center",
+     "construction": "construction|residential|commercial",
+     "medical": "medical",
+     "industrial": "industrial"
+    }
+   ],
+   [
+    "Capacity Sensitivity",
+    "capacity utilization|fixed.cost|manufacturing capacity|production capacity",
+    {}
+   ],
+   [
+    "Supply Chain Position",
+    "tier.one|tier.1|tier.two|tier.2|original equipment|final manufactur|component supplier",
+    {
+     "tier1": "tier.one|tier.1",
+     "tier2": "tier.two|tier.2",
+     "OEM/final": "original equipment|final manufactur",
+     "component": "component supplier"
+    }
+   ],
+   [
+    "Raw Material Exposure",
+    "steel|energy costs|semiconductor|raw material|copper|aluminum",
+    {
+     "steel": "steel",
+     "semiconductor": "semiconductor",
+     "copper": "copper",
+     "aluminum": "aluminum",
+     "energy": "energy costs"
+    }
+   ]
+  ],
+  "Financial Services": [
+   [
+    "Financial Business Type",
+    "bank|insurance|asset management|investment management|brokerage|exchange.traded|wealth management",
+    {
+     "banking": "bank",
+     "insurance": "insurance",
+     "asset management": "asset management|investment management|exchange.traded|wealth management",
+     "brokerage": "brokerage"
+    }
+   ],
+   [
+    "Revenue Driver",
+    "interest income|net interest|fees?|commissions?|premiums|AUM",
+    {
+     "interest": "interest income|net interest",
+     "fees": "fees?|commissions?|AUM",
+     "premiums": "premiums"
+    }
+   ],
+   [
+    "Customer Type",
+    "customers?|clients?|businesses|organizations|enterprises|consumers|households|government|employers|patients|homeowners",
+    {
+     "B2B": "business customers|enterprise|organizations|employers|small businesses|corporate customers|institutional clients",
+     "B2C": "consumers|households|shoppers|homeowners|patients|individual customers|retail customers",
+     "B2G": "government agencies|government customers|public sector"
+    }
+   ],
+   [
+    "Balance Sheet Dependence",
+    "fee.based|balance.sheet|deposits|loan portfolio|lending|underwrit",
+    {
+     "fee based": "fee.based",
+     "balance sheet": "balance.sheet|deposits|loan portfolio|lending|underwrit"
+    }
+   ],
+   [
+    "Credit Exposure",
+    "consumer loan|commercial loan|mortgage|credit risk|credit exposure",
+    {
+     "consumer": "consumer loan",
+     "commercial": "commercial loan",
+     "mortgage": "mortgage"
+    }
+   ],
+   [
+    "Asset Class Focus",
+    "equity|equities|fixed.income|credit|real estate|digital.asset|exchange.traded",
+    {
+     "equity": "equity|equities",
+     "fixed income/credit": "fixed.income|credit",
+     "real estate": "real estate",
+     "digital": "digital.asset",
+     "ETF": "exchange.traded"
+    }
+   ],
+   [
+    "Regulatory Regime",
+    "banking regulat|insurance regulat|securities regulat|regulated fund|federal reserve",
+    {}
+   ],
+   [
+    "Distribution Model",
+    "branch|financial advis|broker|digital|online",
+    {
+     "branch": "branch",
+     "adviser/broker": "financial advis|broker",
+     "digital": "digital|online"
+    }
+   ],
+   [
+    "Risk Underwriting Model",
+    "underwrit|direct lender|broker|insur|lending",
+    {
+     "underwriter/lender": "underwrit|direct lender|lending",
+     "broker": "broker",
+     "insurer": "insur"
+    }
+   ],
+   [
+    "Funding Model",
+    "deposits|wholesale funding|assets under management|\\bAUM\\b",
+    {
+     "deposits": "deposits",
+     "wholesale": "wholesale funding",
+     "AUM": "assets under management|\\bAUM\\b"
+    }
+   ]
+  ],
+  "Healthcare / Life Sciences": [
+   [
+    "Healthcare Segment",
+    "pharma|biotech|medical device|medtech|healthcare service|medical service|clinic|hospital|diagnostic",
+    {
+     "pharma/biotech": "pharma|biotech",
+     "medtech": "medical device|medtech|diagnostic",
+     "services": "healthcare service|medical service|clinic|hospital"
+    }
+   ],
+   [
+    "Product Stage",
+    "clinical.stage|preclinical|commercial.stage|commercialized|FDA.approved|clinical trial",
+    {
+     "preclinical": "preclinical",
+     "clinical": "clinical.stage|clinical trial",
+     "commercial": "commercial.stage|commercialized|FDA.approved"
+    }
+   ],
+   [
+    "Therapeutic Area",
+    "oncology|cardiovascular|neurology|dermatology|aesthetic|ophthalm|orthoped|diabetes",
+    {
+     "oncology": "oncology",
+     "cardiovascular": "cardiovascular",
+     "neurology": "neurology",
+     "dermatology": "dermatology|aesthetic",
+     "ophthalmology": "ophthalm",
+     "orthopedics": "orthoped",
+     "diabetes": "diabetes"
+    }
+   ],
+   [
+    "Revenue Source",
+    "reimbursement|product sales|licens|medical service|management service",
+    {
+     "product": "product sales",
+     "reimbursement": "reimbursement",
+     "license": "licens",
+     "services": "medical service|management service"
+    }
+   ],
+   [
+    "Customer / Payer",
+    "hospitals?|insurer|patients?|healthcare providers?|payors?|payers?",
+    {
+     "hospital/provider": "hospitals?|healthcare providers?",
+     "insurer": "insurer|payors?|payers?",
+     "patient": "patients?"
+    }
+   ],
+   [
+    "Regulatory Approval",
+    "FDA|clinical.trial|regulatory approval|CE.mark",
+    {
+     "FDA approved": "FDA.approved|approved by.{0,10}FDA",
+     "trial": "clinical.trial",
+     "CE": "CE.mark"
+    }
+   ],
+   [
+    "IP / Patent Dependence",
+    "patent|intellectual property|proprietary",
+    {}
+   ],
+   [
+    "Manufacturing Model",
+    "in.house manufactur|outsourc|contract manufactur",
+    {
+     "in-house": "in.house manufactur",
+     "outsourced": "outsourc|contract manufactur"
+    }
+   ],
+   [
+    "Reimbursement Exposure",
+    "Medicare|Medicaid|private insurance|reimbursement",
+    {
+     "public payer": "Medicare|Medicaid",
+     "private payer": "private insurance"
+    }
+   ],
+   [
+    "R&D Intensity",
+    "research and development|research & development|\\bR&D\\b",
+    {}
+   ]
+  ],
+  "Consumer / Retail": [
+   [
+    "Product Category",
+    "apparel|footwear|cosmetic|fragrance|food|beverage|retail|consumer|scrubs",
+    {
+     "apparel/footwear": "apparel|footwear|scrubs",
+     "beauty": "cosmetic|fragrance|skincare",
+     "food/beverage": "food|beverage",
+     "general retail": "retail"
+    }
+   ],
+   [
+    "Market Position",
+    "luxury|premium|mass.market|value.price|discount",
+    {
+     "luxury": "luxury",
+     "premium": "premium",
+     "value/mass": "mass.market|value.price|discount"
+    }
+   ],
+   [
+    "Distribution Model",
+    "direct.to.consumer|\\bDTC\\b|wholesale|franchis|retail store|e.commerce",
+    {
+     "DTC": "direct.to.consumer|\\bDTC\\b",
+     "wholesale": "wholesale",
+     "franchise": "franchis",
+     "stores": "retail store",
+     "online": "e.commerce"
+    }
+   ],
+   [
+    "Store Footprint",
+    "online.only|physical store|omnichannel|retail stores?|store network",
+    {
+     "online-only": "online.only",
+     "physical": "physical store|retail stores?|store network",
+     "omnichannel": "omnichannel"
+    }
+   ],
+   [
+    "Brand Strength",
+    "brand awareness|brand recognition|brand loyalty|brand equity|market share",
+    {}
+   ],
+   [
+    "Purchase Frequency",
+    "daily|weekly|repeat purchase|purchase frequency|frequent purchase",
+    {}
+   ],
+   [
+    "Customer Demographics",
+    "customer demographics|income bracket|age group|healthcare professional|millennial",
+    {}
+   ],
+   [
+    "Inventory Model",
+    "perishable|seasonal inventory|inventory turnover|evergreen|cold.chain",
+    {
+     "perishable": "perishable|cold.chain",
+     "seasonal": "seasonal inventory",
+     "evergreen": "evergreen"
+    }
+   ],
+   [
+    "Geographic Footprint",
+    "united states|north america|europe|asia|global|worldwide|international|canada|countries|united kingdom|china|japan|australia",
+    {
+     "US": "united states|\\bU\\.S\\.",
+     "North America": "north america",
+     "Europe": "europe",
+     "Asia": "asia",
+     "Global": "global|worldwide|international",
+     "Canada": "canada",
+     "UK": "united kingdom",
+     "China": "china",
+     "Japan": "japan",
+     "Australia": "australia"
+    }
+   ],
+   [
+    "Pricing Power",
+    "pricing power|price.elasticity|inelastic demand",
+    {}
+   ]
+  ],
+  "Energy / Utilities / Materials": [
+   [
+    "Industry Position",
+    "upstream|midstream|downstream|electric utility|natural.gas utilit|regulated utilit",
+    {
+     "upstream": "upstream",
+     "midstream": "midstream",
+     "downstream": "downstream",
+     "utility": "electric utility|natural.gas utilit|regulated utilit"
+    }
+   ],
+   [
+    "Commodity Exposure",
+    "crude oil|natural gas|copper|electricity|coal|renewable|solar|wind",
+    {
+     "oil": "crude oil",
+     "gas": "natural gas",
+     "electricity": "electricity",
+     "copper": "copper",
+     "coal": "coal",
+     "renewable": "renewable|solar|wind"
+    }
+   ],
+   [
+    "Revenue Structure",
+    "spot.market|contracted|regulated|tariff|power purchase agreement",
+    {
+     "spot": "spot.market",
+     "contracted": "contracted|power purchase agreement",
+     "regulated": "regulated|tariff"
+    }
+   ],
+   [
+    "Asset Ownership",
+    "owns|asset owner|operates|service provider",
+    {
+     "owner": "owns|asset owner",
+     "operator": "operates",
+     "services": "service provider"
+    }
+   ],
+   [
+    "Geographic Resource Exposure",
+    "shale|offshore|onshore|basin|resource exposure",
+    {}
+   ],
+   [
+    "Capital Intensity",
+    "asset.light|asset.heavy|manufacturing facilit|manufacturing plant|production facilit|owns and operates|capital.intensive",
+    {}
+   ],
+   [
+    "Regulatory Structure",
+    "regulated utility|regulated utilities|merchant|public utility commission",
+    {
+     "regulated": "regulated utilit|public utility commission",
+     "merchant": "merchant"
+    }
+   ],
+   [
+    "Reserve / Resource Profile",
+    "reserves|resource life|long.life assets|proved reserves",
+    {}
+   ],
+   [
+    "Energy Transition Exposure",
+    "renewable|fossil fuel|energy transition|hydrogen|solar|wind power",
+    {
+     "renewable": "renewable|solar|wind power|hydrogen",
+     "fossil": "fossil fuel"
+    }
+   ],
+   [
+    "Commodity Price Sensitivity",
+    "commodity price|oil price|gas price|price exposure|hedging",
+    {}
+   ]
+  ],
+  "Business / Professional Services": [
+   [
+    "Service Category",
+    "consult|outsourc|staffing|professional services|logistics|managed service",
+    {
+     "consulting": "consult",
+     "outsourcing": "outsourc|managed service",
+     "staffing": "staffing",
+     "logistics": "logistics"
+    }
+   ],
+   [
+    "Engagement Model",
+    "project.based|retainer|managed service|outsourc",
+    {
+     "project": "project.based",
+     "retainer": "retainer",
+     "managed service": "managed service|outsourc"
+    }
+   ],
+   [
+    "Billing Structure",
+    "hourly|fixed.fee|outcome.based|billing",
+    {
+     "hourly": "hourly",
+     "fixed": "fixed.fee",
+     "outcome": "outcome.based"
+    }
+   ],
+   [
+    "Labor Specialization",
+    "specialist|specialized|professional|engineer|consultant",
+    {}
+   ],
+   [
+    "Client Segment",
+    "customers?|clients?|businesses|organizations|enterprises|consumers|households|government|employers|patients|homeowners",
+    {
+     "B2B": "business customers|enterprise|organizations|employers|small businesses|corporate customers|institutional clients",
+     "B2C": "consumers|households|shoppers|homeowners|patients|individual customers|retail customers",
+     "B2G": "government agencies|government customers|public sector"
+    }
+   ],
+   [
+    "Contract Duration",
+    "long.term contract|multi.year|short.term contract|contract duration|annual contract|month.to.month",
+    {}
+   ],
+   [
+    "Geographic Delivery",
+    "onshore|offshore|nearshore|remote delivery|global delivery",
+    {
+     "onshore": "onshore",
+     "offshore": "offshore",
+     "nearshore": "nearshore",
+     "remote": "remote delivery"
+    }
+   ],
+   [
+    "Technology Enablement",
+    "automation|automated|technology.enabled|AI.enabled|digital",
+    {}
+   ],
+   [
+    "Revenue Recurrence",
+    "recurring|retainer|repeat business|renewal",
+    {}
+   ],
+   [
+    "Scalability",
+    "headcount.driven|scalab|platform.enabled|utilization",
+    {}
+   ]
+  ],
+  "Restaurants": [
+   [
+    "Restaurant format",
+    "quick.service|fast.food|fast.casual|full.service|casual dining|fine dining",
+    {
+     "QSR": "quick.service|fast.food",
+     "fast casual": "fast.casual",
+     "casual/full service": "full.service|casual dining",
+     "fine dining": "fine dining"
+    }
+   ],
+   [
+    "Franchise vs company-operated economics",
+    "franchis|company.operated|company.owned|owns and operates",
+    {
+     "franchise": "franchis",
+     "company operated": "company.operated|company.owned|owns and operates"
+    }
+   ],
+   [
+    "Unit format / operating footprint",
+    "drive.thr|food court|freestanding|stand.alone|\\bmall\\b|non.traditional|delivery kitchen",
+    {
+     "drive-through": "drive.thr",
+     "food court/mall": "food court|\\bmall\\b",
+     "standalone": "freestanding|stand.alone",
+     "nontraditional": "non.traditional|delivery kitchen"
+    }
+   ],
+   [
+    "Menu / cuisine / customer need",
+    "burger|chicken|pizza|coffee|steak|seafood|sushi|sandwich|bakery|mexican",
+    {
+     "burgers": "burger",
+     "chicken": "chicken",
+     "pizza": "pizza",
+     "coffee/bakery": "coffee|bakery",
+     "steak/full dining": "steak|seafood|sushi",
+     "Mexican": "mexican",
+     "sandwiches": "sandwich"
+    }
+   ],
+   [
+    "Dayparts / occasions",
+    "breakfast|lunch|dinner|late.night|snack",
+    {
+     "breakfast": "breakfast",
+     "lunch": "lunch",
+     "dinner": "dinner",
+     "late night": "late.night",
+     "snack": "snack"
+    }
+   ],
+   [
+    "Price point / value proposition",
+    "value.menu|value.meal|premium|affordable|value.pric|low.price",
+    {
+     "value": "value.menu|value.meal|affordable|value.pric|low.price",
+     "premium": "premium"
+    }
+   ],
+   [
+    "Ordering / delivery channel mix",
+    "online ordering|mobile app|digital order|delivery|drive.thr",
+    {
+     "digital ordering": "online ordering|mobile app|digital order",
+     "delivery": "delivery",
+     "drive-through": "drive.thr"
+    }
+   ],
+   [
+    "Geographic operating mix",
+    "united states|north america|europe|asia|global|worldwide|international|canada|countries|united kingdom|china|japan|australia",
+    {
+     "US": "united states|\\bU\\.S\\.",
+     "North America": "north america",
+     "Europe": "europe",
+     "Asia": "asia",
+     "Global": "global|worldwide|international",
+     "Canada": "canada",
+     "UK": "united kingdom",
+     "China": "china",
+     "Japan": "japan",
+     "Australia": "australia"
+    }
+   ],
+   [
+    "Purchase frequency",
+    "purchase frequency|repeat visits|visit frequency|daily customers",
+    {}
+   ],
+   [
+    "Supply chain / menu input exposure",
+    "fresh beef|chicken supply|food sourcing|supply chain|food ingredients",
+    {
+     "beef": "fresh beef",
+     "chicken": "chicken supply",
+     "supply chain": "food sourcing|supply chain|food ingredients"
+    }
+   ],
+   [
+    "Brand / loyalty dependence",
+    "loyalty program|loyalty app|brand licensing|franchise brand|brand recognition",
+    {}
+   ],
+   [
+    "Competitive positioning within QSR",
+    "competitive position|market share|value proposition|differentiated|premium quality",
+    {}
+   ]
+  ],
+  "Real Estate / REIT": [
+   [
+    "Property Type",
+    "shopping center|retail propert|office propert|industrial propert|apartments?|residential|self.storage|hotel propert",
+    {}
+   ],
+   [
+    "Ownership / Operating Role",
+    "owns|operates|leases|subleases|property management|real estate investment trust",
+    {}
+   ],
+   [
+    "Tenant Type",
+    "tenants?|lease.{0,30}retail|lease.{0,30}industrial",
+    {}
+   ],
+   [
+    "Revenue Structure",
+    "rental|rents|management fees|lease income",
+    {}
+   ],
+   [
+    "Lease Duration",
+    "lease term|long.term lease|short.term lease|lease duration",
+    {}
+   ],
+   [
+    "Property Geography",
+    "united states|north america|europe|asia|global|worldwide|international|canada|countries|united kingdom|china|japan|australia",
+    {}
+   ],
+   [
+    "Management Model",
+    "internally managed|externally managed|property management",
+    {}
+   ],
+   [
+    "Development Exposure",
+    "development|redevelopment|construction",
+    {}
+   ],
+   [
+    "Capital / Asset Requirements",
+    "property acquisition|capital expenditure|owned properties",
+    {}
+   ],
+   [
+    "Occupancy / Demand Exposure",
+    "occupancy|vacancy|tenant demand",
+    {}
+   ]
+  ],
+  "Transportation / Logistics": [
+   [
+    "Transport Mode",
+    "airline|railroad|trucking|shipping|marine|freight|logistics",
+    {}
+   ],
+   [
+    "Operating Role",
+    "carrier|broker|freight forward|logistics provider|transportation service",
+    {}
+   ],
+   [
+    "Cargo / Passenger Mix",
+    "passenger|cargo|freight|parcel|package delivery",
+    {}
+   ],
+   [
+    "Asset Ownership",
+    "owns|operates|leases|fleet|asset.light",
+    {}
+   ],
+   [
+    "Customer Type",
+    "customers?|clients?|businesses|organizations|enterprises|consumers|households|government|employers|patients|homeowners",
+    {}
+   ],
+   [
+    "Contract Model",
+    "contract|spot|dedicated|charter",
+    {}
+   ],
+   [
+    "Network Geography",
+    "united states|north america|europe|asia|global|worldwide|international|canada|countries|united kingdom|china|japan|australia",
+    {}
+   ],
+   [
+    "Network Density",
+    "network|hub|terminal|distribution center",
+    {}
+   ],
+   [
+    "Fuel Exposure",
+    "fuel|diesel|jet fuel|surcharge",
+    {}
+   ],
+   [
+    "Regulatory Exposure",
+    "regulat|aviation|transportation authority",
+    {}
+   ]
+  ],
+  "Telecommunications": [
+   [
+    "Service Type",
+    "broadband|wireless|telecommunication|fiber|fixed.line|internet access",
+    {}
+   ],
+   [
+    "Network Access",
+    "fiber|wireless|fixed.line|satellite|cellular",
+    {}
+   ],
+   [
+    "Customer Type",
+    "customers?|clients?|businesses|organizations|enterprises|consumers|households|government|employers|patients|homeowners",
+    {}
+   ],
+   [
+    "Network Ownership",
+    "owns|operates|network infrastructure|leased network",
+    {}
+   ],
+   [
+    "Regulatory Regime",
+    "regulat|spectrum|licen",
+    {}
+   ],
+   [
+    "Operating Geography",
+    "united states|north america|europe|asia|global|worldwide|international|canada|countries|united kingdom|china|japan|australia",
+    {}
+   ],
+   [
+    "Revenue Structure",
+    "subscription|monthly|service fee|recurring",
+    {}
+   ],
+   [
+    "Infrastructure Role",
+    "tower|fiber network|last.mile|wholesale",
+    {}
+   ],
+   [
+    "Capacity / Utilization",
+    "capacity|utilization|network traffic",
+    {}
+   ],
+   [
+    "Technology Standard",
+    "5G|4G|LTE|fiber.to.the",
+    {}
+   ]
+  ],
+  "Media / Entertainment": [
+   [
+    "Content Format",
+    "television|film|movies|streaming|publishing|sports|music|motor racing|baseball",
+    {}
+   ],
+   [
+    "Revenue Structure",
+    "advertising|subscription|licens|tickets|broadcast rights",
+    {}
+   ],
+   [
+    "IP / Rights Ownership",
+    "rights|intellectual property|owns|license",
+    {}
+   ],
+   [
+    "Distribution",
+    "streaming|broadcast|cable|digital|theater|television",
+    {}
+   ],
+   [
+    "Audience Type",
+    "audience|viewer|subscriber|fans|consumers",
+    {}
+   ],
+   [
+    "Production / Operating Role",
+    "produces|production|distributes|operates|owns",
+    {}
+   ],
+   [
+    "Subscriber / Ad Dependence",
+    "subscriber|advertising|subscription",
+    {}
+   ],
+   [
+    "Rights Duration",
+    "rights.{0,40}(?:term|years)|long.term agreement",
+    {}
+   ],
+   [
+    "Geographic Exposure",
+    "united states|north america|europe|asia|global|worldwide|international|canada|countries|united kingdom|china|japan|australia",
+    {}
+   ],
+   [
+    "Live Event Exposure",
+    "live event|racing|stadium|sporting event|concert",
+    {}
+   ]
+  ],
+  "Materials / Chemicals": [
+   [
+    "Material / Chemical Type",
+    "lithium|chemical|steel|metal|cement|timber|paper|plastic|resin",
+    {}
+   ],
+   [
+    "Production Process",
+    "mining|processing|refining|manufactur|chemical production",
+    {}
+   ],
+   [
+    "End Markets",
+    "industries|industrials?|healthcare|automotive|aerospace|defense|commercial|residential|retail|education|hospital|financial institutions|construction|data cent",
+    {}
+   ],
+   [
+    "Specialty versus Commodity",
+    "specialty|commodity|engineered|custom",
+    {}
+   ],
+   [
+    "Feedstock Exposure",
+    "feedstock|raw material|natural gas|oil|ore",
+    {}
+   ],
+   [
+    "Capacity Exposure",
+    "production capacity|utilization|plant|facility",
+    {}
+   ],
+   [
+    "Environmental / Regulatory",
+    "environmental|regulat|emissions|hazard",
+    {}
+   ],
+   [
+    "Distribution Model",
+    "direct sales|sales force|dealer|partner|distributor|online|e.commerce|retail store|broker|independent agent",
+    {}
+   ],
+   [
+    "Resource Geography",
+    "united states|north america|europe|asia|global|worldwide|international|canada|countries|united kingdom|china|japan|australia",
+    {}
+   ],
+   [
+    "Pricing Exposure",
+    "commodity pric|contract pricing|market pric|price exposure",
+    {}
+   ]
+  ],
+  "Education": [
+   [
+    "Learning Model",
+    "university|college|education|training|school|online learning",
+    {}
+   ],
+   [
+    "Student Type",
+    "students|adult learner|military|professionals|undergraduate|graduate",
+    {}
+   ],
+   [
+    "Program Category",
+    "degree|nursing|healthcare|business|professional training|technical",
+    {}
+   ],
+   [
+    "Accreditation",
+    "accredit",
+    {}
+   ],
+   [
+    "Funding / Payer",
+    "tuition|federal student|financial aid|government funding|employer",
+    {}
+   ],
+   [
+    "Delivery Mode",
+    "online|campus|in.person|hybrid",
+    {}
+   ],
+   [
+    "Enrollment Exposure",
+    "enrollment|student retention|student starts",
+    {}
+   ],
+   [
+    "Geography",
+    "united states|north america|europe|asia|global|worldwide|international|canada|countries|united kingdom|china|japan|australia",
+    {}
+   ],
+   [
+    "Revenue Type",
+    "tuition|fees|subscription|contract",
+    {}
+   ],
+   [
+    "Capacity Model",
+    "campus|classroom|digital platform|instructional capacity",
+    {}
+   ]
+  ],
+  "Travel / Hospitality": [
+   [
+    "Customer Type",
+    "travelers|travellers|guests|hosts|business travel|leisure",
+    {}
+   ],
+   [
+    "Operating Model",
+    "booking|marketplace|hotel operator|travel platform|property operator",
+    {}
+   ],
+   [
+    "Property / Trip Type",
+    "hotels|vacation rental|short.term rental|accommodation|experiences|travel",
+    {}
+   ],
+   [
+    "Revenue Driver",
+    "booking fee|commission|advertising|room revenue|service fee",
+    {}
+   ],
+   [
+    "Distribution",
+    "online|mobile|travel agent|direct booking",
+    {}
+   ],
+   [
+    "Geography",
+    "united states|north america|europe|asia|global|worldwide|international|canada|countries|united kingdom|china|japan|australia",
+    {}
+   ],
+   [
+    "Asset Exposure",
+    "asset.light|owns|leases|property management",
+    {}
+   ],
+   [
+    "Seasonality",
+    "seasonal|travel demand|economic cycle",
+    {}
+   ],
+   [
+    "Frequency",
+    "repeat booking|loyalty|frequency",
+    {}
+   ],
+   [
+    "Regulatory Exposure",
+    "regulat|short.term rental|license",
+    {}
+   ]
+  ]
+ },
+ "SECTOR": {
+  "Restaurants": "restaurants?|quick.service|franchis.{0,25}(?:burger|chicken|pizza)|dining",
+  "Technology / SaaS": "payroll software|human capital|\\bHCM\\b|\\bHRIS\\b|software|\\bSaaS\\b|cloud.platform|enterprise.platform",
+  "Financial Services": "asset manag|investment manag|commercial bank|\\bbank\\b|banking|insurance|exchange.traded|financial advis|investment products|wealth management",
+  "Healthcare / Life Sciences": "pharmaceutical|biopharma|biotech|therapeutic|clinical trial|medical device|medical services|hospital|clinic|healthcare services|home.health|homecare|health care|patient care",
+  "Energy / Utilities / Materials": "electric utility|natural.gas utilit|electricity|oil and gas|petroleum|crude oil|water utility|regulated utilit",
+  "Consumer / Retail": "footwear|apparel|cosmetic|fragrance|retail|beverages?|brewer|bottl|personal.care|food products|consumer products",
+  "Manufacturing / Industrials": "manufactur|machinery|industrial equipment|components?|air condition|heating|semiconductor|boats?|construction products|motion control|laundry equipment",
+  "Real Estate / REIT": "real estate|shopping centers?|REIT|property management|rental properties",
+  "Transportation / Logistics": "airline|railroad|trucking|shipping|freight|logistics",
+  "Telecommunications": "telecommunication|broadband|wireless network|internet access|fiber.optic",
+  "Media / Entertainment": "television|film|movies|broadcast|streaming|publishing|motor racing|baseball|sports entertainment",
+  "Materials / Chemicals": "lithium|chemicals?|steel|metal|cement|timber|paper products|resins?",
+  "Education": "university|college|education|training programs|online learning",
+  "Travel / Hospitality": "travel platform|travel guidance|booking|vacation rental|accommodations?|hospitality management",
+  "Business / Professional Services": "consulting|outsourcing|staffing|professional services|logistics|freight|managed services"
+ }
+}
