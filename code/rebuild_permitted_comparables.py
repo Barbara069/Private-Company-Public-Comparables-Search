@@ -236,8 +236,8 @@ def compare(a,b,weight,vecs):
  return row
 
 def main():
- parser=argparse.ArgumentParser();parser.add_argument('--cache',default=str(ROOT.parent/'cache'));parser.add_argument('--pilot',action='store_true');args=parser.parse_args();cache=Path(args.cache);cache.mkdir(parents=True,exist_ok=True)
- idx=load(D/'research_catalog.json.gz');inputs=load(D/'comparison_inputs.json.gz');require_allowed(inputs);input_hash=hash_obj(inputs)
+ parser=argparse.ArgumentParser();parser.add_argument('--cache',default=str(ROOT.parent/'cache'));parser.add_argument('--pilot',action='store_true');parser.add_argument('--inputs',type=Path,help='Separate permitted-input bundle, e.g. real private-company pilot');parser.add_argument('--output-prefix',default='');args=parser.parse_args();cache=Path(args.cache);cache.mkdir(parents=True,exist_ok=True)
+ idx=load(D/'research_catalog.json.gz');input_path=args.inputs or D/'comparison_inputs.json.gz';inputs=load(input_path);require_allowed(inputs);input_hash=hash_obj(inputs)
  targets={};stats=collections.Counter();catalog={c['key']:c for c in idx['companies']}
  for tid,p in inputs.items():
   if args.pilot and tid not in ['IQ23557','IQ254957567']:continue
@@ -328,13 +328,13 @@ def main():
   rs=rs[:10]
   for rank,r in enumerate(rs,1):r['Candidate Order']=rank;r['Rank']=rank
   output[tid]=rs;summaries.append({'target_id':tid,'target_name':t['input']['target_name'],'candidate_count':len(rs),'status':'PROVISIONAL_SCORED_CANDIDATES' if rs else 'ABSTAIN_INSUFFICIENT_ALLOWED_EVIDENCE','website_passages_admitted':len(t['quotes']),'industry_code_hypothesis':code,'general_fields_with_evidence':sum(bool(f['text']) for f in t['main'].values()),'industry_fields_with_evidence':sum(bool(f['text']) for f in ind)})
- prefix='pilot_' if args.pilot else '';save(cache/(prefix+'matches.json.gz'),output);save(cache/(prefix+'target_matching_facets.json.gz'),{k:{'general':v['main'],'industry':v['industry'],'routing':v['routing']} for k,v in targets.items()})
+ prefix='pilot_' if args.pilot else args.output_prefix;save(cache/(prefix+'matches.json.gz'),output);save(cache/(prefix+'target_matching_facets.json.gz'),{k:{'general':v['main'],'industry':v['industry'],'routing':v['routing']} for k,v in targets.items()})
  save(cache/(prefix+'pool_diagnostics.json.gz'),pool_audit)
  stats['targets_with_scores']=sum(bool(v) for v in output.values());stats['scored_candidates']=sum(map(len,output.values()));stats['targets_abstaining']=len(targets)-stats['targets_with_scores'];stats['public_profiles_reextracted']=len(pub);stats['unique_permitted_facet_texts_embedded']=len(strings)
- manifest={'version':VERSION,'as_of':'2026-11-15','target_input_hash':input_hash,'input_files':['website/data/comparison_inputs.json.gz','website/data/research_catalog.json.gz','website/data/research/profiles_*.json.gz'],'stats':dict(stats),'targets':summaries,'method':'New pretrained passage embeddings + independently authored explicit categories; no old scores, vectors, SIC joins or candidates reused.','calibration':'UNVALIDATED_RESEARCH_INDEX_NOT_PROBABILITY','ranking_score':'S × (0.5 + 0.5 × min(1, C/60)); provisional evidence-reliability adjustment, not a business difference or calibrated probability','general_share':60,'industry_share':40,'multi_segment_status':'PRIMARY_ACTIVITY_ONLY; ADDITIONAL_ACTIVITIES_AND_UNKNOWN_MIX_DISCLOSED','target_sic_policy':'WEBSITE_INFERRED_HYPOTHESIS_NOT_HIDDEN_VENDOR_SIC'}
+ manifest={'version':VERSION,'as_of':'2026-11-15','target_input_hash':input_hash,'input_files':[input_path.name if args.inputs else 'website/data/comparison_inputs.json.gz','website/data/research_catalog.json.gz','website/data/research/profiles_*.json.gz'],'stats':dict(stats),'targets':summaries,'method':'New pretrained passage embeddings + independently authored explicit categories; no old scores, vectors, SIC joins or candidates reused.','calibration':'UNVALIDATED_RESEARCH_INDEX_NOT_PROBABILITY','ranking_score':'S × (0.5 + 0.5 × min(1, C/60)); provisional evidence-reliability adjustment, not a business difference or calibrated probability','general_share':60,'industry_share':40,'multi_segment_status':'PRIMARY_ACTIVITY_ONLY; ADDITIONAL_ACTIVITIES_AND_UNKNOWN_MIX_DISCLOSED','target_sic_policy':'WEBSITE_INFERRED_HYPOTHESIS_NOT_HIDDEN_VENDOR_SIC'}
  (cache/(prefix+'rebuild_manifest.json')).write_text(json.dumps(manifest,indent=2));print(json.dumps(dict(stats)),flush=True)
  for tid in ['IQ23557','IQ254957567']:
   if tid in output:print(tid,[(r['Candidate RIC'],r['Candidate Name'],r['Similarity Percent'],r['Evidence Coverage Percent']) for r in output[tid]],flush=True)
- assert hash_obj(load(D/'comparison_inputs.json.gz'))==input_hash
+ assert hash_obj(load(input_path))==input_hash
 
 if __name__=='__main__':main()
