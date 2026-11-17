@@ -10,3 +10,4 @@ jobs:
       - run: python code/exclude_restricted_sources.py --validate
       - run: python code/check_publication_tree.py
       - run: node --check code/website_app.js
+      - run: node code/test_forecast_company_binding.js
