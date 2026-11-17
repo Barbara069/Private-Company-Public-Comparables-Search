@@ -21,10 +21,14 @@ Sources retained where independently available include official company websites
 
 ## Current status
 
-The source policy changed on 15 November 2026. Previous mixed-source candidate baskets and scores remain withdrawn. A new permitted-evidence run reselects candidates for all 560 target inputs, including general and applicable industry facets; lists and scores remain provisional and include abstentions when evidence is insufficient. Surviving excerpts are not automatically semantically verified. Forecast methodology is specified; company forecasts are not yet executed or validated.
+The source policy changed on 15 November 2026. Previous mixed-source candidate baskets and scores remain withdrawn. A new permitted-evidence run reselects candidates for all 560 target inputs, including general and applicable industry facets; lists and scores remain provisional and include abstentions when evidence is insufficient. Surviving excerpts are not automatically semantically verified. A source-backed Netchex indexed scenario prototype is executed; company dollar forecasts and predictive validation remain unavailable.
 
 The website lives in `website/`; canonical code and documentation live in `code/`. The publication guard checks decompressed payloads and evidence references. Original permitted target inputs remain isolated from unrestricted public research.
 
 ## Actual private-company pilot
 
 [GrowthCurve Capital test report](code/GrowthCurve_Private_Company_Test.md) · [Read the web report](https://barbara069.github.io/Private-Company-Public-Comparables-Search/website/growthcurve-pilot.html). Eight portfolio companies were tested using only their own websites as target evidence. The pilot exposed subject-attribution and industry-routing failures; its candidate baskets are diagnostic outputs and are not approved recommendations. Production results were not overwritten.
+
+## Growth and revenue prototype
+
+[Open the Netchex scenario viewer](https://barbara069.github.io/Private-Company-Public-Comparables-Search/website/forecast-prototype.html) · [Worked source-backed report](code/Netchex_Revenue_Forecast_Prototype.md). The executed five-year revenue index uses reviewed payroll/HCM reference peers and explicit assumptions; actual private-company financials stay unknown. Conditional EBITDA and EV/EBITDA sensitivities are not monetary valuations.

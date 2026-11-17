@@ -7,3 +7,5 @@ General facets contribute 60% and applicable industry facets 40%; unknowns retai
 Previous mixed-source scores remain withdrawn and are not reused. Restricted academic-database observations, joins and classifications remain excluded. The new pipeline also removed 7,920 obvious boilerplate-to-facet assignment links while preserving raw evidence. This negative filter is not complete cross-source factual validation.
 
 The growth document specifies the five-year forecasting method; numeric forecasts, calibrated private-company discounts, outcome validation and a train/test split have not been executed. Next priorities are collecting additional allowed target website evidence, reviewing weak candidate scopes, and validating the comparison method before forecasting.
+
+16 November update: a five-year Netchex revenue-index prototype has been executed using four separately reviewed payroll/HCM references. Financial-scale inputs remain unknown; actual EBITDA/EV/equity values are not estimated. Conditional margin/multiple sensitivities, source ledger and assumption diagnostics are included. Other private targets remain blocked, and calibration/backtesting is not complete.

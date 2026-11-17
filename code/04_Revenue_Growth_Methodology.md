@@ -1,6 +1,6 @@
 # 04. Five-Year Private-Company Revenue, EBITDA and Valuation Forecasting
 
-**Proposed implementation plan | 15 November 2026 | Not an executed or validated forecast**
+**Methodology and execution status | 16 November 2026 | Indexed prototype executed; no calibrated company forecast**
 
 **Source restriction:** No WRDS-delivered data, text, ratios, classifications, joins or derived results are eligible for this pipeline, exports or website. Reacquire needed facts independently from permitted original sources; never relabel the old database text as another provider. Other providers remain subject to their own access and redistribution rights.
 
@@ -153,7 +153,7 @@ Metrics by horizon: revenue WAPE and median absolute log error, signed bias and 
 
 ## 14. Files, website and reproducibility
 
-Retain two comprehensive observation CSVs: Targets_560.csv.gz and Public_Companies.csv.gz. Add every downloaded relevant excerpt/financial observation to its corresponding CSV, with record_type and provenance fields; forecasts and assumptions can be additional record types. Link full raw document payloads by hash/location rather than replicate entire filings for every facet. A single analysis notebook reads both CSVs and produces all forecast tables; no need for a proliferation of manually maintained intermediate deliverables.
+Retain one comprehensive `Research_Data.csv.gz`, using dataset and entity-role columns to separate targets, public peers, evidence, assumptions and forecasts. Add each relevant sourced observation to that CSV; forecasts and assumptions can be additional record types. Link full raw document payloads by hash/location rather than replicate entire filings for every facet. A single analysis notebook reads the comprehensive CSV and produces all forecast tables; no need for a proliferation of manually maintained intermediate deliverables.
 
 Suggested forecast record keys: target_id, forecast_asof, scenario, horizon_year, revenue, growth, EBITDA, margin, public_equivalent_multiple, enterprise_adjustment, adjusted_multiple, EV, currency, peer_basket_id, model_version, assumption_ids, evidence_ids, validation_state. Equity fields are nullable where cash/debt-path evidence is missing. Source observations are immutable; recalculated outputs receive a version and timestamp.
 
@@ -172,3 +172,11 @@ Assume permitted Revenue_0 = 100 and EBITDA_0 = 15 in consistent units. Public-p
 | 5 | 135.63 | 17.0% | 23.06 | 9.2× | 8.28× | 190.92 |
 
 Values are rounded for display; calculations use unrounded inputs. The 10% is a sensitivity, not an estimated private discount. Year-5 EV is measured in Year 5 and is neither present value nor equity value. No factual forecast or observed private-company discount is established by this example.
+
+## 16. Executed private-company prototype — 16 November 2026
+
+[Netchex worked report](Netchex_Revenue_Forecast_Prototype.md) documents an executed five-year indexed scenario, using a separately reviewed payroll/HCM reference basket rather than the failed automated private-company peer lists. Revenue is normalized to a hypothetical 2026 level of 100; base 2031 index is 123.52 (4.32% scenario CAGR), with illustrative bear/bull indices 98.65/138.22. No Netchex dollar revenue, EBITDA, debt or cash is supplied. Conditional margin/multiple sensitivities are clearly separate from target financial estimates.
+
+Peer guidance comes from the issuer releases dated September–November 2026. Unsupported years use explicit growth-fade assumptions; fiscal/calendar alignment assumes uniform intrayear revenue. The website Mesh product event is observed, but adoption/pricing/revenue effects are unknown, so no automatic base uplift is applied. Source vintage, acquired growth, PEO mix and EBITDA-definition limitations remain material. The standalone website-only quantitative path, pooled regression, empirical calibration, backtest and private-discount estimation remain unexecuted. No new train/test split was created.
+
+Run `python code/forecast_private.py --input website/data/private_forecast_prototype.json.gz --output /tmp/forecast_reproduced.json` to reproduce the published scenario arithmetic. `Forecast_*` records in the comprehensive CSV preserve source facts, assumptions, calendarized peer paths, scenarios, conditional valuations and diagnostics. This prototype is not approval to use the current automatic baskets for valuation or to forecast all 560 targets without the acceptance gates above.

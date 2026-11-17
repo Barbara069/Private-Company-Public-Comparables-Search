@@ -245,6 +245,10 @@ def export_csv(destination,old_csv=None):
                 emit('Matching_Facet_Evidence',value['entity_id'],'',value['entity_role'],value,facet=value['facet'],text=value.get('text',''))
             emit('Comparable_Methodology','','','',load(D/'comparison_rebuild_manifest.json.gz'))
 
+        if (D/'forecast_csv_additions.json.gz').exists():
+            for row in load(D/'forecast_csv_additions.json.gz'):
+                require_allowed(row);w.writerow(row);counts[row['dataset']]+=1
+
     # Full readback, including compressed content, not just filenames.
     with gzip.open(destination,'rt',encoding='utf-8',newline='') as f:
         n=0

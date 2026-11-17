@@ -24,5 +24,8 @@ def check():
     if (ROOT/'website/data/comparison_rebuild_manifest.json.gz').exists():
         from validate_rebuilt_comparables import validate
         validate()
+    if (ROOT/'website/data/private_forecast_prototype.json.gz').exists():
+        from validate_forecast_prototype import check as check_forecast
+        check_forecast()
     print('Publication-tree inputs/adapters checked:',checked)
 if __name__=='__main__':check()
