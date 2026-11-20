@@ -11,3 +11,4 @@ jobs:
       - run: python code/check_publication_tree.py
       - run: node --check code/website_app.js
       - run: node code/test_forecast_company_binding.js
+      - run: python code/test_target_growth_forecasts.py

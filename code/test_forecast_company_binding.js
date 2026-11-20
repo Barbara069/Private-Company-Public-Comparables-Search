@@ -4,26 +4,26 @@ const root=path.resolve(__dirname,'..');
 const bundle=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root,'website/data/private_forecast_prototype.json.gz'))));
 const script=fs.readFileSync(path.join(__dirname,'growth_view_app.js'),'utf8');
 const catalog=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root,'website/data/research_catalog.json.gz'))));
-const context={catalog,window:{addEventListener(){}},word:(en)=>en,esc:v=>String(v??''),bundle,assert};
+const forecastData=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root,'website/data/target_growth_forecasts.json.gz'))));
+const context={forecastData,sourceHTML:s=>String(s?.url||''),catalog,window:{addEventListener(){}},word:(en)=>en,esc:v=>String(v??''),bundle,assert};
 vm.createContext(context);vm.runInContext(script,context);
 vm.runInContext(`
-for(const [key,name] of [['ISSUER:WEN',"The Wendy's Company"],['ISSUER:PCTY','Paylocity'],['GC_REVECORE','Revecore']]){
- const html=selectedForecastHTML({key,name},bundle);
- assert(!html.includes('<iframe'),'Unrelated company received a forecast frame');
- assert(!html.includes('Netchex'),'Unrelated company received Netchex content');
- assert(html.includes(name),'Missing selected-company identity');
- assert(html.includes('ILLUSTRATION ONLY')&&html.includes('2027–2031'),'Missing dated illustrative scenarios');
- assert(html.includes('<svg')&&html.includes('illustrationScenario'),'Interactive chart or controls missing');
+targetForecastCache=forecastData;
+const wendy=catalog.companies.find(c=>c.id==='IQ23557'),pcty=catalog.companies.find(c=>c.id==='IQ254957567');
+for(const company of [wendy,pcty]){
+ const html=selectedForecastHTML(company,bundle);
+ assert(!html.includes('<iframe'),'Public target received private prototype');
+ assert(html.includes('Peer + Website Growth Forecast'),'Missing company-specific forecast');
+ assert(html.includes('<svg')&&html.includes('illustrationScenario'),'Interactive chart missing');
+ assert(!html.includes('assume 5% annual growth'),'Universal curve still present');
 }
-for(const company of catalog.companies){assert(!selectedForecastHTML({key:company.key,name:company.name},bundle).includes('<iframe'),'Public research company received the private prototype');}
+for(const company of catalog.companies){assert(!selectedForecastHTML(company,bundle).includes('<iframe'),'Public research company received the private prototype');}
 for(const row of bundle.readiness){assert.equal(selectedForecastHTML({key:row.target_id,name:row.company},bundle).includes('<iframe'),row.target_id===bundle.config.target.id,'Private pilot company binding mismatch');}
-const base=illustrativeScenarioRows('base',.20,12,.10);
+const f=forecastData.targets.IQ23557,base=forecastScenarioRows(f,'base',.20,12,.10);
 assert.equal(base[0].year,2026);assert.equal(base[5].year,2031);
-assert(Math.abs(base[5].revenue-127.62815625)<1e-8);
-assert.equal(base[0].multiple,10.8);
-assert.equal(illustrativeScenarioRows('base')[0].ebitda,null);
-assert.equal(illustrativeScenarioRows('base')[5].ev,null);
-assert.equal(illustrativeScenarioRows('bear')[5].revenue,100);
+assert.notEqual(base[5].revenue,127.62815625,'Old universal 5% curve retained');
+assert.equal(base[0].multiple,10.8);assert.equal(forecastScenarioRows(f,'base')[5].ev,null);
+assert.notEqual(peerWebsiteChartHTML(f,'base'),peerWebsiteChartHTML(f,'bull'));
 const own=selectedForecastHTML({key:'GC_NETCHEX',name:'Netchex'},bundle);
 assert(own.includes('company=GC_NETCHEX')&&own.includes('<iframe'),'Matching forecast not shown inline');
 const mixed=JSON.parse(JSON.stringify(bundle));mixed.results.forecasts[0].target_id='WRONG_COMPANY';
