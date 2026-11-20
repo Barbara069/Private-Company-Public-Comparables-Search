@@ -3,6 +3,27 @@ Reported observations, guidance, analyst assumptions and conditional valuation s
 """
 import math,statistics
 
+def validate_target_input_boundary(target):
+ """Allow only instructor financials and official-website identity for targets.
+ Public-peer enrichment remains separate. Null legacy cash is not usable data.
+ """
+ allowed={'id','name','website','revenue_0','EBITDA_0','debt','cash','currency','baseline_period','financial_provenance'}
+ extra=set(target)-allowed
+ if extra:raise ValueError('Forbidden target input fields: '+', '.join(sorted(extra)))
+ if target.get('cash') is not None:raise ValueError('Target cash is not an authorized input')
+ provenance=target.get('financial_provenance') or {}
+ for field in ('revenue_0','EBITDA_0','debt'):
+  value=target.get(field)
+  if value is None:continue
+  if isinstance(value,bool) or not isinstance(value,(int,float)) or not math.isfinite(value):
+   raise ValueError('Invalid target financial value: '+field)
+  source=provenance.get(field,{})
+  if source.get('source_type')!='INSTRUCTOR_WORKBOOK':
+   raise ValueError('Target '+field+' must come from the supplied instructor workbook')
+  if not all(source.get(k) for k in ('source_locator','period','currency','unit')):
+   raise ValueError('Target '+field+' needs its workbook/cell, period, currency and units')
+ return True
+
 def extend_fiscal(peer,anchor,rho,end=2032):
  levels={int(k):float(v) for k,v in peer['revenue_levels'].items()};last=max(levels)
  g=levels[last]/levels[last-1]-1
@@ -17,6 +38,7 @@ def calendarize(levels,fiscal_end_month,year):
  return w*levels[year]+(1-w)*levels[year+1]
 
 def run(config):
+ validate_target_input_boundary(config['target'])
  assert config['target']['revenue_0'] is None or (config['target']['currency'] and config['target']['baseline_period'])
  active=[p for p in config['peers'] if p['growth_weight']>0]
  assert len({p['issuer_id'] for p in active})==len(active)

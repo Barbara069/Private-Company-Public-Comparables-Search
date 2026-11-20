@@ -14,6 +14,13 @@ Primary outputs are a five-year financial table, an assumption/evidence ledger, 
 
 ## 2. Target information firewall
 
+**Reconfirmed 20 November 2026:** the three allowed numerical target inputs are **revenue, EBITDA and debt**, sourced only from the supplied instructor workbook. The only target qualitative/growth source is its official business website. Public-comparable financial histories, guidance, consensus where licensed, filings and growth signals belong to the **peer side**, never to the target bundle.
+
+**Required forecast construction:** freeze the selected public-comparable basket; derive a dated, weighted peer forward-growth path; extract dated positive and negative operational signals from the target website; then apply an evidence-supported relative adjustment or operating-bridge blend as described in Sections 6–7. Unknown website effects stay qualitative or scenario assumptions. Debt informs financial-risk/valuation sensitivities, not an automatic revenue-growth uplift. Target EBITDA supplies the initial margin only when its period and definition reconcile with revenue.
+
+**Display is not model input:** the website's full-public 2022–2026 history may be displayed for research, but must not enter target forecast retrieval, prompts, peer selection, parameter fitting or calibration. The generic 0%/5%/10% interactive paths are demonstration sensitivities, **not completed peer-plus-website forecasts**. Replace that label only after per-target evidence, peer weights and numerical signal assumptions are attached.
+
+
 The original 560 public companies are simulated-private targets. Permitted inputs are their official website and the instructor-file revenue, EBITDA and debt. Use original values; do not fabricate missing numbers. Record currency, scale, period and whether debt is supplied directly or derived from an instructor ratio. Cash is unavailable unless explicitly authorized; debt is not automatically net debt.
 
 Exclude target SEC reports, vendor financial histories, consensus estimates, market capitalization, stock prices, actual EV/EBITDA, and hidden segment financials from extraction prompts, retrieval, matching, assumptions and model tuning. A target’s unrestricted research profile remains separate. Do not pass it to the forecasting agent even as context. Target website pages replicating filings, stock information, or unauthorized financial outcomes are also excluded. Allowed website operational disclosures may supply growth signals; they do not authorize additional target revenue history.
